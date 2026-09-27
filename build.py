@@ -182,15 +182,15 @@ ab_form=form("Devis abattage gratuit","Décrivez l'arbre et son emplacement. Nou
   ["Abattage d'un arbre","Démontage d'un arbre en zone contrainte","Arbre dangereux / urgence après tempête","Arbre mort ou malade","Rognage de souche","Plusieurs arbres à abattre","Autre"],"abattage")
 ab=hero("demontage_arbre_porrentruy.jpg","55% 35%","Abattage et démontage · Jura · Neuchâtel · Berne",
   "Abattage d'arbres <em>en toute sécurité</em>, même en espace restreint",
-  "Arbre dangereux, mort, malade ou trop proche de la maison ? Un arboriste-grimpeur professionnel l'abat ou le démonte pièce par pièce, sans dégâts sur votre propriété, et laisse le terrain propre.",
-  ["Devis gratuit et sans engagement","Intervention rapide en cas d'urgence","Démontage à la corde, sans dégâts","Bois évacué, terrain nettoyé"],ab_form)
+  "Arbre dangereux, mort, malade ou trop proche de la maison ? Un arboriste-grimpeur professionnel l'abat ou le démonte pièce par pièce, en préservant votre propriété, et laisse le terrain propre.",
+  ["Devis gratuit et sans engagement","Intervention rapide en cas d'urgence","Grimpe, nacelle, grue ou hélicoptère selon le cas","Bois évacué, terrain nettoyé"],ab_form)
 ab+=trust([(SHIELD,"Arboriste-grimpeur","Démontage à la corde, techniques de rétention"),(WARN,"Urgences tempête","Mise en sécurité rapide"),(PIN,"Entreprise locale","Basée à Courgenay (JU)"),(DOC,"Devis écrit et détaillé","Gratuit, sans engagement")])
 ab+=cards("Nos prestations d'abattage","La bonne technique pour chaque situation",
   "Un arbre isolé dans un pré ne s'abat pas comme un sapin collé à une façade. Nous choisissons la méthode la plus sûre pour votre terrain, vos bâtiments et vos voisins.",
   [(AXE,"","Abattage classique","Quand l'espace le permet, l'arbre est abattu en une pièce, avec une direction de chute maîtrisée. La solution la plus rapide et la plus économique."),
    (SCISS,"Le plus courant","Démontage par morceaux","Le grimpeur monte dans l'arbre et le démonte branche par branche, puis tronçon par tronçon. Idéal en jardin, près d'une maison ou d'une ligne électrique."),
    (LINK,"Zone contrainte","Démontage par rétention","Chaque pièce est attachée et descendue en douceur avec un système de freinage. Aucun morceau ne touche le sol sans contrôle : toitures, serres et massifs sont préservés."),
-   (CRANE,"","Démontage à la grue","Pour les très gros sujets ou les accès impossibles, une grue lève les sections en sécurité. Nous organisons toute la logistique."),
+   (CRANE,"","Nacelle, grue et moyens spéciaux","Quand la grimpe ne suffit pas, nous intervenons en nacelle ou faisons lever les sections à la grue. Dans les cas les plus rares, un hélicoptère peut être mobilisé. Nous organisons toute la logistique."),
    (STUMP,"","Rognage de souche","Après l'abattage, la souche est rognée sous le niveau du sol. Vous pouvez replanter, semer du gazon ou reconstruire sans obstacle."),
    (TREE,"","Évacuation et valorisation du bois","Branches broyées, bois débité en bûches pour votre chauffage ou évacué. Le terrain est rendu propre, à vous de choisir.")])
 ab+=why("Quand faut-il abattre un arbre","Certains arbres doivent partir. Nous vous disons lesquels, honnêtement.",
@@ -202,7 +202,7 @@ ab+=why("Quand faut-il abattre un arbre","Certains arbres doivent partir. Nous v
 ab+=approach("demontage_d-arbre_retention.jpg","Démontage d'arbre par rétention, tronçon retenu par cordes","Chaque pièce est retenue et contrôlée",
   "Notre méthode","Un abattage propre, c'est d'abord un abattage préparé",
   "La sécurité de vos biens et des personnes dépend de la préparation. Chaque intervention est planifiée avant que la tronçonneuse ne démarre.",
-  [("Visite et évaluation sur place","Nous mesurons l'arbre, repérons les obstacles, les accès et les points d'ancrage, puis nous choisissons la technique adaptée."),
+  [("Visite et évaluation sur place","Nous mesurons l'arbre, repérons les obstacles, les accès et les points d'ancrage, puis nous choisissons la technique et les moyens adaptés : grimpe, nacelle, grue ou, exceptionnellement, hélicoptère."),
    ("Zone sécurisée pendant les travaux","Périmètre balisé, protection des surfaces sensibles, coordination avec vous et vos voisins si nécessaire."),
    ("Descente contrôlée des pièces","En démontage, rien ne tombe au hasard : chaque tronçon est guidé ou freiné jusqu'au sol."),
    ("Terrain rendu propre","Bois évacué ou débité, branches broyées, sciure ramassée. Vous retrouvez votre jardin, sans la corvée.")],
@@ -218,7 +218,7 @@ ab+=gallery("Nos abattages et démontages dans la région",
    ("abattage_sequoia.jpg","Souche d'un séquoia abattu","Abattage d'un séquoia"),
    ("abattage_arbre_porrentruy-3.jpg","Tronc débité après abattage","Bois débité, prêt à être évacué"),
    ("demontage_d-arbre_retention.jpg","Démontage par rétention","Descente par rétention, sans impact au sol"),
-   ("arboriste_grimpeur-3.jpg","Arboriste-grimpeur au sommet d'un arbre","Accès en grimpe, sans nacelle")])
+   ("arboriste_grimpeur-3.jpg","Arboriste-grimpeur au sommet d'un arbre","Accès en grimpe, à la corde")])
 ab+=zone+'\n'
 ab+=faq([("Faut-il une autorisation pour abattre un arbre ?","Dans de nombreuses communes du Jura, de Neuchâtel et du Jura bernois, l'abattage d'un arbre peut être soumis à autorisation, selon son essence, sa taille ou sa situation (zone protégée, alignement, arbre remarquable). Nous vous indiquons la démarche à suivre auprès de votre commune et pouvons vous fournir les éléments techniques nécessaires."),
   ("Combien coûte l'abattage d'un arbre ?","Le prix dépend de la hauteur et du diamètre de l'arbre, de son accessibilité, de la technique nécessaire (abattage direct, démontage, rétention, grue) et de l'évacuation du bois. Un démontage en zone contrainte demande plus de temps qu'un abattage en plein champ. Nous établissons un devis précis et gratuit après visite."),
@@ -236,7 +236,7 @@ ix_form=form("Recevez votre devis gratuit","Dites-nous ce dont votre arbre a bes
   ["Taille et entretien","Abattage ou démontage","Diagnostic / expertise d'un arbre","Plantation","Haubanage / consolidation","Rognage de souche","Je ne sais pas encore, j'ai besoin d'un conseil"],"general")
 ix=hero("arboriste_grimpeur-19.jpg","62% 30%","Arboriste-grimpeur · Jura · Neuchâtel · Berne",
   "Votre arboriste-grimpeur <em>pour tous les soins</em> de vos arbres",
-  "Taille, élagage, abattage, démontage, diagnostic, plantation : Arboritaille prend soin de vos arbres avec les techniques de grimpe et le respect du vivant. Pour les particuliers, les entreprises et les collectivités.",
+  "Taille, élagage, abattage, démontage, diagnostic, plantation : Arboritaille prend soin de vos arbres avec les techniques de grimpe, les moyens adaptés à chaque situation et le respect du vivant. Pour les particuliers, les entreprises et les collectivités.",
   ["Devis gratuit et sans engagement","Réponse sous 48 h ouvrées","Un seul interlocuteur, du conseil au chantier","Chantier propre, branches évacuées"],ix_form)
 ix+=trust([(SHIELD,"Arboriste-grimpeur","Techniques de grimpe et cordes"),(LEAF,"Respect de l'arbre","Taille raisonnée, conseil honnête"),(PIN,"Entreprise locale","Basée à Courgenay (JU)"),(DOC,"Devis écrit et détaillé","Gratuit, sans engagement")])
 ix+=cards("Nos services","Tout ce dont un arbre a besoin, de la plantation à l'abattage",
@@ -253,11 +253,11 @@ ix+=why("Pour qui","Particuliers, entreprises, collectivités : le même soin, a
    ("Entreprises","Un arbre gêne votre chantier ou nécessite des soins ? Nous évaluons rapidement et intervenons dans les meilleurs délais."),
    ("Collectivités","Suivi de groupes d'arbres, gestion des sujets dangereux, projets de plantation. Un partenaire pour l'entretien arboricole communal."),
    ("Gérances et régies","Entretien régulier du patrimoine arboré de vos immeubles, avec un interlocuteur unique et des devis clairs.")])
-ix+=approach("arboriste_grimpeur-2.jpg","Arboriste-grimpeur dans la couronne d'un grand arbre","Intervention en grimpe, sans nacelle",
+ix+=approach("arboriste_grimpeur-2.jpg","Arboriste-grimpeur dans la couronne d'un grand arbre","Grimpe, nacelle ou grue selon le cas",
   "Notre approche","La passion du métier, le respect du vivant",
   "Chaque arbre est un cas particulier. Avant d'intervenir, nous prenons le temps de le comprendre : son essence, sa vigueur, son environnement et ce que vous en attendez.",
   [("Un conseil honnête","Si l'arbre peut être conservé, nous vous le disons. Si l'abattage s'impose, nous vous l'expliquons."),
-   ("Des techniques de grimpe","Accès à la corde, sans nacelle ni engin lourd : votre jardin et vos accès sont préservés."),
+   ("Les bons moyens pour chaque arbre","Grimpe à la corde par défaut, pour préserver votre jardin. Nacelle, grue ou autres engins quand la situation l'exige, et hélicoptère dans les cas exceptionnels."),
    ("Un travail dans les règles de l'art","Coupes propres, taille raisonnée, respect de la physiologie de l'arbre pour un résultat durable."),
    ("Un chantier rendu propre","Branches broyées ou évacuées, bois débité si vous le souhaitez, terrain nettoyé.")],
   "Demander un devis gratuit")
@@ -277,7 +277,7 @@ ix+=zone+'\n'
 ix+=faq([("Comment savoir si mon arbre a besoin d'une intervention ?","Bois mort dans la couronne, branches qui touchent une toiture, champignons au pied, tronc penché ou fissuré, feuillage clairsemé : autant de signes à ne pas ignorer. Une visite gratuite permet de trancher."),
   ("Combien coûtent vos prestations ?","Chaque arbre est différent : hauteur, essence, accès, type d'intervention et évacuation du bois font varier le prix. C'est pourquoi nous nous déplaçons gratuitement pour établir un devis écrit et précis."),
   ("Faut-il une autorisation pour tailler ou abattre un arbre ?","Une taille d'entretien ne nécessite en général aucune démarche. L'abattage, ou une intervention sur un arbre protégé, peut être soumis à autorisation communale. Nous vous guidons dans la démarche."),
-  ("Mon arbre est difficile d'accès. Est-ce un problème ?","Non. Nous travaillons en grimpe, à la corde, sans nacelle ni engin lourd. Jardins clos, terrains en pente, cours intérieures : nous y accédons."),
+  ("Mon arbre est difficile d'accès. Est-ce un problème ?","Non. Nous travaillons en grimpe, à la corde, ce qui permet d'accéder aux jardins clos, terrains en pente et cours intérieures. Quand c'est nécessaire, nous mobilisons une nacelle, une grue ou d'autres engins, et dans des cas très particuliers un hélicoptère."),
   ("Dans quelle zone intervenez-vous ?","Dans tout le canton du Jura, le canton de Neuchâtel et le Jura bernois, depuis notre base de Courgenay en Ajoie."),
   ("Travaillez-vous avec les entreprises et les communes ?","Oui. Nous accompagnons les entreprises sur leurs chantiers et les collectivités pour la gestion de leur patrimoine arboré : suivi, sécurité, plantations.")])
 ix+=cta("grand_tilleul.jpg","Un doute sur un arbre ? Demandez l'avis d'un professionnel.","Visite et devis gratuits, sans engagement. Nous vous répondons sous 48 h ouvrées.")
