@@ -127,11 +127,11 @@ def approach(img,alt,badge,eyebrow,h2,lead,items,cta):
 </div></section>
 '''
 
-def process(h2,steps):
+def process(h2,steps,eyebrow="Comment ça se passe"):
     inner=''.join(f'<div class="step"><h3>{a}</h3><p>{b}</p></div>' for a,b in steps)
     return f'''<!-- Process -->
 <section class="section" style="padding-top:0"><div class="wrap">
-  <div class="center"><span class="eyebrow">Comment ça se passe</span><h2>{h2}</h2></div>
+  <div class="center"><span class="eyebrow">{eyebrow}</span><h2>{h2}</h2></div>
   <div class="steps">{inner}</div>
 </div></section>
 '''
@@ -192,9 +192,9 @@ ab+=cards("Nos prestations d'abattage","La bonne technique pour chaque situation
    (LINK,"Zone contrainte","Démontage par rétention","Chaque pièce est attachée et descendue en douceur avec un système de freinage. Aucun morceau ne touche le sol sans contrôle : toitures, serres et massifs sont préservés."),
    (CRANE,"","Nacelle, grue et moyens spéciaux","Quand la grimpe ne suffit pas, nous intervenons en nacelle ou faisons lever les sections à la grue. Dans les cas les plus rares, un hélicoptère peut être mobilisé. Nous organisons toute la logistique."),
    (STUMP,"","Rognage de souche","Après l'abattage, la souche est rognée sous le niveau du sol. Vous pouvez replanter, semer du gazon ou reconstruire sans obstacle."),
-   (TREE,"","Évacuation et valorisation du bois","Branches broyées, bois débité en bûches pour votre chauffage ou évacué. Le terrain est rendu propre, à vous de choisir.")])
-ab+=why("Quand faut-il abattre un arbre","Certains arbres doivent partir. Nous vous conseillons au cas par cas.",
-  "Abattre n'est pas notre première option : si une taille ou un haubanage peut sauver l'arbre, nous vous le proposons. Mais dans ces situations, l'abattage est la seule option raisonnable.",
+   (TREE,"","Évacuation et valorisation du bois","Branches broyées, bois de feu pour votre chauffage ou évacué. Le terrain est rendu propre, à vous de choisir.")])
+ab+=why("Quand faut-il abattre un arbre","Certains arbres doivent être abattus. Nous vous conseillons au cas par cas.",
+  "Abattre n'est pas notre première option : si une taille ou un haubanage peut sauver l'arbre, nous vous le proposons. Mais dans certains cas, l'abattage est la seule option raisonnable.",
   [("Arbre dangereux","Tronc fissuré, racines soulevées, penchant vers la maison ou la route : le risque de chute est réel, surtout par vent fort."),
    ("Arbre mort ou malade","Champignons au pied, écorce qui se détache, houppier sec : un arbre dépérissant devient cassant et imprévisible."),
    ("Trop proche des bâtiments","Racines qui soulèvent les dalles, branches sur la toiture, ombre permanente : l'arbre n'a plus sa place là où il a poussé."),
@@ -211,7 +211,7 @@ ab+=process("Quatre étapes, du premier appel au terrain propre",
   [("Vous nous contactez","Décrivez l'arbre en quelques mots. En cas de danger immédiat, appelez-nous directement."),
    ("Visite et diagnostic","Nous évaluons l'arbre et son environnement, et vous conseillons sur la méthode et sur une éventuelle autorisation communale."),
    ("Devis clair et gratuit","Un devis écrit, avec ou sans rognage de souche et évacuation du bois."),
-   ("Abattage et nettoyage","Intervention à la date convenue, en sécurité. Le terrain est nettoyé avant notre départ.")])
+   ("Abattage et nettoyage","Intervention à la date convenue, en sécurité. Le terrain est nettoyé avant notre départ.")],eyebrow="Le planning des travaux")
 ab+=gallery("Nos abattages et démontages",
   [("demontage_arbre_porrentruy.jpg","Démontage d'un grand arbre à Porrentruy","Démontage tronçon par tronçon, Porrentruy"),
    ("abattage_arbre_porrentruy-6.jpg","Grue et camion lors d'un abattage","Levage à la grue en zone urbaine"),
