@@ -212,3 +212,12 @@ p{margin:0 0 1em}
 /* Liens dans les cartes */
 .card p a{color:var(--orange);font-weight:600;text-decoration:none;white-space:nowrap}
 .card p a:hover{text-decoration:underline}
+
+/* Sélecteur de langue */
+.lang-switch{display:inline-flex;align-items:center;justify-content:center;min-width:44px;padding:.45rem .75rem;border:1.5px solid var(--line);border-radius:999px;font-size:.85rem;font-weight:700;letter-spacing:.06em;color:var(--green-900);text-decoration:none;transition:background .15s,border-color .15s}
+.lang-switch:hover{background:var(--sand);border-color:var(--green-500)}
+
+/* Note langue (site allemand) */
+.hero-note{font-size:.9rem;color:rgba(255,255,255,.8);background:rgba(255,255,255,.08);border-left:3px solid var(--yellow);padding:.6rem .9rem;border-radius:0 10px 10px 0;margin:0 0 1.5rem}
+.form-note-lang{color:var(--green-900);background:var(--sand);padding:.6rem .8rem;border-radius:10px;margin-top:1rem}
+.form-note-lang svg{color:var(--orange)}
