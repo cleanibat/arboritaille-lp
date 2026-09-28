@@ -1,0 +1,36 @@
+name: Déploiement Hostinger
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-hostinger
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Préparer la clé SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.HOSTINGER_SSH_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          echo "${{ secrets.HOSTINGER_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+
+      - name: Synchroniser les fichiers vers page.arboritaille.ch
+        run: |
+          rsync -az --delete \
+            -e "ssh -i ~/.ssh/deploy_key -p 65002" \
+            --exclude '.git' --exclude '.github' --exclude 'build.py' \
+            --exclude 'README.md' --exclude '.nojekyll' --exclude '.DS_Store' \
+            ./ u442963338@46.202.172.124:domains/page.arboritaille.ch/public_html/
+
+      - name: Vérifier la mise en ligne
+        run: |
+          sleep 5
+          curl -sS -o /dev/null -w "HTTP %{http_code}\n" https://page.arboritaille.ch/ || true

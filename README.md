@@ -10,4 +10,6 @@ Pages d'atterrissage statiques pour les campagnes Google Ads d'Arboritaille (arb
 - `build.py` – génère `index.html` et `abattage.html` à partir des blocs communs de `taille.html`
 - `img/` – photos et logos repris du site arboritaille.ch
 
+Déploiement : chaque push sur `main` est synchronisé automatiquement vers Hostinger (page.arboritaille.ch) par GitHub Actions via SSH/rsync.
+
 Le formulaire envoie les demandes via FormSubmit vers contact@arboritaille.ch (la première soumission déclenche un e-mail d'activation à confirmer).

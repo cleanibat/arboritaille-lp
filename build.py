@@ -49,7 +49,7 @@ def form(title,sub,subject,source,options,lp):
         <input type="hidden" name="_subject" value="{subject}">
         <input type="hidden" name="_template" value="table">
         <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://cleanibat.github.io/arboritaille-lp/merci.html?lp={lp}">
+        <input type="hidden" name="_next" value="https://page.arboritaille.ch/merci.html?lp={lp}">
         <input type="hidden" name="Source" value="{source}">
         <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off">
         <div class="field-row">
