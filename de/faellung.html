@@ -53,11 +53,10 @@
     <div class="form-card" id="devis">
       <h2>Gratis Offerte für die Fällung</h2>
       <p class="sub">Beschreiben Sie den Baum und seinen Standort. Wir beurteilen ihn vor Ort, unverbindlich.</p>
-      <form action="https://formsubmit.co/contact@arboritaille.ch" method="POST">
-        <input type="hidden" name="_subject" value="Neue Offertanfrage (DE) – Baumfällung / Abtragen">
-        <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://page.arboritaille.ch/de/danke.html?lp=abattage">
+      <form action="../contact.php" method="POST" id="devisForm">
+        <input type="hidden" name="Sujet" value="Neue Offertanfrage (DE) – Baumfällung / Abtragen">
+        <input type="hidden" name="lp" value="abattage">
+        <input type="hidden" name="lang" value="de">
         <input type="hidden" name="Source" value="Landing page Google Ads (DE) – abattage">
         <input type="hidden" name="Langue du client" value="Deutsch">
         <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off">

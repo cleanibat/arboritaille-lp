@@ -141,11 +141,10 @@ def form(u,page,title,sub,subject,options):
     return f'''<div class="form-card" id="devis">
       <h2>{title}</h2>
       <p class="sub">{sub}</p>
-      <form action="https://formsubmit.co/contact@arboritaille.ch" method="POST">
-        <input type="hidden" name="_subject" value="{subject}">
-        <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="{url('merci',u['alt'] if False else ('fr' if u['dir']=='' else 'de'))}?lp={page}">
+      <form action="{u['base']}contact.php" method="POST" id="devisForm">
+        <input type="hidden" name="Sujet" value="{subject}">
+        <input type="hidden" name="lp" value="{page}">
+        <input type="hidden" name="lang" value="{'de' if u['dir'] else 'fr'}">
         <input type="hidden" name="Source" value="{u['src']} – {page}">
         <input type="hidden" name="Langue du client" value="{u['lang_name']}">
         <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off">

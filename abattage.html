@@ -53,11 +53,10 @@
     <div class="form-card" id="devis">
       <h2>Devis abattage gratuit</h2>
       <p class="sub">Décrivez l'arbre et son emplacement. Nous venons l'évaluer sur place, sans engagement.</p>
-      <form action="https://formsubmit.co/contact@arboritaille.ch" method="POST">
-        <input type="hidden" name="_subject" value="Nouvelle demande de devis – Abattage / démontage d'arbre">
-        <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://page.arboritaille.ch/merci.html?lp=abattage">
+      <form action="contact.php" method="POST" id="devisForm">
+        <input type="hidden" name="Sujet" value="Nouvelle demande de devis – Abattage / démontage d'arbre">
+        <input type="hidden" name="lp" value="abattage">
+        <input type="hidden" name="lang" value="fr">
         <input type="hidden" name="Source" value="Landing page Google Ads – abattage">
         <input type="hidden" name="Langue du client" value="Français">
         <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off">

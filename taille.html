@@ -53,11 +53,10 @@
     <div class="form-card" id="devis">
       <h2>Recevez votre devis gratuit</h2>
       <p class="sub">Décrivez-nous votre arbre en 30 secondes. Nous vous rappelons pour fixer une visite.</p>
-      <form action="https://formsubmit.co/contact@arboritaille.ch" method="POST">
-        <input type="hidden" name="_subject" value="Nouvelle demande de devis – Taille et entretien d'arbres">
-        <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://page.arboritaille.ch/merci.html?lp=taille">
+      <form action="contact.php" method="POST" id="devisForm">
+        <input type="hidden" name="Sujet" value="Nouvelle demande de devis – Taille et entretien d'arbres">
+        <input type="hidden" name="lp" value="taille">
+        <input type="hidden" name="lang" value="fr">
         <input type="hidden" name="Source" value="Landing page Google Ads – taille">
         <input type="hidden" name="Langue du client" value="Français">
         <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off">

@@ -53,11 +53,10 @@
     <div class="form-card" id="devis">
       <h2>Ihre gratis Offerte</h2>
       <p class="sub">Sagen Sie uns, was Ihr Baum braucht. Wir melden uns schriftlich, um einen Besichtigungstermin zu vereinbaren.</p>
-      <form action="https://formsubmit.co/contact@arboritaille.ch" method="POST">
-        <input type="hidden" name="_subject" value="Neue Offertanfrage (DE) – Arboritaille">
-        <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://page.arboritaille.ch/de/danke.html?lp=index">
+      <form action="../contact.php" method="POST" id="devisForm">
+        <input type="hidden" name="Sujet" value="Neue Offertanfrage (DE) – Arboritaille">
+        <input type="hidden" name="lp" value="index">
+        <input type="hidden" name="lang" value="de">
         <input type="hidden" name="Source" value="Landing page Google Ads (DE) – index">
         <input type="hidden" name="Langue du client" value="Deutsch">
         <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off">
