@@ -4,8 +4,8 @@
 date_default_timezone_set('Europe/Zurich');
 mb_internal_encoding('UTF-8');
 
-$DEST  = 'contact@arboritaille.ch';
-$BCC   = 'aymeric@cleanibat.fr';                 // copie de contrôle (Cleanibat / ScaleAds)
+$DEST  = 'contact@arboritaille.ch, aymeric@cleanibat.fr'; // Robin + Aymeric, tous deux destinataires
+$BCC   = 'aymeric@cleanibat.fr';                 // adresse utilisée seule pour les tests (?test=1)
 $FROM  = 'Arboritaille <no-reply@arboritaille.ch>'; // domaine avec SPF Hostinger
 $HOME  = dirname(dirname(dirname(__DIR__)));      // /home/uXXXXXXXXX
 $CSV   = $HOME . '/leads_arboritaille.csv';
@@ -38,7 +38,6 @@ $body .= "Nom        : $nom\nTéléphone  : $tel\nE-mail     : $email\nLocalité
 if ($langue!=='') $body .= "Langue     : $langue\n";
 $body .= "Page       : $src\n\nMessage :\n" . ($msg!=='' ? $msg : '(vide)') . "\n";
 $headers  = "From: $FROM\r\nReply-To: $nom <$email>\r\n";
-if (!$TEST && $BCC!=='') $headers .= "Bcc: $BCC\r\n";
 $headers .= "MIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\nX-Mailer: PHP/".phpversion();
 $to = $TEST ? $BCC : $DEST;
 @mail($to, '=?UTF-8?B?'.base64_encode($subject).'?=', $body, $headers);
