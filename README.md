@@ -13,4 +13,4 @@ Pages d'atterrissage statiques pour les campagnes Google Ads d'Arboritaille (arb
 
 Déploiement : chaque push sur `main` est synchronisé automatiquement vers Hostinger (page.arboritaille.ch) par GitHub Actions via SSH/rsync.
 
-Le formulaire envoie les demandes via FormSubmit vers contact@arboritaille.ch (la première soumission déclenche un e-mail d'activation à confirmer).
+Le formulaire est traité par `contact.php` sur Hostinger : e-mail à contact@arboritaille.ch (copie aymeric@cleanibat.fr), sauvegarde de chaque lead dans `~/leads_arboritaille.csv` hors docroot, puis redirection vers la page merci.
