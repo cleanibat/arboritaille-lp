@@ -84,6 +84,9 @@ PAGES={'index':{'fr':'index.html','de':'index.html'},
        'abattage':{'fr':'abattage.html','de':'faellung.html'},
        'merci':{'fr':'merci.html','de':'danke.html'}}
 SITE='https://page.arboritaille.ch/'
+GTM_ID='GTM-WMF2BV3S'
+GTM_HEAD=('<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({\'gtm.start\':new Date().getTime(),event:\'gtm.js\'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!=\'dataLayer\'?\'&l=\'+l:\'\';j.async=true;j.src=\'https://www.googletagmanager.com/gtm.js?id=\'+i+dl;f.parentNode.insertBefore(j,f);})(window,document,\'script\',\'dataLayer\',\''+GTM_ID+'\');</script>\n<!-- End Google Tag Manager -->') if GTM_ID else ''
+GTM_BODY=('<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src="https://www.googletagmanager.com/ns.html?id='+GTM_ID+'" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->') if GTM_ID else ''
 
 def url(page,lang):
     return SITE+UI[lang]['dir']+PAGES[page][lang]
@@ -106,12 +109,10 @@ def head(u,title,desc,page):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{b}style.css">
-<!-- Google Tag Manager : remplacer GTM-XXXXXXX par l'ID du conteneur -->
-<!--
-<script>(function(w,d,s,l,i){{w[l]=w[l]||[];w[l].push({{'gtm.start':new Date().getTime(),event:'gtm.js'}});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);}})(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
--->
+{GTM_HEAD}
 </head>
 <body>
+{GTM_BODY}
 '''
 
 def lang_link(u,page):
@@ -322,7 +323,7 @@ def merci(lang):
 <meta name="robots" content="noindex, nofollow">
 <link rel="icon" href="{b}img/logo-entreprise-icon-sans-fond.svg" type="image/svg+xml">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
-<!-- Google Ads : placer ici le tag de conversion (page de remerciement) -->
+{GTM_HEAD}
 <style>
 body{{margin:0;font-family:"Inter",system-ui,sans-serif;background:#f5f1e8;color:#151a16;min-height:100vh;display:grid;place-items:center;padding:1.5rem}}
 .box{{background:#fff;border-radius:18px;padding:2.5rem;max-width:520px;text-align:center;box-shadow:0 24px 60px rgba(15,32,23,.15)}}
@@ -334,6 +335,7 @@ a.tel{{color:#163223;font-weight:600}}
 </style>
 </head>
 <body>
+{GTM_BODY}
 <div class="box">
   <img src="{b}img/logo-entreprise-icon-sans-fond.svg" alt="Arboritaille">
   <h1>{u['merci_h1']}</h1>
