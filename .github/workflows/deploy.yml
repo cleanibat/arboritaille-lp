@@ -30,6 +30,17 @@ jobs:
             --exclude 'README.md' --exclude '.nojekyll' --exclude '.DS_Store' \
             ./ u442963338@46.202.172.124:domains/page.arboritaille.ch/public_html/
 
+      - name: Déposer la configuration CRM (hors docroot, depuis un secret)
+        env:
+          AGENCE_CONFIG: ${{ secrets.AGENCE_CONFIG }}
+        run: |
+          if [ -n "$AGENCE_CONFIG" ]; then
+            printf '%s' "$AGENCE_CONFIG" > /tmp/agence.json
+            scp -i ~/.ssh/deploy_key -P 65002 /tmp/agence.json u442963338@46.202.172.124:domains/page.arboritaille.ch/agence_arboritaille.json
+            ssh -i ~/.ssh/deploy_key -p 65002 u442963338@46.202.172.124 'chmod 600 domains/page.arboritaille.ch/agence_arboritaille.json && ls -la domains/page.arboritaille.ch/ | grep -c agence_'
+            rm -f /tmp/agence.json
+          fi
+
       - name: Vérifier la mise en ligne
         run: |
           sleep 5

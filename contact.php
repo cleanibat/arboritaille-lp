@@ -30,6 +30,17 @@ if($fh){ if(filesize($CSV)===0) fputcsv($fh,['date','nom','telephone','email','l
   fputcsv($fh,[date('Y-m-d H:i:s'),$nom,$tel,$email,$ville,$besoin,str_replace(["\r","\n"],' ',$msg),$src,$langue,$TEST?'oui':'',$_SERVER['REMOTE_ADDR']??''],';');
   fclose($fh); @chmod($CSV,0600); }
 
+// 1 bis) Envoi au CRM du client via Make. Configuration hors docroot, jamais dans le dépôt.
+$cfg = @json_decode(@file_get_contents(dirname($_SERVER['DOCUMENT_ROOT']) . '/agence_arboritaille.json'), true);
+if (is_array($cfg) && !empty($cfg['make_url']) && function_exists('curl_init')) {
+  $lead = ['client'=>$cfg['client']??'', 'cle'=>$cfg['cle']??'', 'nom'=>($TEST?'TEST ':'').$nom, 'telephone'=>$tel, 'email'=>$email, 'localite'=>$ville, 'besoin'=>$besoin,
+    'message'=>str_replace(["\r","\n"],' ',$msg), 'source'=>$cfg['source']??'Site', 'campagne'=>$src, 'id'=>'site-'.date('YmdHis').'-'.substr(md5($email.$tel),0,6)];
+  $ch = curl_init($cfg['make_url']);
+  curl_setopt_array($ch, [CURLOPT_POST=>true, CURLOPT_RETURNTRANSFER=>true, CURLOPT_CONNECTTIMEOUT=>2, CURLOPT_TIMEOUT=>4,
+    CURLOPT_HTTPHEADER=>['Content-Type: application/json'], CURLOPT_POSTFIELDS=>json_encode($lead)]);
+  @curl_exec($ch); @curl_close($ch);
+}
+
 // 2) E-mail
 $subject = ($sujet!=='' ? $sujet : 'Nouvelle demande de devis – Arboritaille') . ($TEST ? ' [TEST]' : '');
 $body  = ($TEST ? "*** TEST TECHNIQUE, à ignorer ***\n\n" : '');
