@@ -390,12 +390,12 @@ def build_fr():
        ("Devis clair et gratuit","Vous recevez un devis écrit et détaillé. Vous décidez en toute liberté."),
        ("Intervention et nettoyage","Nous intervenons à la date convenue, sécurisons la zone et laissons votre jardin propre.")])
     p+=gallery(u,"Nos interventions",
-      [("arboriste_grimpeur-3.jpg","Arboriste-grimpeur au sommet d'un cèdre","Taille en hauteur, accès en grimpe"),
-       ("grand_tilleul.jpg","Grand tilleul sain après entretien","Un tilleul entretenu, équilibré et vigoureux"),
-       ("arbre_porrentruy.jpg","Arbre de jardin à Porrentruy","Arbre de jardin, Porrentruy"),
+      [("arboriste_grimpeur-3.jpg","Arboriste-grimpeur au sommet d'un cèdre, lac de Neuchâtel en arrière-plan","Taille en hauteur, Neuchâtel"),
+       ("reduction_tilleul_porrentruy.jpg","Tilleul après réduction de couronne à Porrentruy","Réduction d'un tilleul, Porrentruy"),
+       ("entretien_platanes_porrentruy.jpg","Alignement de platanes entretenus à Porrentruy","Entretien des platanes, Porrentruy"),
        ("demontage_d-arbre_retention.jpg","Démontage d'arbre par rétention","Démontage par rétention en zone contrainte"),
        ("arboriste_grimpeur-15.jpg","Arboriste-grimpeur dans le feuillage","Travail dans la couronne, à la corde"),
-       ("plantation_arbre.jpg","Jeune arbre planté avec tuteurage tripode","Plantation et tuteurage tripode")])
+       ("plantation_arbre.jpg","Jeune arbre planté avec tuteurage tripode à Neuchâtel","Plantation et tuteurage tripode, Neuchâtel")])
     p+=zone(u)
     p+=faq(u,[("Quelle est la meilleure période pour tailler un arbre ?","Cela dépend de l'essence et de l'objectif. La taille d'entretien se pratique souvent en hiver, hors gel, ou en été après la pousse. Certaines essences supportent mal la taille en période de montée de sève. Nous vous conseillons la période la plus favorable lors de la visite."),
       ("Combien coûte une taille d'arbre ?","Le prix dépend de la taille de l'arbre, de son accessibilité, du type d'intervention et de l'évacuation des branches. C'est pourquoi nous nous déplaçons gratuitement pour établir un devis précis et écrit. Aucun engagement de votre part."),
@@ -403,7 +403,7 @@ def build_fr():
       ("Mon arbre est très grand ou difficile d'accès. Est-ce possible ?","Oui. En tant qu'arboriste-grimpeur, nous accédons à la couronne à la corde, ce qui convient à la plupart des jardins, cours intérieures et terrains en pente. Quand c'est nécessaire, nous mobilisons une nacelle, une grue ou d'autres machines, et dans des cas très particuliers un hélicoptère."),
       ("Que deviennent les branches coupées ?","Selon votre souhait et le devis, les branches sont broyées sur place, évacuées, ou le bois est laissé débité pour votre chauffage. Le terrain est nettoyé avant notre départ."),
       ("Intervenez-vous aussi pour les entreprises et les communes ?","Oui. Nous accompagnons les entreprises sur leurs chantiers, ainsi que les collectivités pour le suivi de groupes d'arbres, la gestion des sujets dangereux et les projets de plantation.")])
-    p+=cta(u,"grand_tilleul.jpg","Un doute sur un arbre ? Demandez l'avis d'un professionnel.","Visite et devis gratuits, sans engagement. Nous vous répondons sous 48 h ouvrées.")
+    p+=cta(u,"entretien_platanes_porrentruy.jpg","Un doute sur un arbre ? Demandez l'avis d'un professionnel.","Visite et devis gratuits, sans engagement. Nous vous répondons sous 48 h ouvrées.")
     write('fr','taille',"Taille et entretien d'arbres – Arboriste-grimpeur Jura, Neuchâtel, Berne | Arboritaille",
       "Taille raisonnée, élagage et entretien de vos arbres par un arboriste-grimpeur professionnel. Devis gratuit sous 48 h dans le Jura, Neuchâtel et Berne.",p)
 
@@ -448,8 +448,8 @@ def build_fr():
        ("abattage_arbre_porrentruy-6.jpg","Grue et camion lors d'un abattage","Levage à la grue en zone urbaine"),
        ("abattage_sequoia.jpg","Souche d'un séquoia abattu","Abattage d'un séquoia"),
        ("abattage_arbre_porrentruy-3.jpg","Tronc débité après abattage","Bois débité, prêt à être évacué"),
-       ("demontage_d-arbre_retention.jpg","Démontage par rétention","Descente par rétention, sans impact au sol"),
-       ("arboriste_grimpeur-3.jpg","Arboriste-grimpeur au sommet d'un arbre","Accès en grimpe, à la corde")])
+       ("demontage_saule_bienne.jpg","Arboriste-grimpeur démontant un saule à Bienne","Démontage d'un saule, Bienne"),
+       ("demontage_saule_port.jpg","Démontage d'un saule avec cordes de rétention à Port","Démontage d'un saule, Port")])
     p+=zone(u)
     p+=faq(u,[("Faut-il une autorisation pour abattre un arbre ?","Dans de nombreuses communes du Jura, de Neuchâtel et de Berne, l'abattage d'un arbre peut être soumis à autorisation, selon son essence, sa taille ou sa situation (zone protégée, alignement, arbre remarquable). Nous vous indiquons la démarche à suivre auprès de votre commune et pouvons vous fournir les éléments techniques nécessaires."),
       ("Combien coûte l'abattage d'un arbre ?","Le prix dépend de la hauteur et du diamètre de l'arbre, de son accessibilité, de la technique nécessaire (abattage direct, démontage, rétention, grue) et de l'évacuation du bois. Un démontage en zone contrainte demande plus de temps qu'un abattage en plein champ. Nous établissons un devis précis et gratuit après visite."),
@@ -498,11 +498,11 @@ def build_fr():
        ("Devis clair et gratuit","Un devis écrit et détaillé. Vous décidez librement."),
        ("Intervention et nettoyage","Nous intervenons à la date convenue et laissons votre terrain propre.")])
     p+=gallery(u,"Nos interventions",
-      [("arboriste_grimpeur-3.jpg","Arboriste-grimpeur au sommet d'un cèdre","Taille en hauteur, accès en grimpe"),
-       ("grand_tilleul.jpg","Grand tilleul sain après entretien","Un tilleul entretenu, équilibré et vigoureux"),
+      [("arboriste_grimpeur-3.jpg","Arboriste-grimpeur au sommet d'un cèdre, lac de Neuchâtel en arrière-plan","Taille en hauteur, Neuchâtel"),
+       ("reduction_tilleul_porrentruy.jpg","Tilleul après réduction de couronne à Porrentruy","Réduction d'un tilleul, Porrentruy"),
        ("demontage_arbre_porrentruy.jpg","Démontage d'un grand arbre à Porrentruy","Démontage tronçon par tronçon, Porrentruy"),
-       ("demontage_d-arbre_retention.jpg","Démontage par rétention","Descente par rétention en zone contrainte"),
-       ("plantation_arbre.jpg","Jeune arbre planté avec tuteurage tripode","Plantation et tuteurage tripode"),
+       ("demontage_saule_bienne.jpg","Arboriste-grimpeur démontant un saule à Bienne","Démontage d'un saule, Bienne"),
+       ("plantation_arbre.jpg","Jeune arbre planté avec tuteurage tripode à Neuchâtel","Plantation et tuteurage tripode, Neuchâtel"),
        ("abattage_arbre_porrentruy-6.jpg","Grue lors d'un abattage","Levage à la grue en zone urbaine")])
     p+=zone(u)
     p+=faq(u,[("Comment savoir si mon arbre a besoin d'une intervention ?","Bois mort dans la couronne, branches qui touchent une toiture, champignons au pied, tronc penché ou fissuré, feuillage clairsemé : autant de signes à ne pas ignorer. Une visite gratuite permet de trancher."),
@@ -511,7 +511,7 @@ def build_fr():
       ("Mon arbre est difficile d'accès. Est-ce un problème ?","Non. Nous travaillons en grimpe, à la corde, ce qui permet d'accéder aux jardins clos, terrains en pente et cours intérieures. Quand c'est nécessaire, nous mobilisons une nacelle, une grue ou d'autres machines, et dans des cas très particuliers un hélicoptère."),
       ("Dans quelle zone intervenez-vous ?","Dans tout le canton du Jura, le canton de Neuchâtel et Berne."),
       ("Travaillez-vous avec les entreprises et les communes ?","Oui. Nous accompagnons les entreprises sur leurs chantiers et les collectivités pour la gestion de leur patrimoine arboré : suivi, sécurité, plantations.")])
-    p+=cta(u,"grand_tilleul.jpg","Un doute sur un arbre ? Demandez l'avis d'un professionnel.","Visite et devis gratuits, sans engagement. Nous vous répondons sous 48 h ouvrées.")
+    p+=cta(u,"entretien_platanes_porrentruy.jpg","Un doute sur un arbre ? Demandez l'avis d'un professionnel.","Visite et devis gratuits, sans engagement. Nous vous répondons sous 48 h ouvrées.")
     write('fr','index',"Arboriste-grimpeur Jura, Neuchâtel, Berne – Taille, abattage, soins aux arbres | Arboritaille",
       "Arboritaille, arboriste-grimpeur à Courgenay : taille, élagage, abattage, démontage, diagnostic et plantation d'arbres. Devis gratuit dans le Jura, Neuchâtel et Berne.",p)
     merci('fr')
@@ -559,12 +559,12 @@ def build_de():
        ("Klare, kostenlose Offerte","Sie erhalten eine schriftliche, detaillierte Offerte auf Deutsch. Sie entscheiden frei."),
        ("Ausführung und Reinigung","Wir arbeiten am vereinbarten Termin, sichern den Bereich und hinterlassen Ihren Garten sauber.")])
     p+=gallery(u,"Unsere Einsätze",
-      [("arboriste_grimpeur-3.jpg","Baumkletterer in der Spitze einer Zeder","Schnitt in der Höhe, Zugang per Seil"),
-       ("grand_tilleul.jpg","Gesunde grosse Linde nach der Pflege","Eine gepflegte, ausgeglichene und vitale Linde"),
-       ("arbre_porrentruy.jpg","Gartenbaum in Pruntrut","Gartenbaum, Pruntrut"),
+      [("arboriste_grimpeur-3.jpg","Baumkletterer in der Spitze einer Zeder, im Hintergrund der Neuenburgersee","Schnitt in der Höhe, Neuenburg"),
+       ("reduction_tilleul_porrentruy.jpg","Linde nach der Kroneneinkürzung in Pruntrut","Kroneneinkürzung einer Linde, Pruntrut"),
+       ("entretien_platanes_porrentruy.jpg","Gepflegte Platanenreihe in Pruntrut","Pflege der Platanen, Pruntrut"),
        ("demontage_d-arbre_retention.jpg","Abtragen eines Baums mit Abseiltechnik","Abtragen mit Abseiltechnik auf engem Raum"),
        ("arboriste_grimpeur-15.jpg","Baumkletterer im Laub","Arbeit in der Krone, am Seil"),
-       ("plantation_arbre.jpg","Junger Baum mit Dreibock-Pfahlung","Pflanzung mit Dreibock-Pfahlung")])
+       ("plantation_arbre.jpg","Junger Baum mit Dreibock-Pfahlung in Neuenburg","Pflanzung mit Dreibock-Pfahlung, Neuenburg")])
     p+=zone(u)
     p+=faq(u,[DE_NOTE_FAQ,
       ("Wann ist die beste Zeit, um einen Baum zu schneiden?","Das hängt von der Baumart und vom Ziel ab. Der Pflegeschnitt erfolgt oft im Winter bei frostfreiem Wetter oder im Sommer nach dem Austrieb. Manche Arten vertragen den Schnitt während des Saftaufstiegs schlecht. Bei der Besichtigung empfehlen wir Ihnen den günstigsten Zeitpunkt."),
@@ -573,7 +573,7 @@ def build_de():
       ("Mein Baum ist sehr gross oder schwer zugänglich. Geht das trotzdem?","Ja. Als Baumkletterer erreichen wir die Krone am Seil, was für die meisten Gärten, Innenhöfe und Hanglagen passt. Wenn nötig, setzen wir eine Hebebühne, einen Kran oder andere Maschinen ein, in sehr besonderen Fällen einen Helikopter."),
       ("Was passiert mit den geschnittenen Ästen?","Je nach Wunsch und Offerte werden die Äste vor Ort gehäckselt oder abtransportiert, oder das Holz wird für Ihre Heizung zugeschnitten belassen. Das Gelände wird vor unserer Abfahrt gereinigt."),
       ("Arbeiten Sie auch für Unternehmen und Gemeinden?","Ja. Wir unterstützen Unternehmen auf ihren Baustellen sowie Gemeinden bei der Betreuung von Baumgruppen, dem Umgang mit gefährlichen Bäumen und bei Pflanzprojekten.")])
-    p+=cta(u,"grand_tilleul.jpg","Zweifel an einem Baum? Holen Sie die Meinung einer Fachperson ein.","Besichtigung und Offerte gratis und unverbindlich. Wir antworten Ihnen auf Deutsch innert 48 Arbeitsstunden.")
+    p+=cta(u,"entretien_platanes_porrentruy.jpg","Zweifel an einem Baum? Holen Sie die Meinung einer Fachperson ein.","Besichtigung und Offerte gratis und unverbindlich. Wir antworten Ihnen auf Deutsch innert 48 Arbeitsstunden.")
     write('de','taille',"Baumschnitt und Baumpflege – Baumkletterer Jura, Neuenburg, Bern | Arboritaille",
       "Baumschonender Schnitt und Baumpflege durch einen professionellen Baumkletterer. Gratis Offerte innert 48 Stunden im Jura, in Neuenburg und Bern. Beratung auf Deutsch per E-Mail.",p)
 
@@ -618,8 +618,8 @@ def build_de():
        ("abattage_arbre_porrentruy-6.jpg","Kran und Lastwagen bei einer Fällung","Kranhub im Siedlungsgebiet"),
        ("abattage_sequoia.jpg","Wurzelstock eines gefällten Mammutbaums","Fällung eines Mammutbaums"),
        ("abattage_arbre_porrentruy-3.jpg","Zugeschnittener Stamm nach der Fällung","Zugeschnittenes Holz, bereit zum Abtransport"),
-       ("demontage_d-arbre_retention.jpg","Abtragen mit Abseiltechnik","Abseilen ohne Bodenkontakt"),
-       ("arboriste_grimpeur-3.jpg","Baumkletterer in der Baumspitze","Zugang per Seil")])
+       ("demontage_saule_bienne.jpg","Baumkletterer beim Abtragen einer Weide in Biel","Abtragen einer Weide, Biel"),
+       ("demontage_saule_port.jpg","Abtragen einer Weide mit Abseiltechnik in Port","Abtragen einer Weide, Port")])
     p+=zone(u)
     p+=faq(u,[DE_NOTE_FAQ,
       ("Braucht es eine Bewilligung, um einen Baum zu fällen?","In vielen Gemeinden im Jura, in Neuenburg und Bern kann die Fällung eines Baums bewilligungspflichtig sein, je nach Art, Grösse oder Standort (Schutzzone, Allee, markanter Baum). Wir erklären Ihnen das Vorgehen bei Ihrer Gemeinde und können die nötigen technischen Angaben liefern."),
@@ -669,11 +669,11 @@ def build_de():
        ("Klare, kostenlose Offerte","Eine schriftliche, detaillierte Offerte auf Deutsch. Sie entscheiden frei."),
        ("Ausführung und Reinigung","Wir arbeiten am vereinbarten Termin und hinterlassen Ihr Gelände sauber.")])
     p+=gallery(u,"Unsere Einsätze",
-      [("arboriste_grimpeur-3.jpg","Baumkletterer in der Spitze einer Zeder","Schnitt in der Höhe, Zugang per Seil"),
-       ("grand_tilleul.jpg","Gesunde grosse Linde nach der Pflege","Eine gepflegte, ausgeglichene und vitale Linde"),
+      [("arboriste_grimpeur-3.jpg","Baumkletterer in der Spitze einer Zeder, im Hintergrund der Neuenburgersee","Schnitt in der Höhe, Neuenburg"),
+       ("reduction_tilleul_porrentruy.jpg","Linde nach der Kroneneinkürzung in Pruntrut","Kroneneinkürzung einer Linde, Pruntrut"),
        ("demontage_arbre_porrentruy.jpg","Abtragen eines grossen Baums in Pruntrut","Stückweises Abtragen, Pruntrut"),
-       ("demontage_d-arbre_retention.jpg","Abtragen mit Abseiltechnik","Abseilen auf engem Raum"),
-       ("plantation_arbre.jpg","Junger Baum mit Dreibock-Pfahlung","Pflanzung mit Dreibock-Pfahlung"),
+       ("demontage_saule_bienne.jpg","Baumkletterer beim Abtragen einer Weide in Biel","Abtragen einer Weide, Biel"),
+       ("plantation_arbre.jpg","Junger Baum mit Dreibock-Pfahlung in Neuenburg","Pflanzung mit Dreibock-Pfahlung, Neuenburg"),
        ("abattage_arbre_porrentruy-6.jpg","Kran bei einer Fällung","Kranhub im Siedlungsgebiet")])
     p+=zone(u)
     p+=faq(u,[DE_NOTE_FAQ,
@@ -683,7 +683,7 @@ def build_de():
       ("Mein Baum ist schwer zugänglich. Ist das ein Problem?","Nein. Wir arbeiten in Seilklettertechnik, womit wir eingezäunte Gärten, Hanglagen und Innenhöfe erreichen. Wenn nötig, setzen wir eine Hebebühne, einen Kran oder andere Maschinen ein, in sehr besonderen Fällen einen Helikopter."),
       ("In welchem Gebiet sind Sie tätig?","Im ganzen Kanton Jura, im Kanton Neuenburg und in Bern."),
       ("Arbeiten Sie mit Unternehmen und Gemeinden?","Ja. Wir unterstützen Unternehmen auf ihren Baustellen und Gemeinden bei der Betreuung ihres Baumbestands: Kontrolle, Sicherheit, Pflanzungen.")])
-    p+=cta(u,"grand_tilleul.jpg","Zweifel an einem Baum? Holen Sie die Meinung einer Fachperson ein.","Besichtigung und Offerte gratis und unverbindlich. Wir antworten Ihnen auf Deutsch innert 48 Arbeitsstunden.")
+    p+=cta(u,"entretien_platanes_porrentruy.jpg","Zweifel an einem Baum? Holen Sie die Meinung einer Fachperson ein.","Besichtigung und Offerte gratis und unverbindlich. Wir antworten Ihnen auf Deutsch innert 48 Arbeitsstunden.")
     write('de','index',"Baumkletterer Jura, Neuenburg, Bern – Baumschnitt, Fällung, Baumpflege | Arboritaille",
       "Arboritaille, Baumkletterer in Courgenay: Baumschnitt, Baumpflege, Fällung, Abtragen, Diagnose und Pflanzung. Gratis Offerte im Jura, in Neuenburg und Bern. Beratung auf Deutsch per E-Mail.",p)
     merci('de')
