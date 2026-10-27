@@ -221,3 +221,24 @@ p{margin:0 0 1em}
 .hero-note{font-size:.9rem;color:rgba(255,255,255,.8);background:rgba(255,255,255,.08);border-left:3px solid var(--yellow);padding:.6rem .9rem;border-radius:0 10px 10px 0;margin:0 0 1.5rem}
 .form-note-lang{color:var(--green-900);background:var(--sand);padding:.6rem .8rem;border-radius:10px;margin-top:1rem}
 .form-note-lang svg{color:var(--orange)}
+
+
+/* Zone d'intervention : carte de la Suisse romande */
+.zone-map-wrap{display:grid;grid-template-columns:1.15fr 1fr;gap:2.5rem;align-items:center;margin-top:2.25rem}
+.zone-map-box{background:#fff;border-radius:18px;padding:1rem;box-shadow:0 10px 30px rgba(15,32,23,.06)}
+.zone-map{width:100%;height:auto;display:block}
+.map-canton{fill:#e3e9d6;stroke:#fff;stroke-width:2.5;transition:fill .3s}
+.map-canton.is-you{fill:#c7d7a4}
+.map-water{fill:#cfe3ee}
+.map-city circle{fill:var(--orange);stroke:#fff;stroke-width:3}
+.map-city text{font:600 21px var(--font-body),Inter,Arial,sans-serif;fill:var(--green-900);paint-order:stroke;stroke:#fff;stroke-width:5px;stroke-linejoin:round}
+.map-city.is-you circle{fill:var(--green-500)}
+.zone-list{display:grid;grid-template-columns:1fr 1fr;gap:.9rem 1.25rem}
+.zone-canton h3{margin:0 0 .2rem;font-size:1rem;display:flex;gap:.4rem;align-items:center;color:var(--green-900)}
+.zone-canton h3 svg{width:18px;height:18px;color:var(--orange);flex:none}
+.zone-canton p{margin:0;color:var(--muted);font-size:.88rem;line-height:1.55}
+.you-tag{display:none;margin-left:.4rem;font-size:.7rem;font-weight:600;color:#fff;background:var(--green-500);border-radius:999px;padding:.1rem .5rem}
+.zone-canton.is-you{background:#fff;border-radius:12px;padding:.75rem .9rem;box-shadow:0 8px 24px rgba(15,32,23,.08);grid-column:1/-1}
+.zone-canton.is-you .you-tag{display:inline-block}
+@media (max-width:900px){.zone-map-wrap{grid-template-columns:1fr;gap:1.5rem}.zone-list{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.zone-list{grid-template-columns:1fr}.map-city text{font-size:26px}}
