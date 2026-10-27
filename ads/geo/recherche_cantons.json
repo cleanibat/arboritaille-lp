@@ -1,0 +1,2304 @@
+{
+ "recherche:geneve": {
+  "canton": "Genève",
+  "districts": [
+   {
+    "nom": "Genève et couronne urbaine",
+    "localites": [
+     "Genève",
+     "Carouge",
+     "Lancy",
+     "Onex",
+     "Chêne-Bougeries",
+     "Chêne-Bourg",
+     "Thônex",
+     "Veyrier",
+     "Plan-les-Ouates"
+    ]
+   },
+   {
+    "nom": "Rive droite, de l'aéroport au lac",
+    "localites": [
+     "Vernier",
+     "Meyrin",
+     "Le Grand-Saconnex",
+     "Pregny-Chambésy",
+     "Bellevue",
+     "Genthod",
+     "Versoix",
+     "Collex-Bossy",
+     "Céligny"
+    ]
+   },
+   {
+    "nom": "Arve et Lac (rive gauche du lac et campagne de Jussy)",
+    "localites": [
+     "Cologny",
+     "Vandœuvres",
+     "Collonge-Bellerive",
+     "Corsier",
+     "Anières",
+     "Hermance",
+     "Meinier",
+     "Choulex",
+     "Puplinge",
+     "Jussy"
+    ]
+   },
+   {
+    "nom": "Champagne, Mandement et Arve-Rhône",
+    "localites": [
+     "Bernex",
+     "Confignon",
+     "Perly-Certoux",
+     "Satigny",
+     "Dardagny",
+     "Russin",
+     "Aire-la-Ville",
+     "Cartigny",
+     "Avully",
+     "Chancy"
+    ]
+   }
+  ],
+  "regles_arbres": {
+   "resume": "À Genève, hors forêt, aucun arbre ne peut être abattu ni élagué sans autorisation préalable du Département du territoire, instruite par l'OCAN (Direction arbres et renaturation urbaine) ; la commune n'est pas l'autorité compétente (sauf pour ses propres arbres). Seule exception : le propriétaire peut abattre lui-même un arbre de moins de 45 cm de circonférence mesurée à 1 m du sol, sauf arbres désignés par directive, protégés par un plan localisé de quartier ou plantés en compensation. L'autorisation d'abattage est en principe assortie de mesures compensatoires, est publiée dans la FAO (procédure d'environ 11 semaines, plus rapide en urgence) et reste valable deux ans.",
+   "base_legale": "Loi sur la protection des monuments, de la nature et des sites (LPMNS, RSG L 4 05, art. 35-36) ; Règlement sur la conservation de la végétation arborée (RCVA, RSG L 4 05.04, du 27 octobre 1999, état au 1er avril 2024) ; directives cantonales (conservation des arbres, plantations compensatoires, travaux de taille/élagage/abattage, travaux à proximité des arbres, chancre coloré du platane). Forêt : loi fédérale sur les forêts (LFo, RS 921.0) et loi genevoise sur les forêts (LFor, RSG M 5 10) avec son règlement M 5 10.01.",
+   "autorite": "Canton : Département du territoire, par l'Office cantonal de l'agriculture et de la nature (OCAN), Direction arbres et renaturation urbaine, rue des Battoirs 7, 1205 Genève ; permanence téléphonique 022 388 55 23 (lu-ve 8h30-12h). Demande par e-démarches « Arbres » (ou formulaire M03 par courrier/courriel), par le propriétaire ou son mandataire ; si l'abattage est lié à une construction, via e-démarches « Autorisations de construire ». En forêt : inspecteur cantonal des forêts (service forestier de l'OCAN).",
+   "seuils": "Exemption pour le propriétaire : arbres de moins de 45 cm de circonférence mesurée à 1 m du sol (soit environ 14 cm de diamètre) — art. 3 al. 2 RCVA. Pas de seuil en hauteur ni de mesure à 1,30 m dans le texte genevois. L'exemption ne vaut pas pour les arbres désignés par directive du département, la végétation à sauvegarder selon un plan localisé de quartier, les végétaux de compensation et les plantations financées par le fonds. Haies vives (massif d'au moins 10 m, majoritairement d'arbustes indigènes) et boqueteaux : autorisation requise. Pépinières et vergers basses tiges intensifs : dispensés (art. 2 al. 4 RCVA). Règle cantonale uniforme, pas de seuil communal.",
+   "elagage": "Oui : l'élagage (coupes importantes et exceptionnelles qui modifient la structure) d'un arbre ou d'une haie vive nécessite une autorisation de l'OCAN (procédure d'environ 2-3 semaines, émolument perçu selon art. 21 RCVA). La taille annuelle d'entretien, légère, sans modification de la structure, et la taille des haies et plantations de jardin ne sont pas soumises à autorisation (art. 12 al. 5 RCVA), sauf pour les espèces désignées « à risque » phytosanitaire (art. 3 al. 3 RCVA). Les travaux doivent respecter la directive cantonale sur les travaux de taille, d'élagage et d'abattage. Platanes : tout travail sur un platane ou à proximité doit être placé sous la responsabilité d'une personne ayant suivi la formation « chancre coloré » du canton (entreprises habilitées). Arbre mort ou danger imminent : autorisation immédiate possible (art. 11 RCVA).",
+   "foret": "Les arbres et lisières de forêt sont exclus du RCVA (art. 2 al. 2) et relèvent du droit forestier. Loi fédérale sur les forêts, art. 21 : « Tout abattage d'arbres en forêt est soumis à l'autorisation du service forestier. Les cantons peuvent prévoir des exceptions. » Loi genevoise sur les forêts (M 5 10) : les arbres à exploiter doivent être préalablement désignés par l'inspecteur cantonal des forêts ou son représentant (martelage, art. 37) et faire l'objet d'un permis de coupe (art. 38) ; coupes rases soumises à autorisation (art. 35) ; exploitation en principe pendant le repos de la végétation (art. 39). Les groupes ou alignements d'arbres isolés ne sont pas des forêts (art. 2 al. 3) ; le statut forestier d'une parcelle se vérifie auprès de l'inspecteur (art. 4). Constructions interdites à moins de 20 m de la lisière (art. 11), dérogations possibles ; feux interdits à moins de 10 m des lisières (art. 22).",
+   "sources": [
+    "https://www.ge.ch/abattage-elagage-arbre-defrichage-haie-vive",
+    "https://www.ge.ch/abattage-elagage-arbre-defrichage-haie-vive/elagage-arbre-haie-vive",
+    "https://www.ge.ch/abattage-elagage-arbre-defrichage-haie-vive/abattage-arbre-non-lie-construction",
+    "https://silgeneve.ch/legis/program/books/rsg/htm/rsg_l4_05p04.htm",
+    "https://www.lexfind.ch/tolv/170966/fr",
+    "https://silgeneve.ch/legis/program/books/rsg/htm/rsg_m5_10.htm",
+    "https://www.lexfind.ch/tolv/173629/fr",
+    "https://www.fedlex.admin.ch/eli/cc/1992/2521_2521_2521/fr",
+    "https://www.droit-bilingue.ch/en-fr/9/92/921.0-21-24.html",
+    "https://www.ge.ch/maladies-parasites-arbres-plantes"
+   ],
+   "confiance": "haute"
+  },
+  "paysage": [
+   "Allées et quais de platanes en ville et dans les communes, sous surveillance « chancre coloré » : toute intervention sur platane doit être conduite par une personne formée par le canton (ge.ch).",
+   "Grandes propriétés et villas de la rive gauche du lac (Cologny, Vandœuvres, Collonge-Bellerive) et de la rive droite (Pregny-Chambésy, Genthod, Versoix) avec cèdres de grande taille ; le canton compte plus de 3 800 cèdres selon la Ville de Genève (chiffre 2020-2021).",
+   "Genève « cité de parcs » : environ 40 000 arbres et 310 ha d'espaces verts en Ville, parcs du bord du lac (La Grange, Eaux-Vives, Mon Repos, Perle du Lac) avec arbres centenaires et accès souvent contraint.",
+   "Arbres d'alignement taillés en « tête de chat » (environ 1 400 en Ville de Genève) progressivement convertis en port semi-libre : taille de conversion et suivi réguliers.",
+   "Vignoble d'environ 1 400 ha (3e canton viticole suisse) dans le Mandement (Satigny, plus grande commune viticole de Suisse, Dardagny, Russin), en Champagne et entre Arve et Lac : haies, bosquets et arbres isolés en bordure de parcelles agricoles.",
+   "Forêts et chênaies (chêne pédonculé et chêne rouvre) de la campagne genevoise ; parcelles de villas en zone dense avec voisinage proche, lisières forestières (20 m) et pentes vers le lac ou les rivières (Arve, Rhône, Allondon, Versoix)."
+  ],
+  "arbres_typiques": [
+   "Platane (allées, quais, parcs ; chancre coloré sous surveillance)",
+   "Cèdre du Liban et cèdre de l'Atlas (propriétés, parcs ; cèdres de 1735 au parc Beaulieu)",
+   "Chêne pédonculé et chêne rouvre (chênaie genevoise)",
+   "Tilleul et marronnier (alignements urbains ; marronnier officiel de la Treille)",
+   "Frêne (chalarose signalée)",
+   "Peuplier (déracinements lors des coups de bise en ville)",
+   "Érable (suie de l'érable signalée) et pin (processionnaire, dépérissement des pousses)",
+   "Buis de jardin (pyrale du buis)",
+   "Séquoia et châtaignier dans les parcs (chancres de l'écorce)",
+   "Vigne (Mandement, Champagne, Arve et Lac)"
+  ],
+  "risques": [
+   "Bise (vent de nord-est canalisé entre Jura et Alpes, surtout décembre-mars) : lors d'un épisode de bise, les pompiers genevois sont intervenus 109 fois en un week-end et jusqu'à 249 fois en une journée, essentiellement pour des branches cassées et des arbres tombés (Radio Lac, épisode de février 2023).",
+   "Le Vent (sud-ouest) et tempêtes : tempête du 13 août 2020 à 79 km/h selon MétéoSuisse, une centaine d'arbres déracinés ou gravement endommagés rien qu'en Ville de Genève, surtout au bord du lac (parcs La Grange, Eaux-Vives, Mon Repos, Perle du Lac) ; orages violents avec plus de 240 interventions de pompiers et coupures de lignes par chutes d'arbres (Verbois).",
+   "Canicules et sécheresses : « rupture estivale de branches » documentée par la Ville de Genève, branches d'apparence saine qui cassent sans signe avant-coureur sous stress hydrique.",
+   "Chancre coloré du platane : organisme de quarantaine détecté à Genève (dernière détection 2023 selon Agroscope), directive cantonale 2017, formation obligatoire pour intervenir sur platane, incinération en cas de contamination.",
+   "Chalarose du frêne, pyrale du buis, mineuse du marronnier, capricorne asiatique : cités par le Service des espaces verts de la Ville de Genève parmi les menaces traitées ; fiches cantonales OCAN pour la pyrale, la mineuse, les processionnaires du chêne et du pin, la suie de l'érable, les chancres du châtaignier et du séquoia.",
+   "Neige lourde : aucun épisode documenté trouvé pour Genève ; foehn et joran : non documentés comme vents significatifs dans le canton (prudence)."
+  ],
+  "notes": "Découpage : le canton de Genève compte 45 communes sans districts ; les 4 zones proposées reprennent les regroupements usuels de l'OCSTAT (Ville de Genève, Rive droite, Arve et Lac, Arve et Rhône) et les régions usuelles Champagne et Mandement (Wikipédia). Bardonnex, Troinex, Soral, Avusy, Laconnex, Presinge et Gy ne sont pas listés mais appartiennent aux zones Champagne/Arve-Rhône ou Arve et Lac. Règles : textes officiels consultés (RCVA sur silgeneve.ch, pages ge.ch mises à jour au 29.10.2025, LFor M 5 10, art. 21 LFo via droit-bilingue.ch car fedlex ne s'est pas laissé lire par l'outil ; l'URL fedlex citée est la bonne référence). Le délai d'environ 11 semaines pour un abattage hors construction vient de ge.ch (page abattage non lié à construction) ; les montants d'émoluments existent (art. 21 RCVA) mais ne sont pas repris ici. Non trouvé ou non vérifié : liste officielle des entreprises habilitées chancre coloré (contacter nature.ocan@etat.ge.ch) ; essences précises des bois de Jussy et Versoix ; données sur les vergers haute-tige genevois ; part de la chalarose dans les forêts genevoises (seule la mention par la Ville de Genève est documentée) ; épisodes de neige lourde ; rose des vents chiffrée pour Genève-Cointrin (rapport MétéoSuisse LSGG non lu) ; le chiffre de 3 800 cèdres provient d'une annonce d'événement de la Ville (hiver 2020-2021), à prendre comme ordre de grandeur. Aucune mention de prix."
+ },
+ "juriste:geneve": {
+  "refute": true,
+  "corrections": [
+   "Autorité : la phrase « la commune n'est pas l'autorité compétente (sauf pour ses propres arbres) » est trompeuse. Les communes ne sont jamais l'autorité : elles doivent elles aussi déposer une requête auprès du département pour leurs propres arbres (elles sont seulement dispensées d'émolument, art. 21 al. 5 RCVA). Écrire : « l'autorisation est délivrée par le canton (Département du territoire / OCAN), jamais par la commune ».",
+   "Base légale LPMNS : l'art. 35 LPMNS est une simple définition générale (sites, paysages, espèces végétales) ; la base effective de l'abattage/élagage est l'art. 36 al. 2 let. a LPMNS. Citer « art. 36 LPMNS » plutôt que « art. 35-36 ».",
+   "Abréviation : la loi genevoise sur les forêts (M 5 10, du 20 mai 1999, dernières modifications au 23 mars 2024) s'abrège officiellement « LForêts », pas « LFor ».",
+   "Platanes : le RCVA (art. 12 al. 4) et ge.ch parlent d'« entreprises agréées » (recommandées par le département), pas d'« entreprises habilitées ». L'obligation vérifiée sur ge.ch est que tout travail sur ou à proximité d'un platane soit placé sous la responsabilité d'une personne ayant suivi la formation cantonale « chancre coloré » (directive du 1er juin 2017).",
+   "Validité : l'autorisation devient caduque si les travaux ne sont pas entrepris dans les deux ans suivant son entrée en force (art. 13 al. 1 RCVA), mais elle peut être prolongée d'un an sur demande déposée au moins un mois avant l'échéance (art. 13 al. 2-3). Ne pas écrire seulement « valable deux ans » sans la nuance.",
+   "Émolument élagage : le texte du RCVA art. 21 al. 1 prévoit 150 à 250 francs pour une requête d'élagage (150 à 1 000 pour abattage/défrichage), alors que la page ge.ch indique globalement « entre 150 et 1 000 CHF ». Ne pas publier de montant chiffré, ou se limiter à « émolument dû même si les travaux ne sont pas réalisés ».",
+   "Durées de procédure (11 semaines, 2-3 semaines) : ce sont des indications pratiques de ge.ch (page mise à jour le 29 octobre 2025), pas des délais légaux. Les présenter comme « environ, selon l'OCAN ». Pour l'abattage, ge.ch précise trois régimes : cas ordinaire ~11 semaines avec publication requête + décision dans la FAO (observations et recours 30 jours), arbres dangereux ~2-3 semaines (requête publiée, décision non sujette à recours), cas de peu d'importance ~2-3 semaines sans publication. L'élagage n'est jamais publié dans la FAO.",
+   "Source fedlex : le lien https://www.fedlex.admin.ch/eli/cc/1992/2521_2521_2521/fr n'est pas lisible sans JavaScript (page d'accueil seulement) ; le texte de l'art. 21 LFo a été vérifié via droit-bilingue.ch (non officiel). Garder le lien fedlex comme référence officielle mais ne pas le présenter comme vérifié mot pour mot.",
+   "« Pas de seuil communal » : affirmation cohérente avec la compétence cantonale exclusive (art. 3 RCVA) mais non vérifiable positivement ; formuler « règle cantonale, identique dans toutes les communes genevoises » sans en faire une affirmation juridique forte.",
+   "Points confirmés sans réserve : seuil de 45 cm de circonférence mesurée à 1 m de hauteur du tronc avec les 4 exceptions (art. 3 al. 2 RCVA, dernières modifications au 1er avril 2024) ; taille d'entretien régulière non soumise à requête sauf espèces « à risque » (art. 12 al. 5 et art. 3 al. 3) ; arbres dangereux/morts : autorisation immédiate possible (art. 11) ; compensation en principe obligatoire (art. 15) ; pépinières et vergers basses tiges dispensés (art. 2 al. 4) ; forêt exclue du RCVA (art. 2 al. 2) ; LFo art. 21 ; LForêts art. 2 al. 3, 4, 11 (20 m), 22 (10 m), 35, 37, 38, 39 ; coordonnées OCAN, Direction arbres et renaturation urbaine, rue des Battoirs 7, 1205 Genève, 022 388 55 23 lu-ve 8h30-12h ; e-démarches « Arbres » / formulaire M03."
+  ],
+  "formulation_sure": "À Genève, hors forêt, l'abattage ou l'élagage d'un arbre, d'une haie vive ou d'un boqueteau est soumis à une autorisation préalable délivrée par le canton (Département du territoire, via l'OCAN – Direction arbres et renaturation urbaine), jamais par la commune ; seul le propriétaire peut abattre sans autorisation un arbre de moins de 45 cm de circonférence mesurée à 1 m du sol, sauf exceptions (arbres désignés par directive, PLQ, plantations compensatoires), et la taille d'entretien régulière reste libre hors espèces « à risque » (art. 3 et 12 du Règlement sur la conservation de la végétation arborée, RCVA, L 4 05.04, fondé sur l'art. 36 LPMNS). L'autorisation d'abattage s'accompagne en principe de mesures compensatoires, doit être utilisée dans les deux ans (prolongation possible d'un an) et tout travail sur un platane doit être placé sous la responsabilité d'une personne formée au chancre coloré par le canton ; en forêt, tout abattage relève du service forestier (art. 21 LFo, RS 921.0) avec martelage et permis de coupe de l'inspecteur cantonal des forêts (art. 37-38 LForêts, M 5 10). Sources : https://www.ge.ch/abattage-elagage-arbre-defrichage-haie-vive ; https://silgeneve.ch/legis/program/books/rsg/htm/rsg_l4_05p04.htm ; https://silgeneve.ch/legis/program/books/rsg/htm/rsg_m5_10.htm ; https://www.fedlex.admin.ch/eli/cc/1992/2521_2521_2521/fr (art. 21)."
+ },
+ "recherche:vaud": {
+  "canton": "Vaud",
+  "districts": [
+   {
+    "nom": "Lausanne et Lavaux (districts de Lausanne, de l'Ouest lausannois et de Lavaux-Oron)",
+    "localites": [
+     "Lausanne",
+     "Pully",
+     "Renens",
+     "Prilly",
+     "Ecublens",
+     "Crissier",
+     "Epalinges",
+     "Le Mont-sur-Lausanne",
+     "Lutry",
+     "Cully (Bourg-en-Lavaux)",
+     "Chexbres",
+     "Oron"
+    ]
+   },
+   {
+    "nom": "La Côte (districts de Morges et de Nyon)",
+    "localites": [
+     "Morges",
+     "Nyon",
+     "Gland",
+     "Rolle",
+     "Aubonne",
+     "Saint-Prex",
+     "Préverenges",
+     "Cossonay",
+     "Prangins",
+     "Coppet"
+    ]
+   },
+   {
+    "nom": "Riviera et Chablais (districts de Riviera-Pays-d'Enhaut et d'Aigle)",
+    "localites": [
+     "Vevey",
+     "Montreux",
+     "La Tour-de-Peilz",
+     "Blonay - Saint-Légier",
+     "Corsier-sur-Vevey",
+     "Aigle",
+     "Bex",
+     "Ollon",
+     "Villeneuve",
+     "Leysin",
+     "Château-d'Œx"
+    ]
+   },
+   {
+    "nom": "Nord vaudois et Broye (districts du Jura-Nord vaudois, du Gros-de-Vaud et de la Broye-Vully)",
+    "localites": [
+     "Yverdon-les-Bains",
+     "Orbe",
+     "Grandson",
+     "Sainte-Croix",
+     "Vallorbe",
+     "Echallens",
+     "Payerne",
+     "Moudon",
+     "Avenches",
+     "Lucens"
+    ]
+   }
+  ],
+  "regles_arbres": {
+   "resume": "Hors forêt, l'abattage d'un arbre protégé (et tout élagage qui dépasse l'entretien courant) exige une autorisation écrite préalable de la Municipalité de la commune, délivrée sur la base du règlement communal de protection du patrimoine arboré et des art. 14-15 de la loi cantonale LPrPNP ; la demande est affichée au pilier public (ou publiée dans la FAO si elle est liée à un permis de construire ou à un arbre remarquable), et une plantation compensatoire « un pour un » est exigée. Pour un arbre inscrit à l'inventaire cantonal des arbres remarquables, la commune transmet la demande à la DGE, division Biodiversité et paysage (DGE-BIODIV), seule compétente. En cas de danger imminent et direct ou d'arbre mort, la Municipalité peut autoriser l'abattage sans mise à l'enquête.",
+   "base_legale": "Loi du 30 août 2022 sur la protection du patrimoine naturel et paysager (LPrPNP, BLV 450.11), en vigueur depuis le 1er janvier 2023 (art. 14 al. 2 : règlements communaux ; art. 15 : dérogations, révisé au 1er juillet 2024) ; Règlement d'application du 1er juillet 2024 (RLPrPNP, BLV 450.11.1), art. 15 à 21 et annexes 3 (interventions assimilées à l'entretien courant) et 4 (taxe compensatoire) ; règlement communal de protection du patrimoine arboré de chaque commune (règlement-type cantonal DGE, version du 1er juillet 2024). La LPrPNP remplace l'ancienne LPNMS de 1969 ; beaucoup de règlements communaux encore en vigueur y font référence et restent applicables sauf articles non conformes.",
+   "autorite": "La Municipalité (commune) pour le patrimoine arboré ordinaire, y compris sur domaine privé ; la DGE-BIODIV (Direction générale de l'environnement, division Biodiversité et paysage) pour les arbres remarquables inscrits à l'inventaire cantonal (demande déposée à la commune, qui la transmet ; émolument 150 fr. + frais de publication FAO, enquête de 30 jours). En forêt : service forestier cantonal (inspecteur forestier d'arrondissement, garde forestier de triage).",
+   "seuils": "Selon la commune. Règlement-type cantonal 2024 : arbres d'une circonférence supérieure à 40 cm mesurée à 1 m du sol (indigènes ou non, isolés, en allées, cordons boisés, bosquets, haies ou vergers), toutes les haies vives, bosquets de moins de 800 m2, cordons boisés de moins de 12 m de large, fruitiers haute-tige (tronc d'au moins 1,2 m pour les fruits à noyau, 1,6 m pour les autres), buissons de biodiversité en zone agricole, plantations compensatoires quelle que soit leur taille ; protection étendue au domaine vital racinaire. Règlements communaux antérieurs encore en vigueur : souvent 20 cm (règlement-type 2023), 30 cm (ex. Crans-près-Céligny, Chardonne avant révision) ou 40 cm (ex. Lavigny) de diamètre mesuré à 1,30 m du sol ; Lausanne adopte un nouveau règlement (préavis 2025/56) avec le seuil de 40 cm de circonférence. Non protégés : espèces exotiques envahissantes, vergers basse et mi-tige de production, pépinières, buissons d'ornement exotiques (thuya, laurier du Portugal), arbres en pot.",
+   "elagage": "La taille d'entretien courant (taille d'entretien, coupe de rejets et pousses spontanées, interventions sur arbres de moins de 40 cm de circonférence, recépage sélectif des haies) est listée à l'annexe 3 du RLPrPNP et ne demande aucune autorisation. Tout élagage « excédant l'entretien courant » (restructuration, réduction de couronne, adaptation de l'arbre, restructuration d'une haie) est soumis à la même autorisation municipale qu'un abattage. Un élagage ou un écimage « inconsidéré et non exécuté dans les règles de l'art » est assimilé à un abattage sans autorisation (amende art. 62 LPrPNP + plantation compensatoire). Sur un arbre remarquable inscrit à l'inventaire cantonal, toute intervention au-delà de l'entretien courant, y compris sur les racines, requiert l'autorisation préalable de la DGE-BIODIV.",
+   "foret": "Les règlements communaux réservent expressément la législation forestière. Loi fédérale sur les forêts du 4 octobre 1991 (LFo, RS 921.0), art. 2 (définition de la forêt, y compris pâturages boisés, peuplements de noyers et châtaigniers), art. 5 (interdiction de défricher) et art. 21 (abattre des arbres en forêt nécessite une autorisation du service forestier). Loi forestière vaudoise du 8 mai 2012 (LVLFo, BLV 921.01) : art. 53 martelage — les arbres de 16 cm de diamètre et plus à 1,30 m destinés à être exploités doivent être préalablement désignés par le service forestier en présence du propriétaire ; les chablis peuvent être désignés en tout temps ; art. 54 — dans les forêts privées, martelage et permis de coupe sont nécessaires pour l'exploitation des bois et des chablis. Interlocuteurs : inspecteur forestier d'arrondissement et garde forestier de triage. La nature forestière d'une lisière ou d'un bosquet (constatation) relève aussi du service forestier ; en cas de doute, demander avant d'intervenir.",
+   "sources": [
+    "https://www.vd.ch/environnement/biodiversite-et-paysage/patrimoine-arbore-1-1",
+    "https://prestations.vd.ch/pub/blv-publication/actes/consolide/450.11",
+    "https://prestations.vd.ch/pub/blv-publication/actes/consolide/450.11.1",
+    "https://vd.ch/fileadmin/user_upload/themes/environnement/biodiversite/fichiers_pdf/Patrimoine_arbor%C3%A9/R%C3%A8glement_type_sur_la_protection_du_patrimoine_arbor%C3%A9/RLPrPNP_ReglTypePatrimArb_v8_fin.docx",
+    "https://www.vd.ch/fileadmin/user_upload/themes/environnement/biodiversite/fichiers_pdf/Reglement_type_20230301.pdf",
+    "https://www.vd.ch/actualites/communiques-de-presse-de-letat-de-vaud/detail/communique/un-nouveau-reglement-pour-renforcer-la-protection-de-la-biodiversite",
+    "https://www.vd.ch/prestation/demander-une-autorisation-pour-un-abattage-ou-un-elagage-excedant-lentretien-courant-dun-arbre-remarquable-inscrit-a-linventaire-cantonal",
+    "https://vd.ch/fileadmin/user_upload/themes/territoire/communes/affaires_communales/Courrier_circulaire/LE_CSR_NNR_to_Communes_ModifLPrPNP_RLPrPNP_20240709.pdf",
+    "https://www.lexfind.ch/tolv/126467/fr",
+    "https://www.lexfind.ch/tolv/191440/fr",
+    "https://www.fedlex.admin.ch/eli/cc/1992/2521_2521_2521/fr",
+    "https://www.lexfind.ch/tolv/211284/fr",
+    "https://www.vd.ch/etat-droit-finances/communes/liste-des-communes-et-districts",
+    "https://www.chardonne.ch/wp-content/uploads/2025/09/Preavis_08_2025_2026_revision_reglement_patrimoine_arbore.pdf",
+    "https://latele.ch/articles/lausanne-un-nouveau-reglement-pour-augmenter-le-patrimoine-arbore"
+   ],
+   "confiance": "haute"
+  },
+  "paysage": [
+   "Villas et propriétés de l'arc lémanique (Lausanne, Pully, La Côte, Riviera) avec grands sujets d'ornement plantés aux XIXe-XXe siècles : Lausanne compte à elle seule environ 400 cèdres (183 communaux, environ 200 privés) et environ 90 000 arbres urbains dont 22 000 publics recensés, sur un territoire en forte pente vers le lac.",
+   "Vignobles en terrasses de Lavaux (patrimoine mondial UNESCO depuis 2007, 898 ha entre Lausanne et Vevey) et coteaux viticoles de La Côte : accès étroits, murs de pierre, parcelles en pente, arbres isolés et haies au milieu des vignes.",
+   "Quais, parcs et jardins d'hôtels de la Riviera (Vevey, Montreux, Clarens, La Tour-de-Peilz) au microclimat doux abrité de la bise : palmiers, pins parasols, cyprès, magnolias, figuiers et essences exotiques en milieu dense et touristique.",
+   "Allées, places et rues arborées des villes (platanes de la route du Pavement, tilleuls, marronniers) avec contraintes de voirie, de circulation et de proximité des bâtiments ; Lausanne vise +50 % de canopée d'ici 2040 et compense chaque arbre coupé.",
+   "Plateau du Gros-de-Vaud, Broye et Nord vaudois : campagne ondulée vers 550-600 m, vergers haute-tige (moins de 1 300 ha de vergers traditionnels dans le canton, désormais protégés partout depuis 2022), haies vives et cordons boisés en zone agricole, fermes et villages.",
+   "Pied du Jura (Nyon, Morges, Orbe, Sainte-Croix, Vallorbe) et Alpes vaudoises (Chablais, Pays-d'Enhaut, Leysin, Villars) : lisières forestières, chalets et résidences en zone de montagne, forêt vaudoise composée à 67 % de résineux (épicéa 47 %, sapin 18 %) et 33 % de feuillus (hêtre 20 %, chêne 4 %)."
+  ],
+  "arbres_typiques": [
+   "Cèdre de l'Atlas et cèdre du Liban (parcs, villas, campagnes de Lausanne et de la Riviera)",
+   "Platane (allées, quais, places)",
+   "Tilleul (allées, places de village, arbres remarquables comme le tilleul de Bon-Abri à Lausanne)",
+   "Chêne (chêne du Musée Olympique, chêne de Morrens ; 4 % de la forêt vaudoise)",
+   "Marronnier (quais et parcs)",
+   "Hêtre (20 % de la forêt vaudoise, Jorat, Jura)",
+   "Épicéa et sapin blanc (65 % de la forêt vaudoise, Jura et Alpes)",
+   "Frêne (très répandu, fortement touché par la chalarose)",
+   "Érable (feuillus divers, haies et lisières)",
+   "Arbres fruitiers haute-tige : pommier, poirier, cerisier, prunier, noyer, châtaignier (vergers du Plateau et de la Broye, protégés)",
+   "Noyer et châtaignier (peuplements assimilés à la forêt par la LFo)",
+   "Palmiers, pins parasols, cyprès, magnolias, figuiers (quais et jardins de la Riviera)",
+   "Vigne (Lavaux, La Côte, Chablais) comme contexte de travail, pas d'élagage mais contraintes d'accès",
+   "Haies vives indigènes et cordons boisés (protégés en totalité)"
+  ],
+  "risques": [
+   "Bise (nord-est) : vent le plus caractéristique du Léman, dominant dans la première moitié de l'année surtout au printemps, persistante plusieurs jours, de 3 à 9 Beaufort, renforcée par la canalisation Jura-Préalpes sur le Petit-Lac (La Côte) ; déviée nord-nord-ouest sur le Haut-Lac (source MétéoSuisse).",
+   "Le Vent (sud-ouest) : souffle en toute saison, précède les perturbations, fortes rafales au passage des fronts et des orages d'été, peut dépasser 100 km/h en hiver (MétéoSuisse).",
+   "Joran : vent de nord-ouest froid qui descend du Jura sur le lac, rafales soudaines lors des orages d'été ; foehn (vaudaire) du sud-est sur le Haut-Lac, Riviera et Chablais, surtout mars-avril et octobre-novembre, arrive brusquement ; épisode du 27-28 février 2010 : rafales de 103 à 160 km/h, arbres sur les routes à Ollon, Aigle, Bex, La Tour-de-Peilz.",
+   "Tempêtes : Lothar (1999) a ravagé les forêts suisses ; Joachim (décembre 2011) : 66 arbres tombés sur la chaussée dans le canton ; Benjamin (23 octobre 2025) : 145 km/h aux Diablerets, 98 interventions des pompiers vaudois principalement pour des arbres tombés, un arbre sur un bus à Givrins. Le canton recommande d'éviter les forêts pendant des semaines après une tempête.",
+   "Neige lourde et collante combinée à la bise : avis de danger de chutes d'arbres émis par le canton (février 2015, Chablais), routes fermées, branches cassées.",
+   "Chute de grands cèdres en milieu urbain : deux cèdres de l'Atlas presque bicentenaires déracinés à Lausanne (avenue de Cour, décembre 2023 ; Pré-du-Marché, août 2025), 108 cèdres recontrôlés par la Ville ; sécheresses et pluies intenses évoquées comme facteurs.",
+   "Chalarose (flétrissement du frêne) : observée dans le canton depuis 2010, touche désormais tout le territoire vaudois, aucun traitement efficace ; la DGE recommande une surveillance renforcée dès 25 % de perte foliaire près des infrastructures, l'abattage préventif si la couronne est sèche à plus de 70 % ou en cas de pourriture au pied, et de confier les abattages à du personnel qualifié car l'opération est risquée.",
+   "Bostryche typographe sur épicéa et sapin : pullulation après les sécheresses (près de 20 000 m3 de dégâts en 2019, remontée en flèche en 2024, Plan Bostryche Vaud lancé au printemps 2024), arbres secs sur pied au pied du Jura, dans le Chablais et le Nord vaudois.",
+   "Pyrale du buis : présente dans le canton (Epalinges signale des problèmes depuis 2014), fiche cantonale demandant de signaler les nouveaux foyers à info.faunenature@vd.ch ; pas de données cantonales chiffrées trouvées.",
+   "Capricorne asiatique : foyer à Divonne-les-Bains (France) en bordure du district de Nyon, quarantaine levée à Bogis-Bossey et Chavannes-de-Bogis ; toute découverte doit être annoncée à l'inspection cantonale des forêts (021 316 61 45) ; essences menacées : érables, peupliers, saules, marronniers, platanes.",
+   "Mineuse du marronnier : présente en Suisse depuis 1998 (WSL), mais aucune donnée spécifique au canton de Vaud trouvée ; chenilles processionnaires : page cantonale existante, pas de bilan chiffré trouvé."
+  ],
+  "notes": "Découpage : le canton compte officiellement 10 districts (LDecTer, BLV 132.15, texte intégral lu sur lexfind) ; les 4 zones proposées regroupent ces districts pour la lisibilité et toutes les localités citées sont des communes réelles figurant dans la loi. Règles : la base légale (LPrPNP 2022, RLPrPNP 2024) et la compétence communale/DGE-BIODIV sont confirmées par des pages officielles vd.ch et par le règlement-type cantonal du 1er juillet 2024 (fichier Word lu intégralement) ; en revanche je n'ai pas pu lire le texte consolidé des art. 14-15 LPrPNP ni l'annexe 3 du RLPrPNP (plateforme prestations.vd.ch en JavaScript), le contenu de l'annexe 3 vient de la page vd.ch « patrimoine arboré ». Les seuils varient réellement d'une commune à l'autre (anciens règlements 20/30/40 cm de diamètre à 1,30 m ; nouveau standard 40 cm de circonférence à 1 m) : la page ne doit pas afficher un seuil unique, mais renvoyer « selon la commune ». Le texte exact de l'art. 21 LFo n'a pas pu être extrait du PDF (extraction partielle) ; son contenu (autorisation du service forestier pour abattre en forêt) est confirmé indirectement par l'art. 53 LVLFo qui y renvoie. Lausanne : nouveau règlement communal (préavis 2025/56) en cours d'adoption fin 2025, entrée en vigueur non vérifiée. Paysage : les essences fréquentes en milieu urbain ne sont pas disponibles sous forme de statistiques par essence ; les éléments cités (400 cèdres à Lausanne, platanes du Pavement, tilleul de Bon-Abri, chêne du Musée Olympique, palmiers et essences exotiques de la Riviera, vergers traditionnels < 1 300 ha) viennent de sources communales, cantonales ou touristiques. Aucune statistique vaudoise trouvée sur le mélèze (absent des chiffres clés cantonaux). Risques : pas de données vaudoises trouvées pour la mineuse du marronnier ni de bilan chiffré pour la pyrale du buis ; les épisodes de neige lourde documentés sont anciens (2012, 2015). Aucun prix n'a été relevé."
+ },
+ "recherche:fribourg": {
+  "canton": "Fribourg",
+  "districts": [
+   {
+    "nom": "Fribourg et Sarine",
+    "localites": [
+     "Fribourg",
+     "Villars-sur-Glâne",
+     "Marly",
+     "Givisiez",
+     "Granges-Paccot",
+     "Belfaux",
+     "Corminbœuf",
+     "Matran",
+     "Avry",
+     "Le Mouret",
+     "Neyruz",
+     "Treyvaux"
+    ]
+   },
+   {
+    "nom": "Gruyère et Veveyse",
+    "localites": [
+     "Bulle",
+     "La Tour-de-Trême",
+     "Gruyères",
+     "Broc",
+     "Riaz",
+     "Vuadens",
+     "Charmey",
+     "La Roche",
+     "Châtel-Saint-Denis",
+     "Attalens",
+     "Semsales",
+     "Remaufens"
+    ]
+   },
+   {
+    "nom": "Glâne et Broye",
+    "localites": [
+     "Romont",
+     "Siviriez",
+     "Ursy",
+     "Villaz-Saint-Pierre",
+     "Estavayer-le-Lac",
+     "Domdidier",
+     "Cugy",
+     "Cheyres",
+     "Saint-Aubin",
+     "Montagny-la-Ville"
+    ]
+   },
+   {
+    "nom": "Lac et Singine",
+    "localites": [
+     "Morat",
+     "Courtepin",
+     "Kerzers (Chiètres)",
+     "Gurmels (Cormondes)",
+     "Mont-Vully",
+     "Düdingen (Guin)",
+     "Tafers (Tavel)",
+     "Schmitten",
+     "Wünnewil-Flamatt",
+     "Plaffeien (Planfayon)",
+     "Bösingen"
+    ]
+   }
+  ],
+  "regles_arbres": {
+   "resume": "Hors forêt, les « boisements hors-forêt » (haies, bosquets, cordons boisés, alignements d'arbres et grands arbres isolés) ne peuvent pas être supprimés lorsqu'ils sont situés hors zone à bâtir, adaptés aux conditions locales et d'intérêt écologique ou paysager (art. 22 LPNat) ; en zone à bâtir, c'est la commune qui définit la protection dans son plan d'aménagement local (PAZ + règlement communal d'urbanisme). Tout abattage d'un boisement protégé exige une dérogation délivrée par la commune (formulaire A avec permis de construire, formulaire B sans permis), sur préavis du Service des forêts et de la nature (SFN), avec compensation obligatoire (replantation sur place ou ailleurs, exceptionnellement somme d'argent). En forêt, tout abattage est soumis à l'autorisation du service forestier (art. 21 LFo ; art. 43 LFCN).",
+   "base_legale": "Cantonal : Loi du 12 septembre 2012 sur la protection de la nature et du paysage (LPNat, RSF 721.0.1), art. 20 (dérogations et mesures compensatoires) et art. 22 (boisements hors-forêt) ; Règlement du 27 mai 2014 sur la protection de la nature et du paysage (RPNat, RSF 721.0.11), art. 16 à 18 (étendue de la protection, dérogations) ; Loi du 2 mars 1999 sur les forêts et la protection contre les catastrophes naturelles (LFCN, RSF 921.1), art. 3 (définition de la forêt), 26 (distance de 20 m à la forêt), 43 (abattage des arbres en forêt), 77 (amendes) ; Règlement sur les forêts (RFCN, RSF 921.11). Fédéral : Loi fédérale du 4 octobre 1991 sur les forêts (LFo, RS 921.0), art. 21 « Exploitation du bois ». Communal : plan d'aménagement local (PAZ) et règlement communal d'urbanisme (RCU) de chaque commune pour la zone à bâtir.",
+   "autorite": "Boisements hors-forêt : la commune (conseil communal) délivre la dérogation d'abattage, sur préavis du Service des forêts et de la nature (SFN, Route du Mont Carmel 5, 1762 Givisiez, 026 305 23 43) ; la décision est publiée dans la Feuille officielle et devient exécutoire après le délai de recours de 30 jours (art. 22 al. 3 LPNat ; art. 18 RPNat). Si l'abattage est lié à un permis de construire, la demande est jointe au permis et tranchée par l'autorité qui délivre le permis (préfet ou commune). Forêt : le Service des forêts et de la nature, qui assure le martelage, ou l'unité de gestion / forestier de triage par délégation (art. 43 al. 3 LFCN).",
+   "seuils": "Aucun seuil de diamètre ou de hauteur dans la LPNat/RPNat : la protection dépend de la situation (hors zone à bâtir = protection légale directe pour tout arbre, haie, alignement, bosquet ou cordon boisé « adapté à la station et d'intérêt écologique ou paysager » ; en zone à bâtir et en zone alpestre = selon le PAZ et le RCU de la commune, certaines communes protégeant « tous les boisements hors-forêt sur l'ensemble du territoire communal »). Le SFN cite comme arbres d'intérêt écologique les chênes, tilleuls, érables, noyers, ormes et fruitiers haute-tige isolés, et comme intérêt paysager les arbres marquants, arbres de parcs et alignements. Le formulaire cantonal distingue haie basse (max. 3 m), haie haute (max. 7 m) et haie arborescente. Forêt : un boisement est forêt dès 800 m², 12 m de largeur et, pour les surfaces conquises, 20 ans d'âge, lisière de 2 m comprise (art. 3 LFCN) ; aucune construction à moins de 20 m de la forêt (art. 26 LFCN). Seuils de diamètre : selon la commune.",
+   "elagage": "L'interdiction de suppression ne concerne pas l'entretien périodique des boisements, qui reste à la charge des propriétaires (art. 22 al. 2 LPNat ; art. 17 al. 1 RPNat) : une taille ou un élagage d'entretien ne nécessite donc pas de dérogation cantonale. Attention : un « entretien inadapté » d'un boisement protégé (coupe rase d'une haie, taille sévère, dessouchage, feu, machines inadaptées) peut faire l'objet d'un rapport de constat du canton et d'une remise en état (art. 52 LPNat). Le SFN recommande de tailler les haies en repos de végétation (novembre à mars), par tronçons, et de ne tailler les arbres que si c'est indispensable et dans les règles de l'art. En zone à bâtir, vérifier le RCU communal, qui peut soumettre certaines tailles à autorisation.",
+   "foret": "Droit fédéral : « Tout abattage d'arbres en forêt est soumis à l'autorisation du service forestier. Les cantons peuvent prévoir des exceptions » (art. 21 LFo, RS 921.0). Fribourg : l'autorisation d'abattage est délivrée par le Service des forêts et de la nature, qui assure le martelage, ou par l'unité de gestion (triage forestier) par délégation ; les propriétaires privés sont dispensés d'autorisation pour leurs propres besoins ordinaires ; l'autorisation peut être refusée pour des motifs phytosanitaires, sylvicoles ou de protection contre les dangers naturels (art. 43 LFCN). Le simple abattage d'arbres n'est pas un défrichement (changement d'affectation, art. 17-20 LFCN), mais la lisière de 2 m fait partie de la forêt (art. 3 LFCN) et un jardin situé à moins de 20 m de la forêt relève de la distance légale (art. 26 LFCN). Amendes cantonales jusqu'à 20 000 CHF, 50 000 CHF dans les cas graves (art. 77 LFCN). Contact : forestier de triage ou ingénieur forestier d'arrondissement avant toute coupe en lisière.",
+   "sources": [
+    "https://www.fr.ch/energie-agriculture-et-environnement/faune-et-biodiversite/boisements-hors-foret",
+    "https://www.fr.ch/document/467501",
+    "https://www.fr.ch/document/328546",
+    "https://www.fr.ch/document/328556",
+    "https://www.fr.ch/document/329851",
+    "https://bdlf.fr.ch/app/fr/texts_of_law/721.0.1",
+    "https://bdlf.fr.ch/app/fr/texts_of_law/721.0.11",
+    "https://bdlf.fr.ch/app/fr/texts_of_law/921.1",
+    "https://bdlf.fr.ch/app/fr/texts_of_law/921.11",
+    "https://www.lexfind.ch/tolv/26729/fr",
+    "https://fr.lexwork.naz.ch/fr/dta/721.0.1.pdf",
+    "https://fr.lexwork.naz.ch/fr/dta/721.0.11.pdf",
+    "https://fr.lexwork.naz.ch/fr/dta/921.1.pdf",
+    "https://www.fedlex.admin.ch/eli/cc/1992/2521_2521_2521/fr",
+    "https://www.fr.ch/sff/energie-agriculture-et-environnement/forets/liste-des-principales-dispositions-legales",
+    "https://www.fr.ch/energie-agriculture-et-environnement/forets/defrichements-forestiers",
+    "https://www.fr.ch/diaf/sfn/les-prestations-du-service-des-forets-et-de-la-nature",
+    "https://fr.lexwork.naz.ch/fr/dta/112.51.pdf"
+   ],
+   "confiance": "haute"
+  },
+  "paysage": [
+   "Agglomération de Fribourg (Fribourg, Villars-sur-Glâne, Marly, Givisiez, Granges-Paccot) : quartiers de villas avec jardins arborés et vue sur les Préalpes, places et avenues plantées de platanes et de tilleuls en ville, parcs (Grand-Places), vieille ville en pente au-dessus de la Sarine avec arbres en falaise et terrains difficiles d'accès.",
+   "Gruyère et Préalpes (Bulle, Gruyères, Broc, Charmey, Jaun) : forêts de hêtraies à sapin et sapinières-pessières, épicéas dominants en altitude, chalets et fermes sur pentes, tilleuls historiques à Bulle, fortes contraintes de pente et de débardage (câble-grue utilisé en montagne).",
+   "Plateau agricole (Sarine, Glâne, Broye, Singine) : haies, cordons boisés, alignements et grands arbres isolés protégés hors zone à bâtir (chênes, tilleuls, érables, noyers, ormes), vergers de fruitiers haute-tige autour des fermes et villages.",
+   "Lac de Morat et Mont-Vully : coteaux viticoles (chasselas, pinot noir, freiburger), vergers sur le versant nord-ouest du Vully coiffés d'une bande de forêt, rives du lac et de la Broye avec végétation riveraine protégée par le droit fédéral.",
+   "Lisières et forêts périurbaines très fréquentées (Bois de Moncor, Bois Saint-Jean à Fribourg, forêts de la Sarine : épicéa env. 48 %, hêtre 32 %, sapin 15 % en volume) : arbres à sécuriser le long des chemins et routes, distance légale de 20 m à la forêt pour les constructions.",
+   "Le canton compte environ 20 à 30 millions d'arbres ; le SFN inventorie une vingtaine d'« arbres spectaculaires » publiés sur le portail cartographique cantonal."
+  ],
+  "arbres_typiques": [
+   "Épicéa (dominant en forêt, surtout Préalpes et altitude)",
+   "Hêtre",
+   "Sapin blanc",
+   "Frêne (largement touché par la chalarose)",
+   "Chêne",
+   "Tilleul (tilleuls historiques de Bulle, tilleul de Morat à Fribourg)",
+   "Érable",
+   "Noyer",
+   "Orme",
+   "Platane (alignements et places en ville de Fribourg)",
+   "Marronnier et érables urbains (cibles du capricorne asiatique)",
+   "Fruitiers haute-tige (vergers de ferme, Vully)",
+   "Vigne (Mont-Vully, lac de Morat)"
+  ],
+  "risques": [
+   "Tempêtes d'hiver : Lothar (décembre 1999) a mis à terre des milliers d'hectares de forêts fribourgeoises ; Petra et Ciara (février 2020) ont cassé ou renversé env. 10 000 gros arbres (20 000 m³, surtout épicéas et sapins blancs), avec plus de 50 interventions et un décès à Les Montets ; Mathis (mars 2023) a provoqué une trentaine d'interventions (chutes d'arbres) dans la Broye, le Lac et la Sarine.",
+   "Neige lourde : en février 2019, la police cantonale a signalé que les grandes quantités de neige augmentaient le risque de chutes d'arbres et de branches ; le SFN cite les fortes chutes de neige, la grêle et la foudre parmi les menaces abiotiques des forêts.",
+   "Vents : le vent d'ouest est le vent dominant et la bise (nord-est) balaie le Plateau et le bassin de Morat/Broye ; aucun document officiel propre au foehn dans les Préalpes fribourgeoises n'a été trouvé (à vérifier localement en Gruyère, Jaun, Charmey).",
+   "Chalarose (flétrissement du frêne, Hymenoscyphus fraxineus) : « largement répandue dans le canton de Fribourg » ; le SFN recommande de laisser les frênes malades sur pied sauf danger pour chemins, routes ou bâtiments (élagage puis abattage selon le niveau d'atteinte, arbres secs cassants = abattage à confier à des professionnels).",
+   "Capricorne asiatique (Anoplophora glabripennis) : organisme de quarantaine, nouveaux foyers à Marly (octobre 2024) et Pierrafortscha (février 2025) ; attaque érables et marronniers sains, déclaration obligatoire à invasive@fr.ch.",
+   "Bostryche typographe sur épicéa : pullulations après Lothar (1999) et canicule 2003, foyers à surveiller après chaque tempête ou sécheresse ; sécheresses et canicules récentes affaiblissent hêtres, épicéas et sapins blancs (plan d'action cantonal d'adaptation des forêts).",
+   "Pyrale du buis et mineuse du marronnier : présentes en Suisse depuis 2007 (pyrale) mais non documentées spécifiquement pour le canton de Fribourg dans les sources officielles consultées."
+  ],
+  "notes": "Découpage : les 7 districts officiels (ordonnance ONCD, RSF 112.51, état au 01.01.2026) ont été regroupés en 4 zones lisibles ; la liste des communes provient de l'ONCD et de Wikipédia (Sarine 25 communes dont Grolley-Ponthaux depuis 2025 ; Broye 17 dont Fétigny-Ménières depuis 2026). La Tour-de-Trême (commune de Bulle), Domdidier (Belmont-Broye), Villaz-Saint-Pierre (Villaz) et Montagny-la-Ville (Montagny) sont des localités, pas des communes. Règles : les textes LPNat, RPNat, LFCN et ONCD ont été lus dans leurs versions consolidées (PDF RSF, miroir lexwork.naz.ch, titres et dates vérifiés : LPNat du 12.09.2012 version 01.07.2015, RPNat du 27.05.2014 version 01.02.2022, LFCN du 02.03.1999 version 01.01.2023) ; les pages bdlf.fr.ch, lexfind et fedlex sont rendues en JavaScript et n'ont pas pu être lues directement, l'art. 21 LFo a été cité via droit-bilingue.ch (non officiel), à confirmer sur fedlex. Les règlements communaux (Ville de Fribourg, Bulle, etc.) sur les arbres en zone à bâtir et d'éventuels seuils de circonférence n'ont pas été trouvés : « selon la commune ». Non trouvé : statistiques cantonales complètes de répartition des essences (seuls les types forestiers des Préalpes et le plan de gestion des forêts de la Sarine sont chiffrés), documentation officielle du foehn ou de la bise spécifique au canton, présence documentée de la pyrale du buis et de la mineuse du marronnier dans le canton, épisodes de neige lourde avec dégâts chiffrés. Sources principales risques et paysage : fr.ch/protection-des-forets, fr.ch/degats-des-tempetes-de-fevrier-2020-en-foret, fr.ch/le-canton-de-fribourg-fortement-touche-par-la-tempete-ciara, fr.ch/plus-de-30-interventions-suite-aux-intemperies-dans-le-canton-de-fribourg, fr.ch/document/406851 (notice chalarose SFN mars 2020), fr.ch/document/504631 (plan d'action forêts et climat), fr.ch/arbres-spectaculaires-du-canton-de-fribourg, data.geo.admin.ch IFP 1209 Mont Vully, fribourg.ch (tilleuls de Bulle), ville-fribourg.ch (liste des arbres urbains), meteoswiss.admin.ch (bise, vent d'ouest). Aucun prix indiqué."
+ },
+ "praticien:geneve": {
+  "refute": true,
+  "corrections": [
+   "FAUX : « la commune n'est pas l'autorité compétente (sauf pour ses propres arbres) ». Les communes ne sont compétentes pour aucun arbre, pas même les leurs : la Ville de Genève confirme que « toute opération d'abattage (il en va de même pour l'élagage et la taille) sur le domaine public et privé de la Ville » doit faire l'objet d'une autorisation du canton (le SEVE transmet la requête à l'OCAN qui statue) — https://www.geneve.ch/themes/environnement-urbain-espaces-verts/ville-nature/arbres/gestion-arbres/gestion-abattages. Le RCVA ne dispense les collectivités que de l'émolument (art. 21 al. 4) et, pour l'élagage seulement, de la requête si elles disposent de personnel ayant suivi le cours annuel du département (art. 12A). Écrire : « la commune n'est jamais l'autorité compétente ; elle est elle-même requérante auprès de l'OCAN pour ses propres arbres ».",
+   "IMPRÉCIS : « Seule exception » (45 cm). Le RCVA prévoit d'autres dispenses : pépinières et vergers intensifs basses tiges (art. 2 al. 4), taille d'entretien régulière selon les directives (art. 12 al. 5, sauf espèces « à risque » art. 3 al. 3), et art. 12A pour les collectivités. Écrire « principale exception ».",
+   "LIBELLÉ EXACT du seuil : l'art. 3 al. 2 RCVA dit « des arbres de moins de 45 cm de circonférence, mesurés à 1 m de hauteur du tronc » (pas « du sol »). Même mesure en pratique, mais citer le texte. Les quatre cas où l'autorisation reste requise (directive, PLQ art. 8, végétaux de compensation art. 17, plantations financées par le fonds art. 18A) sont exacts.",
+   "IMPRÉCIS : « reste valable deux ans ». Art. 13 RCVA : l'autorisation est caduque si les travaux n'ont pas commencé dans les 2 ans dès son entrée en force ; prolongation d'un an possible sur demande déposée au moins un mois avant l'échéance (renouvelable une fois au plus) ; les autorisations liées à un permis de construire suivent le sort de celui-ci.",
+   "À COMPLÉTER (publication FAO) : seuls les cas ordinaires sont publiés en requête puis en décision (observations 30 jours, recours TAPI 30 jours). Les « cas de peu d'importance » (art. 10 RCVA) ne sont pas publiés et sont traités en 2-3 semaines ; les arbres dangereux (art. 11) sont publiés mais la décision n'est pas sujette à recours ; l'abattage doit alors être exécuté dans le délai fixé (généralement 30 jours) ; danger immédiat = SIS 118. Source : https://www.ge.ch/abattage-elagage-arbre-defrichage-haie-vive/abattage-arbre-non-lie-construction",
+   "ÉMOLUMENT élagage : si un montant est publié, utiliser le règlement (art. 21 al. 1 let. b RCVA : 150 à 250 fr. pour une requête d'élagage ; 150 à 1 000 fr. pour abattage ou défrichage ; dû même si les travaux ne sont pas exécutés). La page ge.ch « élagage » affiche 150-1 000 fr., ce qui est le barème abattage, pas celui du règlement.",
+   "LPMNS : les art. 35-36 sont la bonne base (art. 36 al. 2 let. a vise expressément « l'abattage, l'élagage ou la destruction de certaines essences d'arbres », haies, boqueteaux et buissons). Vérifié sur https://silgeneve.ch/legis/program/books/rsg/htm/rsg_l4_05.htm",
+   "VÉRIFIÉ EXACT, à conserver : OCAN – Direction arbres et renaturation urbaine, rue des Battoirs 7, 1205 Genève, permanence 022 388 55 23 lu-ve 8h30-12h ; e-démarches « Arbres » ou formulaire M03 (+ plan et photos M06) ; e-démarches « Autorisations de construire » si abattage lié à une construction ; ~11 semaines cas ordinaire ; compensation de principe (art. 15) ; platanes sous responsabilité d'une personne formée « chancre coloré » (directive OCAN 2017) ; haie vive = massif d'au moins 10 m majoritairement d'arbustes indigènes (FAQ OCAN https://www.ge.ch/node/37962) ; LFo art. 21 ; LForêts art. 2 al. 3 let. a (« les groupes ou alignements d'arbres isolés et les allées »), art. 4, 11 (20 m), 22 (10 m), 35, 37, 38, 39 — tous conformes au texte de https://silgeneve.ch/legis/program/books/rsg/htm/rsg_m5_10.htm"
+  ],
+  "formulation_sure": "À Genève, hors forêt, aucun arbre ne peut être abattu ou élagué, ni aucune haie vive ou boqueteau coupé ou défriché, sans autorisation préalable du Département du territoire, instruite par l'OCAN – Direction arbres et renaturation urbaine (rue des Battoirs 7, 1205 Genève, 022 388 55 23, e-démarches « Arbres » ou formulaire M03) ; la commune n'est jamais l'autorité compétente, elle dépose elle-même ses requêtes à l'OCAN pour ses propres arbres (art. 3 RCVA, L 4 05.04 ; ge.ch). Principale exception : le propriétaire peut abattre sans autorisation un arbre « de moins de 45 cm de circonférence, mesurés à 1 m de hauteur du tronc », sauf arbres désignés par directive, végétation protégée par un PLQ, végétaux de compensation ou plantations financées par le fonds (art. 3 al. 2 RCVA) ; la taille d'entretien régulière selon les directives est dispensée de requête (art. 12 al. 5), pas l'élagage qui modifie la structure (2-3 semaines, 150-250 fr., art. 21). L'autorisation d'abattage (cas ordinaire : env. 11 semaines, publication FAO, compensation de principe) devient caduque si les travaux n'ont pas commencé dans les 2 ans, prolongation d'un an possible (art. 13 RCVA) ; en forêt, tout abattage exige le martelage par l'inspecteur cantonal des forêts et un permis de coupe (art. 21 LFo ; art. 37-38 LForêts M 5 10). Sources : https://silgeneve.ch/legis/program/books/rsg/htm/rsg_l4_05p04.htm ; https://www.ge.ch/abattage-elagage-arbre-defrichage-haie-vive ; https://www.ge.ch/abattage-elagage-arbre-defrichage-haie-vive/abattage-arbre-non-lie-construction ; https://www.ge.ch/abattage-elagage-arbre-defrichage-haie-vive/elagage-arbre-haie-vive ; https://www.geneve.ch/themes/environnement-urbain-espaces-verts/ville-nature/arbres/gestion-arbres/gestion-abattages ; https://silgeneve.ch/legis/program/books/rsg/htm/rsg_m5_10.htm ; https://www.droit-bilingue.ch/en-fr/9/92/921.0-21-24.html"
+ },
+ "recherche:valais": {
+  "canton": "Valais (partie francophone : Bas-Valais et Valais central)",
+  "districts": [
+   {
+    "nom": "Chablais valaisan (districts de Monthey et de Saint-Maurice)",
+    "localites": [
+     "Monthey",
+     "Saint-Maurice",
+     "Collombey-Muraz",
+     "Vouvry",
+     "Vionnaz",
+     "Port-Valais (Le Bouveret)",
+     "Massongex",
+     "Troistorrents",
+     "Val-d'Illiez",
+     "Champéry"
+    ]
+   },
+   {
+    "nom": "Martigny et Entremont",
+    "localites": [
+     "Martigny",
+     "Fully",
+     "Saxon",
+     "Saillon",
+     "Leytron",
+     "Riddes",
+     "Charrat",
+     "Vernayaz",
+     "Orsières",
+     "Val de Bagnes (Le Châble, Verbier)"
+    ]
+   },
+   {
+    "nom": "Valais central (districts de Sion, Conthey et Hérens)",
+    "localites": [
+     "Sion",
+     "Conthey",
+     "Vétroz",
+     "Ardon",
+     "Chamoson",
+     "Savièse",
+     "Nendaz",
+     "Grimisuat",
+     "Ayent",
+     "Evolène"
+    ]
+   },
+   {
+    "nom": "Sierre et val d'Anniviers",
+    "localites": [
+     "Sierre",
+     "Chippis",
+     "Chalais",
+     "Grône",
+     "Saint-Léonard",
+     "Lens",
+     "Crans-Montana",
+     "Noble-Contrée (Veyras, Miège, Venthône)",
+     "Anniviers (Vissoie, Grimentz, Zinal)",
+     "Icogne"
+    ]
+   }
+  ],
+  "regles_arbres": {
+   "resume": "Hors forêt, le Valais n'a pas de régime cantonal uniforme d'autorisation d'abattage : la loi cantonale (LcPN, art. 17) confie aux communes la protection des bosquets, haies, arbres isolés et allées de valeur, via leur règlement communal des constructions et des zones (RCCZ) et leurs inventaires. Pour un arbre ou une haie protégés, la suppression en zone à bâtir exige une autorisation de la commune (qui consulte le service cantonal), et hors zone à bâtir une autorisation du service cantonal compétent (Service des forêts, de la nature et du paysage, SFNP) ; l'autorisation peut être assortie d'une compensation (OcPN art. 24). Pour un arbre non protégé, c'est le RCCZ de chaque commune qui dit s'il faut une demande : plusieurs communes exigent un formulaire d'abattage/élagage avant travaux (ex. Arbaz).",
+   "base_legale": "Cantonal : Loi sur la protection de la nature, du paysage et des sites (LcPN, RS/VS 451.1, du 13.11.1998, état 01.01.2018), art. 12 al. 3 (objets classés), 16 (végétation riveraine), 17 (bosquets, haies, arbres isolés, allées) ; Ordonnance sur la protection de la nature, du paysage et des sites (OcPN, RS/VS 451.100, du 20.09.2000), art. 23-24 et 34 (compensation) ; Loi sur les forêts (LcFo, RS/VS 921.1, du 14.09.2011, état 01.01.2023), art. 2, 23, 34, 53 ; Règlement concernant la fonction et les tâches du garde forestier (RS/VS 921.150, du 30.01.2013), art. 7-8. Fédéral : Loi fédérale sur les forêts (LFo, RS 921.0, du 4 octobre 1991), art. 2, 4-5, 17, 21.",
+   "autorite": "Hors forêt, en zone à bâtir : la commune (conseil municipal / service technique ou de l'édilité), qui consulte le SFNP pour les objets protégés. Hors forêt, hors zone à bâtir : le service cantonal compétent (SFNP, Etat du Valais, Sion) pour les objets protégés ; le département pour la végétation riveraine. En forêt : le garde forestier de triage (32 triages) et le service cantonal des forêts (arrondissements) ; les communes peuvent prendre des mesures d'urgence en cas de danger avec l'accord du service (LcFo art. 53).",
+   "seuils": "Aucun seuil cantonal de diamètre à 1,30 m ou de hauteur dans la LcPN/OcPN : la protection dépend de l'inventaire et du RCCZ de chaque commune (« selon la commune »). Zones : en zone à bâtir, autorisation communale ; hors zone à bâtir, autorisation cantonale (LcPN art. 17 al. 2-3). Arbres classés/inventoriés (allées, parcs, arbres d'importance cantonale ou communale) : toute modification nécessite l'avis du service cantonal (LcPN art. 12 al. 3). Forêt : surfaces couvertes d'arbres forestiers à même d'exercer des fonctions forestières, critères minimaux fixés par le Conseil d'Etat (OcFo : 800 m² et 12 m de largeur, lisière de 2 m comprise, d'après un résumé de recherche non vérifié sur le texte) ; les peuplements de noyers et de châtaigniers sont assimilés à la forêt (LFo art. 2 al. 2), alors que groupes d'arbres isolés, haies, allées, jardins et parcs ne le sont pas (art. 2 al. 3). Distance des constructions à la lisière : 10 m (LcFo art. 23).",
+   "elagage": "La LcPN ne vise que la « suppression » des objets protégés ; une taille d'entretien courante n'est pas soumise à autorisation cantonale. En pratique, plusieurs communes valaisannes demandent une « demande d'autorisation d'abattage ou d'élagage » à adresser à la commune avant travaux (ex. Arbaz) : vérifier le RCCZ communal. Pour un arbre classé/inventorié ou en végétation riveraine, un élagage lourd peut être assimilé à une atteinte et nécessiter l'avis ou l'autorisation du service cantonal (LcPN art. 12 al. 3 et 16).",
+   "foret": "Droit fédéral (LFo art. 21) : « Tout abattage d'arbres en forêt est soumis à l'autorisation du service forestier. » Droit valaisan (LcFo art. 34) : les coupes de bois et autres interventions sylvicoles en forêts publiques et privées sont soumises à une autorisation du service ; le garde forestier procède au martelage ; dans les forêts privées, le propriétaire peut, sans martelage mais avec un permis de coupe écrit du garde forestier, exploiter jusqu'à 10 m³ de bois par an (règlement 921.150 art. 7 let. g). Le garde forestier contrôle périodiquement les lisières dans et aux abords des zones à bâtir et annonce les arbres dangereux à la commune (921.150 art. 8 let. h). Le défrichement (changement d'affectation du sol forestier) est interdit sauf autorisation exceptionnelle du département (LcFo art. 14-15). La forêt couvre env. 120 000 ha du canton, à 86 % propriété des bourgeoisies ; chaque commune a un garde forestier et un ingénieur forestier de référence.",
+   "sources": [
+    "https://lex.vs.ch/app/fr/texts_of_law/451.1",
+    "https://lex.vs.ch/app/fr/texts_of_law/451.100",
+    "https://lex.vs.ch/app/fr/texts_of_law/921.1",
+    "https://www.lexfind.ch/tolv/100093/fr",
+    "https://www.vs.ch/fr/web/sfnp/bases-legales-nature-et-paysages",
+    "https://www.vs.ch/fr/web/sfnp/conservation-des-forets",
+    "https://www.vs.ch/fr/web/sfnp/gestion-des-forets",
+    "https://www.fedlex.admin.ch/eli/cc/1992/2521_2521_2521/fr",
+    "http://www.droit-bilingue.ch/fr-en/9/92/921.0-21-24.html",
+    "http://www.droit-bilingue.ch/fr-en/9/92/921.0-17-20.html",
+    "http://www.droit-bilingue.ch/fr-en/9/92/921.0-2-5.html",
+    "https://www.arbaz.ch/commune/marche-suivre-standard-pour-construction.html"
+   ],
+   "confiance": "haute"
+  },
+  "paysage": [
+   "Plaine du Rhône de Martigny à Sierre : vergers intensifs d'abricotiers (Saxon « capitale de l'abricot », plus de 700 ha, env. 95 % des abricots suisses), poiriers, pommiers et cognassiers, avec surveillance du feu bactérien ; arbres fruitiers haute-tige dans les jardins privés",
+   "Coteaux viticoles en terrasses (plus grand vignoble suisse, env. 4 500-4 850 ha, plus de 3 000 km de murs en pierres sèches, bisses) : arbres isolés, haies et bosquets dans les vignes, accès en forte pente, travaux souvent sans accès nacelle",
+   "Villas, quartiers résidentiels et parcs des villes de plaine (Sion, Sierre, Martigny, Monthey) et des stations (Crans-Montana, Verbier, Nendaz) : arbres d'ornement en voisinage dense, chalets entourés d'épicéas et de mélèzes, lisières de forêt à 10 m des constructions contrôlées par le garde forestier",
+   "Châtaigneraie de Fully (env. 17 ha, env. 1 000 arbres, fête de la châtaigne en octobre) et peuplements de châtaigniers et noyers : assimilés à la forêt au sens de la LFo, donc passage par le garde forestier",
+   "Pinèdes de pin sylvestre du Valais central (bois de Finges, région Sierre-Viège) en dépérissement, gui abondant, remplacement progressif par le chêne pubescent sur les coteaux steppiques secs",
+   "Climat le plus sec de Suisse : stress hydrique des arbres d'ornement et des conifères en été, bois mort fréquent dans les houppiers"
+  ],
+  "arbres_typiques": [
+   "Abricotier (Luizet)",
+   "Poirier",
+   "Pommier",
+   "Cognassier",
+   "Vigne",
+   "Châtaignier (Fully)",
+   "Noyer",
+   "Pin sylvestre",
+   "Chêne pubescent",
+   "Mélèze",
+   "Épicéa",
+   "Frêne"
+  ],
+  "risques": [
+   "Foehn : vent du sud fréquent, équivalent de 23 à 25 jours complets par an en Valais central selon MétéoSuisse ; rafales dépassant souvent 100 km/h lors d'épisodes dans le Chablais, avec dégâts aux toitures et aux arbres (blog MétéoSuisse, mars 2018)",
+   "Neige lourde : chutes du 17 avril 2025, env. 15 000 ha de forêt touchés, env. 140 000 m³ de bois (le volume exploité annuellement dans le canton), 22 des 32 triages concernés, surtout Haut-Valais et Valais central, épicéa principalement ; Bas-Valais en partie épargné",
+   "Bostryche (typographe) : hausses significatives des dégâts en Valais en 2025 à cause des arbres déracinés ; en août 2026 le service cantonal signale une explosion des attaques, le Valais central ayant dépassé dès juillet le volume d'interventions prévu pour l'année",
+   "Sécheresse et dépérissement : mortalité des pins sylvestres de fond de vallée 1 à 10 fois supérieure à celle du Plateau (WSL), aggravée par le gui ; chênes pubescents localement touchés lors d'épisodes extrêmes (Vétroz)",
+   "Chalarose du frêne : champignon présent en Suisse depuis 2008 et parvenu dans les vallées intra-alpines du Valais en quelques années (Waldwissen/WSL) ; aucun bilan cantonal valaisan chiffré trouvé",
+   "Feu bactérien (arbres fruitiers, cognassiers, aubépines, cotonéasters) : 67 ha infestés dans la plaine du Rhône en 2025 (plus de 100 ha en 2024), nouveau secteur de 38 ha entre Riddes et Martigny, 40 cognassiers touchés dans des jardins ; annonce obligatoire au Service phytosanitaire cantonal, canton en zone à faible prévalence depuis 2022",
+   "Flavescence dorée (vigne) : 15 communes réglementées en 2026 (Ardon, Chamoson, Collonges, Conthey, Fully, Leytron, Martigny, Port-Valais, Riddes, Saillon, Saxon, Sion, Vétroz, Vionnaz, Vouvry) ; contexte à connaître pour les interventions en zone viticole",
+   "Incendies de forêt : risque élevé en Valais sec (incendie de Loèche cité par le canton), surveillance via l'outil INCENDI et interdictions de feu par le service du feu",
+   "Bise : vent du nord-est canalisé jusque dans la haute vallée du Rhône (glossaire AMS), mais les tempêtes de bise frappent surtout le Plateau et le Léman et épargnent souvent le Valais"
+  ],
+  "notes": "Découpage : les 8 districts francophones (Monthey, Saint-Maurice, Martigny, Entremont, Conthey, Sion, Hérens, Sierre) ont été regroupés en 4 zones usuelles ; les comptes de communes par district proviennent de Wikipédia (Monthey 9, Saint-Maurice 9, Martigny 10, Entremont 5, Conthey 5, Sion 5, Hérens 6, Sierre 10), les listes de localités reposent sur la connaissance géographique courante (Charrat est fusionnée à Martigny depuis 2021, Salins/Les Agettes à Sion). Règles : les textes LcPN, OcPN, LcFo et 921.150 ont été lus intégralement sur lex.vs.ch/lexfind ; la LFo via droit-bilingue.ch (non officiel, Fedlex non lisible par l'outil). Les critères OcFo (800 m², 12 m) viennent d'un résumé de recherche et n'ont pas été vérifiés sur le texte de l'ordonnance. Aucun règlement communal de Sion, Sierre, Martigny ou Monthey n'a été trouvé en ligne ; seul l'exemple d'Arbaz (formulaire d'abattage/élagage à adresser à la commune) a été vérifié : sur la page, renvoyer vers « votre commune » plutôt que d'affirmer un seuil. Non trouvé pour le Valais : bilan cantonal de la chalarose, pyrale du buis (y compris Follatères), mineuse du marronnier, chancre coloré du platane, capricorne asiatique ; le joran est un vent du Jura/lac de Neuchâtel, sans pertinence ici. Le chiffre foehn (23-25 jours) provient d'un extrait de la page MétéoSuisse « Fréquence du fœhn », dont le contenu complet n'a pas pu être lu. Chiffres de vignoble divergents selon les sources (4 564 ha sur vs.ch, 4 850 ha ailleurs). Pas de prix indiqué. Rappel pour la rédaction : la demande initiale (relayée par l'orchestrateur) veut une LP qui paraisse locale ; ce découpage par zones et les localités réelles servent cet objectif. Sources complémentaires : https://www.vs.ch/web/communication/e/com-et-media/10108/40526668 (neige avril 2025), https://www.bluewin.ch/fr/infos/suisse/apres-les-tempetes-et-la-secheresse-les-forets-valaisannes-font-face-a-un-nouveau-fleau-li.3553823 (bostryche 2026), https://www.bluewin.ch/fr/infos/suisse/le-bostryche-a-caus-moins-de-d-g-ts-au-bois-l-an-dernier-en-suisse-li.3171504, https://www.vs.ch/fr/web/sfnp/degats-aux-forets, https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/foehn-frequency.html, https://www.meteosuisse.admin.ch/dam/jcr:78af50a4-f413-4185-8b98-7e5613e11235/le-foehn-et-contre-foehn-en-bas-valais-.pdf, https://www.waldwissen.net/fr/planification/evolution-du-paysage/les-chenes-pubescents-progressent, https://www.waldwissen.net/de/waldwirtschaft/schadensmanagement/pilze-und-nematoden/merkblatt-eschentriebsterben, https://www.vs.ch/fr/web/sca/feu-bacterien, https://www.vs.ch/fr/web/sca/flavescence-doree, https://latele.ch/articles/agriculture-le-valais-accentue-la-lutte-contre-les-nuisibles, https://www.vs.ch/fr/web/sca/vignoble-valaisan, https://www.vs.ch/en/web/sca/maintien-du-vignoble-en-terrasses, https://www.valais.ch/fr/savourer/specialites-du-valais/abricots, https://www.agirinfo.com/fileadmin/agir/Medias/Communique_de_presse/2020/06/30062020_CP_IFELV_95_pourcent_des_abricots_produits_en_Suisse_proviennent_du_Valais.pdf, https://www.valais.ch/fr/savourer/activites/experiences-autour-du-terroir/chataigne/chataigneraie-fully, https://fr.wikipedia.org/wiki/Districts_du_canton_du_Valais"
+ },
+ "rédaction:geneve": {
+  "meta_title": "Arboriste-grimpeur dans le canton de Genève | Arboritaille",
+  "meta_desc": "Taille, abattage, démontage et rognage de souche à Genève, Carouge, Meyrin, Versoix, Cologny. Devis et visite gratuits, réponse sous 48 h ouvrées.",
+  "eyebrow": "Arboriste-grimpeur · Canton de Genève",
+  "h1": "Arboriste-grimpeur dans le <em>canton de Genève</em>",
+  "lead": "Taille raisonnée, abattage, démontage, rognage de souche : Robin Humbert intervient sur les arbres de villas, de parcs et de parcelles agricoles genevoises, de la rive gauche du lac au Mandement.",
+  "points": [
+   "Devis gratuit, sans engagement",
+   "Réponse sous 48 h ouvrées",
+   "Visite sur place offerte dans tout le canton",
+   "Chantier rendu propre, branches évacuées"
+  ],
+  "trust": [
+   {
+    "icone": "SHIELD",
+    "titre": "Arboriste-grimpeur indépendant",
+    "sous": "Un seul interlocuteur, du devis au chantier"
+   },
+   {
+    "icone": "DOC",
+    "titre": "Autorisation cantonale",
+    "sous": "Conseil sur la requête auprès de l'OCAN"
+   },
+   {
+    "icone": "TREE",
+    "titre": "Platanes, cèdres, chênes",
+    "sous": "Taille adaptée à chaque essence"
+   }
+  ],
+  "tuiles_locales": [
+   {
+    "icone": "TREE",
+    "titre": "Cèdres des propriétés du bord du lac",
+    "texte": "À Cologny, Vandœuvres, Pregny-Chambésy ou Genthod, les grands cèdres des villas demandent une taille à la corde ou un démontage par rétention quand ils dominent la maison."
+   },
+   {
+    "icone": "WARN",
+    "titre": "Platanes et chancre coloré",
+    "texte": "Platanes d'allée, de quai ou de parc sous surveillance : tout travail sur platane doit être placé sous la responsabilité d'une personne formée au chancre coloré par le canton."
+   },
+   {
+    "icone": "CRANE",
+    "titre": "Après la bise ou un orage",
+    "texte": "Branche cassée ou peuplier déraciné après un coup de bise : démontage à la corde, par rétention ou avec une grue selon l'accès, puis évacuation du bois."
+   },
+   {
+    "icone": "LEAF",
+    "titre": "Frênes touchés par la chalarose",
+    "texte": "Frêne dépérissant en bordure de parcelle ou en lisière : diagnostic, élagage de sécurité du bois mort ou abattage, soumis à autorisation cantonale au-delà de 45 cm de circonférence."
+   }
+  ],
+  "zone": {
+   "h2": "Genève, rive droite, Arve et Lac, Mandement",
+   "lead": "De la couronne urbaine aux vignes du Mandement, de l'aéroport aux rives du lac : visite sur place dans toutes les communes genevoises.",
+   "colonnes": [
+    {
+     "titre": "Genève et couronne urbaine",
+     "localites": [
+      "Genève",
+      "Carouge",
+      "Lancy",
+      "Onex",
+      "Chêne-Bougeries",
+      "Chêne-Bourg",
+      "Thônex",
+      "Veyrier",
+      "Plan-les-Ouates"
+     ]
+    },
+    {
+     "titre": "Rive droite, de l'aéroport au lac",
+     "localites": [
+      "Vernier",
+      "Meyrin",
+      "Le Grand-Saconnex",
+      "Pregny-Chambésy",
+      "Bellevue",
+      "Genthod",
+      "Versoix",
+      "Collex-Bossy",
+      "Céligny"
+     ]
+    },
+    {
+     "titre": "Arve et Lac",
+     "localites": [
+      "Cologny",
+      "Vandœuvres",
+      "Collonge-Bellerive",
+      "Corsier",
+      "Anières",
+      "Hermance",
+      "Meinier",
+      "Choulex",
+      "Puplinge",
+      "Jussy"
+     ]
+    },
+    {
+     "titre": "Champagne, Mandement et Arve-Rhône",
+     "localites": [
+      "Bernex",
+      "Confignon",
+      "Perly-Certoux",
+      "Satigny",
+      "Dardagny",
+      "Russin",
+      "Aire-la-Ville",
+      "Cartigny",
+      "Avully",
+      "Chancy"
+     ]
+    }
+   ]
+  },
+  "faq": [
+   {
+    "q": "Faut-il une autorisation pour abattre un arbre dans le canton de Genève ?",
+    "a": "Hors forêt, oui : l'autorisation est délivrée par le canton (Département du territoire, via l'OCAN), et non par la commune. Principale exception : un arbre de moins de 45 cm de circonférence, mesurés à 1 m de hauteur du tronc, sauf cas particuliers. Nous préparons la requête avec vous."
+   },
+   {
+    "q": "Combien coûte une taille ou un abattage ?",
+    "a": "Le prix dépend de l'essence, de la hauteur, de l'accès et de l'évacuation du bois. La visite sur place et le devis sont gratuits et sans engagement."
+   },
+   {
+    "q": "Mon arbre est difficile d'accès, est-ce possible ?",
+    "a": "Oui. Selon la place disponible, l'arbre est travaillé en grimpe, démonté par rétention, ou avec une nacelle, une grue ou d'autres machines. La visite sur place permet de choisir la méthode."
+   },
+   {
+    "q": "Vous déplacez-vous dans ma commune ?",
+    "a": "Oui, la visite est offerte dans toutes les communes du canton, de Chancy à Hermance et de Céligny à Veyrier. Réponse sous 48 h ouvrées après votre demande."
+   },
+   {
+    "q": "Que deviennent les branches et le bois ?",
+    "a": "Le chantier est rendu propre. Les branches sont broyées ou évacuées ; le bois peut être débité en bûches et laissé sur place si vous le souhaitez. La souche peut être rognée."
+   }
+  ],
+  "cta": {
+   "h2": "Un arbre à tailler ou à abattre à Genève ?",
+   "lead": "Décrivez votre situation et votre localité : réponse sous 48 h ouvrées, visite et devis gratuits."
+  },
+  "ville_placeholder": "Genève, Carouge, Meyrin…",
+  "annonce": {
+   "titres": [
+    "Arboriste-grimpeur",
+    "Arboriste-grimpeur à Genève",
+    "Élagage canton de Genève",
+    "Abattage d'arbre à Genève",
+    "Devis gratuit, sans engagement",
+    "Réponse sous 48 h ouvrées",
+    "Grimpe, nacelle ou grue",
+    "Taille d'arbres à Carouge",
+    "Arboriste à Meyrin et Vernier",
+    "Rognage de souche à Genève",
+    "Abattage à Versoix et Cologny",
+    "Visite sur place offerte",
+    "Taille raisonnée et bois mort",
+    "Démontage d'arbre délicat",
+    "Chantier rendu propre"
+   ],
+   "descriptions": [
+    "Taille, abattage, démontage et rognage de souche dans le canton de Genève. Devis gratuit.",
+    "Visite sur place offerte à Genève, Carouge, Meyrin, Versoix ou Cologny. Réponse sous 48 h.",
+    "Arboriste-grimpeur indépendant : grimpe, nacelle ou grue selon l'accès. Chantier propre.",
+    "Conseil sur l'autorisation cantonale d'abattage (OCAN). Devis gratuit, sans engagement."
+   ],
+   "chemins": [
+    "arboriste",
+    "geneve"
+   ]
+  },
+  "liens_annexes": [
+   {
+    "texte": "Nos prestations",
+    "ancre": "#prestations",
+    "d1": "Taille, abattage, démontage",
+    "d2": "Rognage de souche et diagnostic"
+   },
+   {
+    "texte": "Communes desservies",
+    "ancre": "#zone",
+    "d1": "De Chancy à Hermance",
+    "d2": "Visite offerte dans le canton"
+   },
+   {
+    "texte": "Questions fréquentes",
+    "ancre": "#faq",
+    "d1": "Autorisation cantonale OCAN",
+    "d2": "Accès, délais, branches"
+   },
+   {
+    "texte": "Demander un devis",
+    "ancre": "#devis",
+    "d1": "Gratuit et sans engagement",
+    "d2": "Réponse sous 48 h ouvrées"
+   }
+  ]
+ },
+ "praticien:fribourg": {
+  "refute": true,
+  "corrections": [
+   "FORÊT – dispense « propres besoins ordinaires » incomplète et dangereuse telle quelle : l'art. 41 RFCN (RSF 921.11) la limite à 10 plantes au plus par propriétaire et par période d'exploitation, « pour autant que l'état de la forêt le permette », et le droit est partagé en cas de copropriété ; au-delà, l'autorisation est obligatoire. En forêt privée, la demande s'adresse au forestier ou à la forestière de triage, qui délivre l'autorisation et en fixe les conditions (art. 42 RFCN) ; la délégation à l'unité de gestion (art. 43 al. 3 LFCN, art. 43 RFCN) vise les forêts publiques. Citer RFCN art. 41-43 et recommander de passer par le forestier de triage même pour quelques arbres.",
+   "FORÊT – amendes mal attribuées : l'art. 77 LFCN (20 000 / 50 000 CHF) vise les infractions aux art. 26 et 58 al. 3 LFCN et aux dispositions d'exécution, et son al. 2 réserve les dispositions pénales fédérales lorsqu'elles s'appliquent. Pour un abattage en forêt sans autorisation, écrire « sanctions pénales fédérales (LFo) et cantonales (art. 77 LFCN) » plutôt que de présenter l'art. 77 LFCN comme la sanction de l'abattage.",
+   "BOISEMENTS HORS-FORÊT – sanction absente : la suppression d'un BHF protégé sans dérogation est passible d'une amende jusqu'à 20 000 CHF (art. 45 let. b RPNat, renvoyant à l'art. 24a let. b LPN), en plus de la remise en état ou de la compensation ordonnée par l'autorité (art. 52 LPNat). L'aide à l'exécution cantonale précise qu'un « abattage abusif » (dessouchage, feu, produits phytosanitaires) est dénoncé au Ministère public, qu'un abattage pour justes motifs sans procédure entraîne une plantation de compensation, et qu'un entretien non conforme vaut annonce à la commune et au forestier.",
+   "BOISEMENTS HORS-FORÊT – préavis : le texte de l'art. 18 al. 2 RPNat dit bien « sur le préavis du Service », mais depuis le 1er janvier 2018 la pratique cantonale (aide à l'exécution SFN et formulaire B) fait établir ce préavis par le forestier de triage (« la commune envoie ... au SFN (forestier) »). Le forestier de triage est la personne de référence pour les communes et les privés en matière de BHF : l'indiquer comme premier contact. La page peut mentionner que l'instance de recours contre la décision communale est le préfet (formulaire B).",
+   "SEUILS – la distinction haie basse (max. 3 m) / haie haute (max. 7 m) / haie arborescente figure dans le « rapport de constat » du SFN (ex-SNP), pas dans les formulaires de demande A et B. Ceux-ci demandent l'espèce et la circonférence de l'arbre mesurée à 1 m de hauteur (et longueur x largeur pour une haie) : parler de circonférence à 1 m, pas de diamètre.",
+   "ÉLAGAGE – préciser la frontière abattage/entretien telle que définie par le canton : si l'arbre ou la haie « ne peut plus retrouver sa forme d'origine » (étêtage ou coupe destructrice, dessouchage), le canton le qualifie d'abattage soumis à dérogation, même sans tronçonnage au pied ; seul l'entretien dans les règles de l'art est libre (art. 17 al. 1 RPNat ; aide à l'exécution SFN, ch. 6).",
+   "RÉSUMÉ – ajouter l'exception légale : l'interdiction de suppression de l'art. 22 al. 1 LPNat ne s'applique pas aux boisements situés en zone alpestre (région d'estivage) ; en zone à bâtir et en zone alpestre, la protection dépend du PAZ/RCU communal (art. 17 al. 2 RPNat). La protection hors zone à bâtir vise les « grands arbres isolés » adaptés aux conditions locales et d'intérêt écologique ou paysager, pas n'importe quel arbuste.",
+   "SOURCES – l'aide à l'exécution (document 467501) et le rapport de constat (329851) portent encore l'ancienne entête « Service de la nature et du paysage SNP, Rte de Bourguillon 3, 1700 Fribourg » : ne pas reprendre ces coordonnées. L'interlocuteur actuel est le Service des forêts et de la nature (SFN), Route du Mont Carmel 5, 1762 Givisiez, +41 26 305 23 43 (confirmé sur fr.ch/snp), et sur le terrain le forestier de triage.",
+   "VÉRIFIÉ EXACT : LPNat du 12.09.2012 (RSF 721.0.1) art. 20, 22, 52 ; RPNat du 27.05.2014 (RSF 721.0.11) art. 16-18 (publication Feuille officielle, exécutoire après délai de recours ; permis de construire : décision par l'autorité du permis, préavis communal liant le préfet en procédure ordinaire) ; LFCN du 02.03.1999 (RSF 921.1) art. 3 (800 m², 12 m, 20 ans, lisière 2 m), art. 26 (20 m), art. 43 ; LFo art. 21 ; formulaires A (avec permis) et B (sans permis) ; décision du conseil communal ; compensation sur place, ailleurs ou exceptionnellement financière versée à la commune ; taille des haies par tronçons de novembre à mars ; essences citées (chênes, tilleuls, érables, noyers, ormes, fruitiers haute-tige)."
+  ],
+  "formulation_sure": "Dans le canton de Fribourg, hors zone à bâtir, les haies, bosquets, cordons boisés, alignements et grands arbres isolés adaptés aux conditions locales et d'intérêt écologique ou paysager sont protégés par la loi (art. 22 LPNat ; sauf zone alpestre) ; en zone à bâtir, la protection dépend du plan d'aménagement local (PAZ et règlement communal d'urbanisme) de votre commune. Avant d'abattre un arbre ou une haie protégés, il faut obtenir une dérogation du conseil communal (formulaire B, ou formulaire A joint au permis de construire), préavisée par le forestier de triage pour le Service des forêts et de la nature, publiée dans la Feuille officielle et exécutoire seulement après le délai de recours de 30 jours, avec une plantation de compensation obligatoire ; l'entretien périodique dans les règles de l'art (taille par tronçons de novembre à mars) ne nécessite pas d'autorisation, mais une coupe qui ne permet plus au boisement de retrouver sa forme est traitée comme un abattage, passible d'une amende jusqu'à 20 000 CHF et d'une remise en état (art. 45 RPNat ; art. 52 LPNat). En forêt (dès 800 m², 12 m de largeur, lisière de 2 m comprise), tout abattage exige l'autorisation du service forestier (art. 21 LFo ; art. 43 LFCN), délivrée pour les forêts privées par le forestier de triage ; seule la coupe d'au maximum 10 arbres par propriétaire et par période d'exploitation pour ses propres besoins en est dispensée, si l'état de la forêt le permet (art. 41-42 RFCN). Sources : LPNat RSF 721.0.1 (bdlf.fr.ch/app/fr/texts_of_law/721.0.1) ; RPNat RSF 721.0.11 (bdlf.fr.ch/app/fr/texts_of_law/721.0.11) ; LFCN RSF 921.1 et RFCN RSF 921.11 (bdlf.fr.ch) ; LFo RS 921.0 art. 21 (fedlex.admin.ch/eli/cc/1992/2521_2521_2521/fr) ; page cantonale « Boisements hors-forêt » et formulaires A/B, aide à l'exécution pour les communes (www.fr.ch/energie-agriculture-et-environnement/faune-et-biodiversite/boisements-hors-foret ; www.fr.ch/document/328556 ; www.fr.ch/document/328546 ; www.fr.ch/document/467501) ; SFN, Route du Mont Carmel 5, 1762 Givisiez, +41 26 305 23 43 (www.fr.ch/snp)."
+ },
+ "juriste:valais": {
+  "refute": true,
+  "corrections": [
+   "FAUX – « 32 triages » : le site officiel du SFNP (vs.ch/fr/web/sfnp/triages-forestiers) indique « Le Valais compte actuellement 30 triages », répartis en 3 arrondissements (Haut-Valais, Valais central, Bas-Valais). Écrire 30 ou, plus prudent, « une trentaine ».",
+   "TROP LARGE – LcPN art. 12 al. 3 : le texte vise « les objets protégés par le canton » (et le voisinage immédiat des sites protégés). L'affirmation « arbres d'importance cantonale ou communale : toute modification nécessite l'avis du service cantonal » est inexacte pour les objets communaux, qui relèvent de l'art. 12 al. 4 (« Les communes règlent la protection des objets d'importance communale selon la législation sur l'aménagement du territoire »). Retirer « ou communale ».",
+   "OMISSION IMPORTANTE pour un arboriste – élagage en forêt : OcFo (RS/VS 921.100, état 01.08.2024) art. 24 al. 6 : « Sauf autorisation du garde forestier et du propriétaire, il est interdit d'élaguer des arbres, de les écimer, ou de porter atteinte de toute autre manière aux arbres forestiers. » La rubrique « elagage » ne parle que de la LcPN et du RCCZ ; elle doit mentionner cette règle forestière.",
+   "IMPRÉCIS – « via leur RCCZ et leurs inventaires » : ni la LcPN art. 17 al. 1 (« conformément au droit en vigueur ») ni l'OcPN art. 24 al. 1 (« eu égard à la législation en matière d'aménagement du territoire ») ne nomment le RCCZ ou un inventaire. C'est une interprétation plausible (ex. RCCZ de Leytron), à formuler comme « règlement communal (RCCZ) ou inventaire, selon la commune ».",
+   "IMPRÉCIS – « SFNP » comme autorité hors zone à bâtir : LcPN art. 17 al. 3 dit seulement « le service compétent en la matière ». Le SFNP est bien le service qui porte la LcPN sur vs.ch, mais la loi ne le nomme pas ; écrire « le service cantonal compétent (en pratique le SFNP) ».",
+   "IMPRÉCIS – « chaque commune a un garde forestier » : le garde forestier est l'employé du triage, des communes ou des bourgeoisies (LcFo art. 8), un triage couvrant souvent plusieurs communes ; le site SFNP renvoie à une carte pour « trouver le garde de ma commune ». Écrire « chaque commune dépend d'un triage et de son garde forestier ».",
+   "À CORRIGER (caveat obsolète) – seuils forêt : vérifié dans l'OcFo art. 2 al. 1 : « surface comprenant une lisière de 2 mètres : 800 mètres carrés ; largeur comprenant une lisière de 2 mètres : 12 mètres ; âge du peuplement sur une surface nouvellement conquise par la forêt : 20 ans ». Supprimer la mention « d'après un résumé non vérifié » et ajouter l'al. 3 : ces valeurs « ne sont pas décisives pour les peuplements qui exercent une fonction protectrice, sociale ou environnementale particulièrement importante ». L'ordonnance porte aujourd'hui le titre « Ordonnance sur les forêts (OcFo) », RS/VS 921.100, du 30.01.2013, état 01.08.2024.",
+   "NUANCE – OcPN art. 24 al. 3 : « L'élimination d'éléments protégés peut être octroyée à la condition que le requérant fournisse une compensation adéquate » : la compensation est une condition, pas une simple faculté (« peut être assortie »). OcPN art. 34 (modalités de compensation) confirmé.",
+   "NUANCE – LcFo art. 53 al. 2 : les communes peuvent agir « sans délai, avec l'accord du service » seulement « en cas de catastrophe, d'atteinte ou de mise en péril de la population ou de biens de valeur notable en raison d'événements exceptionnels », les autorisations pouvant être demandées a posteriori. Ne pas présenter cela comme une procédure ordinaire pour un arbre dangereux.",
+   "INVÉRIFIABLE DANS CE CONTRÔLE – LFo art. 21 : fedlex.admin.ch n'a pas pu être lu (page JavaScript). Le texte « Tout abattage d'arbres en forêt est soumis à l'autorisation du service forestier. Les cantons peuvent prévoir des exceptions. » est corroboré par droit-bilingue.ch et lawbrary.ch (non officiels). Le lien fedlex reste la bonne référence à citer.",
+   "CONFIRMÉ – LcPN (RS/VS 451.1, du 13.11.1998, état 01.01.2018) art. 16 (autorisation du département pour la végétation riveraine) et art. 17 al. 1-3 (commune en zone à bâtir, qui consulte le service ; service compétent hors zone à bâtir) ; OcPN (451.100, état 01.01.2018) art. 23-24, 34 ; LcFo (921.1, du 14.09.2011, état 01.01.2023) art. 2, 14-15 (défrichement : autorisation exceptionnelle du département), 23 (10 m à la lisière, dérogations avec assentiment écrit du service), 34 (autorisation du service ; martelage par le garde ; 10 m³/an en forêt privée avec permis écrit du garde) ; règlement 921.150 art. 7 let. f-g et art. 8 let. h ; LFo art. 2 al. 2-3 ; page Arbaz (« Pour toute autre demande d'abattage ou d'élagage, le formulaire ci-après est à adresser à la Commune avant travaux ») ; 120 000 ha et 86 % bourgeoisies (vs.ch/fr/web/sfnp/gestion-des-forets). Aucun seuil cantonal de diamètre/hauteur dans la LcPN/OcPN : confirmé (aucune occurrence d'« élagage » ou « taille » d'arbre dans ces deux textes).",
+   "CONFIANCE : passer de « haute » à « moyenne » tant que les points ci-dessus ne sont pas corrigés ; la réponse finale dépend de toute façon du règlement de chaque commune."
+  ],
+  "formulation_sure": "En Valais, hors forêt, la protection des arbres isolés, haies, bosquets et allées relève de chaque commune (art. 17 LcPN, RS/VS 451.1) : avant d'abattre ou d'élaguer fortement un arbre, renseignez-vous auprès de votre commune, car plusieurs exigent une demande préalable (p. ex. Arbaz), et la suppression d'un objet protégé nécessite une autorisation de la commune en zone à bâtir ou du service cantonal hors zone à bâtir, en principe avec compensation (art. 24 OcPN, RS/VS 451.100). En forêt, tout abattage est soumis à l'autorisation du service forestier (art. 21 LFo, RS 921.0 ; art. 34 LcFo, RS/VS 921.1), le garde forestier pouvant délivrer un permis de coupe écrit jusqu'à 10 m³ par an en forêt privée, et il est interdit d'élaguer ou d'écimer des arbres forestiers sans l'accord du garde forestier et du propriétaire (art. 24 al. 6 OcFo, RS/VS 921.100). Ces informations sont données à titre indicatif : seuls les textes officiels (lex.vs.ch, fedlex.admin.ch) et votre commune font foi ; nous vous accompagnons dans les démarches. Sources : https://lex.vs.ch/app/fr/texts_of_law/451.1 ; https://lex.vs.ch/app/fr/texts_of_law/451.100 ; https://lex.vs.ch/app/fr/texts_of_law/921.1 ; https://lex.vs.ch/app/fr/texts_of_law/921.100 ; https://lex.vs.ch/app/fr/texts_of_law/921.150 ; https://www.fedlex.admin.ch/eli/cc/1992/2521_2521_2521/fr ; https://www.vs.ch/fr/web/sfnp/triages-forestiers ; https://www.vs.ch/fr/web/sfnp/gestion-des-forets ; https://www.arbaz.ch/commune/marche-suivre-standard-pour-construction.html"
+ },
+ "juriste:vaud": {
+  "refute": true,
+  "corrections": [
+   "DATE DU RLPrPNP : le règlement d'application (BLV 450.11.1) est daté du 29 mai 2024 et entré en vigueur le 1er juillet 2024 (en-tête officiel lexfind.ch/tolv/241484 : « du 29 mai 2024 », « Entrée en vigueur dès le 01.07.2024 »). Écrire « RLPrPNP du 29 mai 2024, en vigueur depuis le 1er juillet 2024 », pas « règlement d'application du 1er juillet 2024 ». Le reste de la base légale est confirmé : LPrPNP du 30 août 2022 en vigueur le 1er janvier 2023 ; art. 14 al. 2 (règlement communal obligatoire), art. 15 (dérogations, révisé au 1er juillet 2024), art. 16 (compensation), art. 62 (amende) ; RLPrPNP art. 15 à 21 et annexe 3 ; règlement-type DGE « Version 1er juillet 2024 » confirmé par le fichier .docx officiel.",
+   "SEUILS « SELON LA COMMUNE » : affirmation obsolète/trompeuse. Depuis le 1er juillet 2024, le droit cantonal protège directement tous les arbres d'une circonférence d'au moins 40 cm mesurée à 1 m du sol, « qu'ils figurent ou non dans un plan de classement » (circulaire DGE-BIODIV aux communes du 9 juillet 2024, p. 2 ; annexe 3 RLPrPNP : seule la coupe d'arbres « d'une circonférence mesurée à 1 m du sol inférieure à 40 cm » est libre). Les anciens règlements communaux à 20 cm (règlement-type mars 2023, vérifié), 30 cm (Crans-près-Céligny, vérifié) ou 40 cm (Lavigny, vérifié) de DIAMÈTRE à 1,30 m restent formellement en vigueur mais ne peuvent pas abaisser la protection cantonale (ils « restent valables tant qu'ils ne sont pas contraires au droit cantonal »). 40 cm de circonférence ≈ 13 cm de diamètre : le seuil réel est donc bien plus bas que les 20-40 cm de diamètre des anciens règlements. Ne pas publier de liste de seuils communaux ; dire que le seuil cantonal de 40 cm de circonférence s'applique partout et que la commune peut être plus stricte.",
+   "NUANCE 40 cm : le règlement-type 2024 (art. 4) dit « circonférence supérieure à 40 cm », la circulaire DGE dit « supérieure ou égale à 40 cm », l'annexe 3 exempte « inférieure à 40 cm ». Écrire « dès 40 cm de circonférence » ou « à partir de 40 cm », sans trancher.",
+   "ÉLAGAGE / « TAILLE D'ENTRETIEN » : formulation trop large. Pour les arbres, l'annexe 3 RLPrPNP n'exempte que : la taille de formation ou taille en vert ; la taille destinée à protéger les biens ou les personnes « à condition qu'elle n'affecte pas la morphologie des végétaux et que les branches coupées aient une circonférence inférieure à 25 cm » ; la coupe de rejets, pousses spontanées et arbres de moins de 40 cm de circonférence. La « taille d'entretien (max. 1 fois par an) » ne vise que les haies vives. Toute réduction de couronne, taille sévère ou coupe de branches ≥ 25 cm de circonférence est donc soumise à autorisation. Ajouter la période d'entretien : art. 18 al. 1 RLPrPNP, travaux d'entretien du 1er septembre au 15 mars, sauf urgences sanitaires/sécuritaires et taille en vert (les communes peuvent être plus strictes).",
+   "« DGE-BIODIV seule compétente » pour les arbres remarquables : trop absolu. Art. 15 al. 2 et art. 23 al. 2 LPrPNP : le service (DGE) peut déléguer la compétence à la commune si elle dispose d'un service spécialisé (règlement-type art. 5 al. 6 « sous réserve de délégations en sa faveur », ex. grandes villes). Écrire « en principe la DGE-BIODIV ». L'émolument de 150 fr. (art. 47 RLPrPNP), les frais de publication FAO et l'enquête de 30 jours sont confirmés par la page prestation vd.ch.",
+   "COMPENSATION « un pour un exigée » : exact en principe (art. 16 LPrPNP, art. 21 al. 2 RLPrPNP, règlement-type art. 9), mais l'art. 21 al. 3 RLPrPNP permet aux communes d'y déroger dans les zones à bâtir et l'espace bâti (mesures alternatives : étang, prairie fleurie, désimperméabilisation, etc., règlement-type art. 10) ; taxe compensatoire si la compensation en nature est impossible pour des motifs de construction. Écrire « en principe une plantation compensatoire un pour un ».",
+   "PROCÉDURE confirmée mais à préciser : FAO uniquement pour un arbre remarquable ou une demande coordonnée avec un permis de construire ; sinon affichage au pilier public (et site internet communal) pendant 30 jours (règlement-type art. 7 al. 3 et annexe 2 ; circulaire DGE 9 juillet 2024). Les anciens règlements (type 2023) prévoyaient 20 jours au pilier : ne pas citer de durée sans réserve. Danger sécuritaire imminent : abattage immédiat possible sans enquête, mais la Municipalité doit l'autoriser et la plantation compensatoire reste due (règlement-type art. 8). Attention : l'exemption « arbre mort ou sec » figure sur la page vd.ch mais pas dans le règlement-type ; la mentionner avec prudence.",
+   "ÉCIMAGE / ÉLAGAGE INCONSIDÉRÉ assimilé à un abattage sans autorisation : confirmé (règlement-type 2024 art. 12 ; règlement-type 2023 art. 3 al. 3 ; art. 15 al. 4 RLPrPNP pour les atteintes au système racinaire et à l'espace vital de l'arbre, « au minimum l'ampleur de la couronne »). Sanction : amende art. 62 LPrPNP (montant non chiffré dans la loi ; poursuite selon LContr).",
+   "LAUSANNE « adopte un nouveau règlement (préavis 2025/56) » : le préavis 2025/56 (daté 31 octobre 2025) a été adopté avec modification par le Conseil communal le 8 septembre 2026 (fiche PREA25/037), mais l'approbation cantonale et l'entrée en vigueur ne sont pas confirmées. Écrire « adopté par le Conseil communal en septembre 2026, entrée en vigueur à confirmer » ou ne pas le citer. Chardonne « 30 cm avant révision » : le préavis est un PDF scanné, invérifiable ; supprimer.",
+   "FORÊT : confirmé. LFo art. 2 (assimilés à la forêt : forêts pâturées, pâturages boisés, peuplements de noyers et de châtaigniers ; exclus : groupes d'arbres isolés, haies, allées, jardins, parcs), art. 5 al. 1 « Les défrichements sont interdits », art. 21 « Tout abattage d'arbres en forêt est soumis à l'autorisation du service forestier ». LVLFo art. 53 al. 1 : martelage obligatoire des arbres de 16 cm de diamètre et plus à 1,30 m ; al. 4 chablis désignables en tout temps ; art. 54 al. 1 : en forêt privée, martelage et permis de coupe nécessaires pour l'exploitation des bois et des chablis (version lexfind 2020, toujours citée par l'annexe 3 RLPrPNP 2024). Le règlement-type reprend la réserve de la législation forestière (art. 3 al. 1 : patrimoine arboré = éléments « non soumis à la législation forestière »).",
+   "SOURCES : le lien lexfind.ch/tolv/211284 renvoie à la loi sur le découpage territorial (LDecTer 132.15), pas à un texte sur les arbres — le supprimer. lexfind.ch/tolv/126467 = LVLFo 921.01 (version 2020) et lexfind.ch/tolv/191440 = RLVLFo 921.01.1 : à étiqueter correctement. Ajouter les liens manquants : LPrPNP lexfind.ch/tolv/224631/fr (version 01.01.2023, antérieure à la révision de l'art. 15) et RLPrPNP lexfind.ch/tolv/241484/fr (version 01.07.2024). Les liens prestations.vd.ch nécessitent JavaScript mais sont corrects pour un lecteur humain. L'annexe 3 est aussi publiée seule : vd.ch/.../web_patrim_arb_interv_sans_autor.pdf (juin 2024)."
+  ],
+  "formulation_sure": "Dans le canton de Vaud, hors forêt, l'abattage d'un arbre protégé — en principe tout arbre d'au moins 40 cm de circonférence mesurée à 1 m du sol, ainsi que les haies vives, cordons boisés et fruitiers haute tige — et tout élagage dépassant l'entretien courant (taille de formation, taille en vert, coupe de branches de moins de 25 cm de circonférence pour protéger biens et personnes) nécessitent une autorisation écrite préalable de la Municipalité, délivrée selon le règlement communal et les art. 14-16 LPrPNP / art. 15-21 et annexe 3 RLPrPNP, avec en principe une plantation compensatoire ; les arbres inscrits à l'inventaire cantonal des arbres remarquables relèvent de la DGE (division Biodiversité et paysage), via la commune. En forêt, tout abattage est soumis à l'autorisation du service forestier (art. 21 LFo ; martelage dès 16 cm de diamètre et permis de coupe, art. 53-54 LVLFo). Les seuils et la procédure (pilier public 30 jours ou publication FAO) pouvant varier selon la commune et l'urgence, nous vérifions la situation de chaque arbre avec la commune avant d'intervenir. Sources : LPrPNP (BLV 450.11, lexfind.ch/tolv/224631), RLPrPNP du 29 mai 2024 en vigueur le 1er juillet 2024 (BLV 450.11.1, lexfind.ch/tolv/241484), page « Patrimoine arboré » et règlement-type DGE version 1er juillet 2024 sur vd.ch, circulaire DGE-BIODIV aux communes du 9 juillet 2024, LFo RS 921.0 (fedlex.admin.ch), LVLFo BLV 921.01 (lexfind.ch/tolv/126467)."
+ },
+ "juriste:fribourg": {
+  "refute": true,
+  "corrections": [
+   "Base légale, dates et numéros RSF : CONFIRMÉS sur les PDF officiels du BDLF (LPNat 721.0.1 du 12.09.2012, état 01.10.2023 ; RPNat 721.0.11 du 27.05.2014, état 01.02.2022 ; LFCN 921.1 du 02.03.1999, état 01.01.2023 ; RFCN 921.11 du 11.12.2001, état 01.01.2025). Le texte de l'art. 22 LPNat (y c. exclusion de la zone alpestre), de l'art. 20 LPNat, des art. 16-18 RPNat, des art. 3, 26, 43 LFCN et de l'art. 21 LFo est exact. L'autorité (commune, préavis du Service ; permis de construire = autorité qui délivre le permis, préavis communal liant le préfet en procédure ordinaire ; publication Feuille officielle, exécutoire après délai de recours) est exacte (art. 18 RPNat). Adresse et téléphone du SFN confirmés sur fr.ch/diaf/sfn.",
+   "FAUX / mal attribué : « Le formulaire cantonal distingue haie basse (max. 3 m), haie haute (max. 7 m) et haie arborescente ». Ces catégories figurent uniquement dans le « Rapport de constat – Abattage ou entretien inadapté d'un BHF » (document 329851, en-tête Service de la nature et du paysage, 2016), un formulaire interne de constat d'infraction, pas dans les formulaires de demande de dérogation A (document 328546) et B (document 328556), qui ne distinguent que Arbre / Alignement d'arbres / Haie et demandent la circonférence à 1 m. Supprimer cette phrase, ou l'attribuer correctement et la retirer de la rubrique « seuils » (ce ne sont pas des seuils de protection).",
+   "FAUX (base légale des amendes en forêt) : les amendes de 20 000 / 50 000 CHF de l'art. 77 LFCN visent les infractions aux art. 26 et 58 al. 3 LFCN et à l'art. 32 RFCN (art. 68 RFCN), pas l'abattage sans autorisation en forêt. Celui-ci est une contravention de DROIT FÉDÉRAL : art. 43 al. 1 let. e LFo (« abat des arbres en forêt » sans autorisation), amende de 20 000 francs au plus ; l'art. 77 al. 2 LFCN précise d'ailleurs que les dispositions pénales fédérales priment. Pour les boisements hors-forêt, la sanction omise est l'art. 45 RPNat : amende jusqu'à 20 000 francs (art. 24a let. b LPN) pour violation de l'interdiction de l'art. 22 al. 1 LPNat.",
+   "TROP IMPRÉCIS / INCOMPLET : « les propriétaires privés sont dispensés d'autorisation pour leurs propres besoins ordinaires ». L'art. 41 RFCN limite cette dispense à 10 plantes au plus par propriétaire et par période d'exploitation, si l'état de la forêt le permet. Publier la dispense sans ce plafond est trompeur. Par ailleurs, en forêt privée, c'est le forestier ou la forestière de triage qui reçoit la demande et délivre l'autorisation (art. 42 RFCN), pas « le SFN ou l'unité de gestion par délégation » (formule qui décrit l'art. 43 al. 3 LFCN de manière générique).",
+   "SURINTERPRÉTATION : « un jardin situé à moins de 20 m de la forêt relève de la distance légale (art. 26 LFCN) ». L'art. 26 LFCN interdit les constructions ou installations non forestières et les dépôts à moins de 20 m de la forêt ; il ne concerne ni les jardins en tant que tels ni les travaux d'élagage/abattage. Idem pour « la lisière de 2 m fait partie de la forêt » : l'art. 3 LFCN dit seulement qu'une lisière de 2 m « est prise en compte » dans le calcul de la surface. Reformuler ou supprimer.",
+   "MAUVAISE CITATION : « le simple abattage n'est pas un défrichement (changement d'affectation, art. 17-20 LFCN) ». La définition du défrichement (changement durable d'affectation du sol forestier) est à l'art. 4 LFo ; l'art. 17 LFCN ne traite que de la compétence pour l'autorisation de défricher.",
+   "IMPRÉCIS : « entretien inadapté … peut faire l'objet d'un rapport de constat et d'une remise en état (art. 52 LPNat) ». L'art. 52 LPNat vise la remise en état après une « atteinte illégale ». L'aide à l'exécution du canton (document 467501, ch. 6) distingue : abattage abusif (dessouchage, feu, produits phytosanitaires) = dénonciation au ministère public ; abattage pour justes motifs sans procédure = plantation de compensation exigée par la commune ; entretien non conforme (coupe trop lourde, machines inadaptées) = simple annonce à la commune et sensibilisation par le forestier, sans autorisation requise. Mélanger « coupe rase », « dessouchage » et « feu » sous « entretien inadapté » est inexact : ce sont des cas d'abattage abusif.",
+   "IMPRÉCIS : « délai de recours de 30 jours (art. 22 al. 3 LPNat ; art. 18 RPNat) ». Ni l'art. 22 LPNat ni l'art. 18 RPNat ne fixent 30 jours ; ce délai découle du code de procédure et de juridiction administrative (CPJA), repris dans l'aide à l'exécution cantonale. Citer « délai de recours (30 jours, CPJA) » ou simplement « délai de recours ».",
+   "SOURCES OBSOLÈTES : https://www.lexfind.ch/tolv/26729/fr est un PDF de la LFCN produit en 2003 (antérieur aux révisions 2018 et 2021) ; à retirer au profit de bdlf.fr.ch/app/fr/texts_of_law/921.1. Les documents 467501 (aide à l'exécution, transition 2018, en-têtes SNP/SFF) et 329851 (rapport de constat 2016, SNP) datent d'avant la fusion dans le Service des forêts et de la nature : utilisables mais à présenter comme documents d'exécution, pas comme base légale. Les liens lexwork.naz.ch sont des miroirs non officiels (PDF signés BDLF, mais préférer bdlf.fr.ch). fedlex pour la LFo est correct mais l'article 21 n'a pu être vérifié que sur une reproduction non officielle (droit-bilingue.ch), le texte cité est néanmoins conforme.",
+   "CONFIANCE : « haute » n'est pas justifiée vu les erreurs d'attribution ci-dessus ; retenir « moyenne » et faire relire par la commune concernée / le forestier de triage avant publication, car en zone à bâtir tout dépend du PAZ et du RCU communal (certains RCU soumettent des tailles à autorisation, certains fixent des circonférences minimales)."
+  ],
+  "formulation_sure": "Dans le canton de Fribourg, hors zone à bâtir, les haies, bosquets, cordons boisés, alignements d'arbres et grands arbres isolés adaptés aux conditions locales et d'intérêt écologique ou paysager sont protégés (art. 22 de la loi sur la protection de la nature et du paysage, LPNat, RSF 721.0.1) ; en zone à bâtir, ce sont le plan d'aménagement local et le règlement communal d'urbanisme de votre commune qui fixent quels arbres sont protégés. L'abattage d'un boisement protégé exige une dérogation accordée par la commune, sur préavis du forestier de triage du Service des forêts et de la nature, avec une mesure de compensation (replantation) ; la taille et l'entretien courant n'y sont pas soumis (art. 17 et 18 du règlement RPNat, RSF 721.0.11). En forêt, toute coupe est soumise à l'autorisation du service forestier (art. 21 de la loi fédérale sur les forêts, RS 921.0 ; art. 43 LFCN, RSF 921.1) : nous vérifions la situation de chaque arbre avec vous et votre commune avant d'intervenir. Sources : https://www.fr.ch/energie-agriculture-et-environnement/faune-et-biodiversite/boisements-hors-foret ; https://bdlf.fr.ch/app/fr/texts_of_law/721.0.1 ; https://bdlf.fr.ch/app/fr/texts_of_law/721.0.11 ; https://bdlf.fr.ch/app/fr/texts_of_law/921.1 ; https://bdlf.fr.ch/app/fr/texts_of_law/921.11 ; https://www.fedlex.admin.ch/eli/cc/1992/2521_2521_2521/fr"
+ },
+ "praticien:vaud": {
+  "refute": true,
+  "corrections": [
+   "SEUILS (erreur dangereuse) : le paragraphe « Règlements communaux antérieurs encore en vigueur : souvent 20 cm (règlement-type 2023), 30 cm ou 40 cm de diamètre mesuré à 1,30 m » laisse croire qu'un propriétaire peut se fier au seuil de son ancien règlement communal. Faux depuis le 1er juillet 2024 : la circulaire DGE-BIODIV aux communes du 9 juillet 2024 précise que « ce sont désormais tous les arbres d'une circonférence supérieure ou égale à 40 cm mesurée à 1 m du sol qui sont protégés, qu'ils figurent ou non dans un plan de classement du patrimoine arboré » et que « les règlements communaux restent valables tant qu'ils ne sont pas contraires au droit cantonal ». 40 cm de circonférence ≈ 12,7 cm de diamètre : les anciens seuils communaux de 20-40 cm de diamètre (63-126 cm de circonférence) sont moins protecteurs et donc supplantés. Un lecteur qui abattrait un arbre de 20 cm de diamètre en se fiant à un règlement communal « 30 cm » commettrait un abattage illicite. Supprimer les exemples Crans-près-Céligny / Lavigny (non vérifiés) et reformuler : « à partir de 40 cm de circonférence à 1 m du sol, dans toutes les communes, que le règlement communal ait été mis à jour ou non ».",
+   "DATE DU RLPrPNP : le règlement d'application est daté du 29 mai 2024 (adoption par le Conseil d'État, BLV 450.11.1 : « du 29 mai 2024 ») et entré en vigueur le 1er juillet 2024, en même temps que la modification de l'art. 15 LPrPNP. Écrire « RLPrPNP du 29 mai 2024, en vigueur depuis le 1er juillet 2024 » et non « Règlement d'application du 1er juillet 2024 » (le règlement-type DGE emploie cette formulation imprécise, mais le texte officiel fait foi).",
+   "SOURCES MAL ÉTIQUETÉES : lexfind.ch/tolv/126467 n'est pas la LPrPNP mais la loi forestière vaudoise (LVLFo, BLV 921.01, version 2018) ; lexfind.ch/tolv/191440 est le règlement d'application de la loi forestière (RLVLFo, 921.01.1), pas la LVLFo ; lexfind.ch/tolv/211284 est la loi sur le découpage territorial (LDecTer, 132.15), sans rapport. Pour la LPrPNP et le RLPrPNP, citer prestations.vd.ch (450.11 et 450.11.1) et, pour le texte intégral du RLPrPNP, le PDF publié : https://vd.ch/fileadmin/user_upload/accueil/fichiers_pdf/EMPD-EMPL/R%C3%A8glement_d_application_de_la_loi_sur_la_protection_du_patrimoine_naturel_et_paysager__RLPrPNP__-_publi%C3%A9.pdf. Le lien fedlex LFo est correct mais la page est en JavaScript ; la LVLFo est bien lexfind 126467.",
+   "LAUSANNE : ne pas écrire « adopte un nouveau règlement ». Le préavis 2025/56 (affaire PREA25/037, « Création d'un règlement communal du patrimoine arboré ») était encore « prochainement soumis au Conseil communal » selon le communiqué de la Ville du 13 mai 2026 et figure à l'ordre du jour de la séance du 8 septembre 2026 ; ni l'adoption par le Conseil communal ni l'approbation cantonale n'ont pu être vérifiées. Écrire « Lausanne prépare un règlement communal (préavis 2025/56) qui reprend le seuil cantonal de 40 cm de circonférence ; en attendant, la LPrPNP et les art. 56-60 RPGA s'appliquent ».",
+   "ENTRETIEN COURANT (annexe 3 RLPrPNP, art. 15 al. 3) : le contenu réel pour les arbres est « taille de formation ou taille en vert ; taille destinée à protéger les biens ou les personnes, à condition qu'elle n'affecte pas la morphologie des végétaux et que les branches coupées aient une circonférence inférieure à 25 cm ; coupe de rejets ou de pousses spontanées ou d'arbres d'une circonférence mesurée à 1 m du sol inférieure à 40 cm ». La « taille d'entretien (max. 1 fois par an, art. 18 al. 1 RLPrPNP) » et le « recépage sélectif » concernent les haies vives. Ajouter impérativement le seuil de 25 cm de circonférence des branches coupées : au-delà, l'élagage est soumis à autorisation (aide-mémoire propriétaires SDNL/Cheseaux 2026 : « Les coupes de branches de plus de 25 cm de circonférence » nécessitent une autorisation).",
+   "PÉRIODE D'ENTRETIEN OMISE : art. 18 al. 1 RLPrPNP : « Les travaux d'entretien du patrimoine arboré peuvent être entrepris du 1er septembre au 15 mars, sous réserve des interventions urgentes justifiées pour des motifs sanitaires, sécuritaires, ainsi que de la taille en vert pour la formation des arbres. » Les communes peuvent être plus strictes ou étendre la période en zone à bâtir. Point essentiel pour une page d'arboriste.",
+   "ARBRES DANGEREUX / MORTS : le règlement-type 2024 (art. 8) ne vise que le « danger sécuritaire imminent » : la municipalité « peut autoriser un abattage immédiat », l'état de l'arbre étant « documenté par des photographies pour permettre de régulariser l'abattage par une plantation compensatoire ». Les arbres morts ou secs sont dispensés d'enquête publique selon la page vd.ch, mais l'aide-mémoire SDNL précise qu'ils « font également l'objet d'une demande d'autorisation ». Formuler : « même mort ou dangereux, l'arbre protégé ne s'abat pas sans contacter la commune ; celle-ci peut autoriser sans enquête publique, photos à l'appui, et la compensation reste due ».",
+   "DGE-BIODIV « seule compétente » : trop absolu. Art. 15 al. 2 LPrPNP : les dérogations pour arbres remarquables « nécessitent une autorisation du service » ; art. 19 al. 4 RLPrPNP : la commune transmet la demande au service qui se charge de la mise à l'enquête et de la publication FAO ; règlement-type art. 5 al. 6 : « sous réserve de délégations en sa faveur » (une commune peut recevoir délégation). Le formulaire peut aussi être envoyé directement à info.biodiversite@vd.ch. Écrire « relève du canton (DGE-BIODIV), via la commune ».",
+   "FORMULATION DU SEUIL : le règlement-type dit « circonférence supérieure à 40 cm », la circulaire DGE du 9 juillet 2024 et l'aide-mémoire disent « supérieure ou égale à 40 cm », l'annexe 3 libère les arbres « inférieure à 40 cm ». Écrire prudemment « 40 cm de circonférence et plus (≈ 12,7 cm de diamètre), mesurée à 1 m du sol ».",
+   "PROCÉDURE : préciser la durée d'affichage au pilier public : 30 jours (annexe 2 du règlement-type 2024 et circulaire DGE 9 juillet 2024 : « pilier public (30 jours) ») ; l'ancien règlement-type du 1er mars 2023 prévoyait 20 jours. Publication FAO uniquement pour les arbres remarquables et les abattages liés à un permis de construire (CAMAC) ; émolument cantonal 150 fr. + frais FAO (art. 47 RLPrPNP). Ajouter que « l'ombrage, la réduction de la vue, le débordement de branches ou de racines » ne sont pas de justes motifs d'abattage (règlement-type art. 7 al. 2) et que les motifs admis sont limitativement : risques sécuritaires ou phytosanitaires avérés, entrave avérée à l'exploitation agricole, impératifs de construction ou d'aménagement (art. 15 al. 1 LPrPNP).",
+   "FORÊT (confirmé, à citer exactement) : LFo art. 21 : « Tout abattage d'arbres en forêt est soumis à l'autorisation du service forestier. Les cantons peuvent prévoir des exceptions. » LVLFo art. 53 al. 1 : « Les arbres d'un diamètre de 16 centimètres et plus mesurés à 1,30 mètres du sol, destinés à être exploités, doivent être préalablement désignés par le service en présence du propriétaire ou de son représentant » ; al. 4 : « Les chablis peuvent être désignés par le service en tout temps » ; art. 54 al. 1 : « Dans les forêts privées, le martelage et la délivrance d'un permis de coupe sont nécessaires pour l'exploitation des bois et des chablis. » L'annexe 3 RLPrPNP rappelle que pour les cordons boisés et bosquets, les arbres de 16 cm de diamètre et plus requièrent « une autorisation spéciale de DGE-Forêt (art. 53 al. 1 LVLFo) »."
+  ],
+  "formulation_sure": "Dans le canton de Vaud, hors forêt, tout arbre de 40 cm de circonférence et plus (environ 12,7 cm de diamètre, mesuré à 1 m du sol) est protégé par la loi cantonale depuis le 1er juillet 2024, dans toutes les communes et que le règlement communal ait été mis à jour ou non : son abattage, comme tout élagage dépassant l'entretien courant (branches coupées de plus de 25 cm de circonférence, réduction de couronne, atteinte aux racines), exige une autorisation écrite préalable de la Municipalité, affichée 30 jours au pilier public, avec plantation compensatoire « un pour un » ; pour un arbre inscrit à l'inventaire cantonal des arbres remarquables, la décision relève du canton (DGE-BIODIV), via la commune, avec publication dans la FAO. Restent libres la taille de formation, la taille en vert, la coupe de rejets et de branches de moins de 25 cm de circonférence, en principe entre le 1er septembre et le 15 mars ; un arbre mort ou dangereux doit lui aussi être signalé à la commune, qui peut autoriser l'abattage sans enquête publique sur photos, la compensation restant due. En forêt (y compris pâturages boisés, cordons et bosquets de nature forestière), tout abattage est soumis à l'autorisation du service forestier : martelage obligatoire dès 16 cm de diamètre à 1,30 m et permis de coupe en forêt privée. Sources : LPrPNP du 30 août 2022 (BLV 450.11), art. 14-16 et 62 ; RLPrPNP du 29 mai 2024 (BLV 450.11.1), en vigueur depuis le 1er juillet 2024, art. 15-21, 47 et annexe 3 ; circulaire DGE-BIODIV aux communes du 9 juillet 2024 (vd.ch) ; règlement-type DGE « Protection du patrimoine arboré » version 1er juillet 2024 ; page vd.ch « Patrimoine arboré » et prestation « Abattage ou élagage d'un arbre remarquable » ; LFo (RS 921.0) art. 2, 5 et 21 ; LVLFo du 8 mai 2012 (BLV 921.01) art. 53-54 ; le règlement de chaque commune peut être plus strict, à vérifier auprès du greffe."
+ },
+ "relecture:geneve": {
+  "ok": false,
+  "problemes": [
+   "[BLOQUANT – règle juridique inexacte] Tuile « Frênes touchés par la chalarose » : « élagage de sécurité du bois mort ou abattage, soumis à autorisation cantonale au-delà de 45 cm de circonférence ». Vérifié dans le RCVA (L 4 05.04, art. 3) : le seuil de 45 cm ne concerne que l'ABATTAGE « par leur propriétaire » ; l'élagage est soumis à autorisation quelle que soit la circonférence (seule la taille d'entretien régulière est dispensée, sauf espèces à risque). La phrase lie donc à tort le seuil de 45 cm à l'élagage et affirme une règle fausse.",
+   "[BLOQUANT – règle de style] FAQ « Faut-il une autorisation pour abattre un arbre dans le canton de Genève ? » : la réponse fait 47 mots en un seul paragraphe, au-delà de la limite absolue de 40 mots imposée par le client.",
+   "[À corriger – précision juridique] Même FAQ : « un arbre de moins de 45 cm de circonférence, mesurés à 1 m de hauteur du tronc, sauf cas particuliers » — accord fautif (« mesurés » avec « un arbre » au singulier) et omission de la condition du règlement : l'exception vaut pour l'abattage « par leur propriétaire » (RCVA art. 3 al. 2). Le reste (canton via l'OCAN, Département du territoire, pas la commune, exceptions) est exact et prudent.",
+   "[Crédibilité locale – mineur] Tuile « Cèdres des propriétés du bord du lac » : « À Cologny, Vandœuvres, Pregny-Chambésy ou Genthod » — Vandœuvres n'a pas de rive ; un Genevois tiquera sur « bord du lac » associé à cette commune.",
+   "[À vérifier avec Robin – risque de crédibilité] Tuile « Platanes et chancre coloré » : « tout travail sur platane doit être placé sous la responsabilité d'une personne formée au chancre coloré par le canton » — la règle est exacte (page OCAN ge.ch : travail sous la responsabilité d'une personne ayant suivi la formation « chancre coloré » du canton de Genève). Mais la tuile laisse entendre que Robin remplit cette condition ; s'il n'a pas suivi la formation genevoise, un client genevois le découvrira à la première demande sur platane.",
+   "[Style – mineur] Annonce, description 2 : « Réponse sous 48 h. » — partout ailleurs la promesse est « sous 48 h ouvrées » ; la version raccourcie est une promesse plus forte que celle du client (la ligne est déjà à 90 caractères, d'où la coupe)."
+  ],
+  "suggestions": [
+   "Tuile « Frênes touchés par la chalarose », texte de remplacement (30 mots) : « Frêne dépérissant en bordure de parcelle ou en lisière : diagnostic, élagage de sécurité ou abattage. Ces travaux peuvent être soumis à autorisation cantonale ; nous vous indiquons la marche à suivre. »",
+   "FAQ autorisation, réponse de remplacement (38 mots) : « Hors forêt, oui : l'autorisation est délivrée par le canton (OCAN). Exception : un arbre de moins de 45 cm de circonférence, mesurée à 1 m de hauteur, abattu par son propriétaire, sauf cas particuliers. Nous préparons la requête avec vous. »",
+   "Optionnel pour la même FAQ, si vous voulez garder la mention de l'élagage : ajouter une 6e question « Faut-il aussi une autorisation pour élaguer ? » avec la réponse (24 mots) : « À Genève, l'élagage d'un arbre passe en principe par une autorisation de l'OCAN, hors taille annuelle d'entretien. La visite sur place permet de le préciser. »",
+   "Tuile « Cèdres des propriétés du bord du lac », remplacer « À Cologny, Vandœuvres, Pregny-Chambésy ou Genthod » par « À Cologny, Collonge-Bellerive, Pregny-Chambésy ou Genthod ».",
+   "Tuile « Platanes et chancre coloré » : confirmer avec Robin qu'il a suivi la formation « chancre coloré » du canton de Genève. Si oui, garder la tuile telle quelle. Sinon, la remplacer par : titre « Jardins de villa et voisinage proche », texte « Parcelle étroite, toiture ou haie du voisin sous la couronne : démontage par rétention, pièce par pièce, branches descendues à la corde et jardin préservé. » (25 mots)",
+   "Annonce, description 2, version à 89 caractères avec « ouvrées » : « Visite sur place offerte à Genève, Carouge, Meyrin ou Versoix. Réponse sous 48 h ouvrées. »",
+   "Rien à changer sur le reste : les 38 localités sont des communes genevoises réelles, correctement orthographiées (Vandœuvres, Pregny-Chambésy, Le Grand-Saconnex, Collex-Bossy, Perly-Certoux, Aire-la-Ville) et bien réparties par secteur (couronne urbaine, rive droite, Arve et Lac, Champagne/Mandement) ; « de Chancy à Hermance et de Céligny à Veyrier » est géographiquement juste ; bise, chancre coloré, chalarose, OCAN et « requête » sont les bons repères locaux. Aucun mot interdit, aucune mention de Courgenay, de « région », de « Suisse romande », d'engins ou de « sans nacelle » ; titres d'annonce ≤ 30 caractères, descriptions ≤ 90, chemins ≤ 15, liens annexes dans les limites."
+  ]
+ },
+ "rédaction:fribourg": {
+  "meta_title": "Arboriste-grimpeur Fribourg : taille, abattage | Arboritaille",
+  "meta_desc": "Taille, abattage, démontage et rognage de souche dans le canton de Fribourg. Visite et devis gratuits, réponse sous 48 h ouvrées. Chantier rendu propre.",
+  "eyebrow": "Arboriste-grimpeur · Canton de Fribourg",
+  "h1": "Arboriste-grimpeur dans le <em>canton de Fribourg</em>",
+  "lead": "Taille, abattage, démontage et rognage de souche, de Fribourg à Bulle, Romont, Estavayer-le-Lac et Morat. Visite sur place et devis gratuits pour particuliers, gérances, entreprises et communes.",
+  "points": [
+   "Devis gratuit, sans engagement",
+   "Réponse sous 48 h ouvrées",
+   "Visite sur place offerte",
+   "Chantier rendu propre, branches évacuées"
+  ],
+  "trust": [
+   {
+    "icone": "SHIELD",
+    "titre": "Travail à la corde",
+    "sous": "Grimpe, rétention, nacelle ou grue selon l'accès"
+   },
+   {
+    "icone": "DOC",
+    "titre": "Démarches vérifiées avec vous",
+    "sous": "Commune et forestier de triage consultés avant un abattage"
+   },
+   {
+    "icone": "TREE",
+    "titre": "Taille raisonnée",
+    "sous": "Respect de la forme et de la santé de l'arbre"
+   }
+  ],
+  "tuiles_locales": [
+   {
+    "icone": "TREE",
+    "titre": "Platanes et tilleuls en ville de Fribourg",
+    "texte": "Alignements de platanes et tilleuls, arbres en falaise au-dessus de la Sarine : accès difficiles traités à la corde, par rétention ou en nacelle."
+   },
+   {
+    "icone": "WARN",
+    "titre": "Frênes touchés par la chalarose",
+    "texte": "La chalarose est largement répandue dans le canton ; un frêne sec devient cassant, surtout près d'une route, d'un chemin ou d'une maison."
+   },
+   {
+    "icone": "CABLE",
+    "titre": "Épicéas et sapins après tempête",
+    "texte": "En Gruyère comme sur le Plateau, tempêtes d'hiver et neige lourde cassent épicéas et sapins blancs : démontage par rétention, même sur forte pente."
+   },
+   {
+    "icone": "SPROUT",
+    "titre": "Grands arbres de ferme et vergers haute-tige",
+    "texte": "Chênes, tilleuls et noyers isolés hors zone à bâtir, vergers haute-tige des fermes de la Broye et du Vully : taille d'entretien, abattage avec dérogation communale."
+   }
+  ],
+  "zone": {
+   "h2": "Fribourg, Gruyère, Glâne-Broye, Lac et Singine",
+   "lead": "Nous intervenons dans les sept districts du canton, de la Sarine aux Préalpes gruériennes et jusqu'aux rives du lac de Morat. Indiquez votre localité dans le formulaire.",
+   "colonnes": [
+    {
+     "titre": "Fribourg et Sarine",
+     "localites": [
+      "Fribourg",
+      "Villars-sur-Glâne",
+      "Marly",
+      "Givisiez",
+      "Granges-Paccot",
+      "Belfaux",
+      "Corminbœuf",
+      "Matran",
+      "Avry",
+      "Le Mouret"
+     ]
+    },
+    {
+     "titre": "Gruyère et Veveyse",
+     "localites": [
+      "Bulle",
+      "La Tour-de-Trême",
+      "Gruyères",
+      "Broc",
+      "Riaz",
+      "Vuadens",
+      "Charmey",
+      "La Roche",
+      "Châtel-Saint-Denis",
+      "Attalens"
+     ]
+    },
+    {
+     "titre": "Glâne et Broye",
+     "localites": [
+      "Romont",
+      "Siviriez",
+      "Ursy",
+      "Villaz-Saint-Pierre",
+      "Estavayer-le-Lac",
+      "Domdidier",
+      "Cugy",
+      "Cheyres",
+      "Saint-Aubin",
+      "Montagny-la-Ville"
+     ]
+    },
+    {
+     "titre": "Lac et Singine",
+     "localites": [
+      "Morat",
+      "Courtepin",
+      "Kerzers (Chiètres)",
+      "Gurmels (Cormondes)",
+      "Mont-Vully",
+      "Düdingen (Guin)",
+      "Tafers (Tavel)",
+      "Schmitten",
+      "Wünnewil-Flamatt",
+      "Plaffeien (Planfayon)"
+     ]
+    }
+   ]
+  },
+  "faq": [
+   {
+    "q": "Faut-il une autorisation pour abattre un arbre dans le canton de Fribourg ?",
+    "a": "Hors zone à bâtir, haies, cordons boisés et grands arbres isolés sont protégés par la loi cantonale ; en zone à bâtir, c'est le règlement communal qui décide. Leur abattage exige une dérogation de la commune, préavisée par le forestier de triage, avec replantation. Nous vérifions avec vous avant d'intervenir."
+   },
+   {
+    "q": "Combien coûte une taille ou un abattage ?",
+    "a": "Chaque arbre est différent : hauteur, accès, essence, évacuation. Nous venons sur place, sans frais, et vous remettons un devis écrit détaillé. Vous décidez ensuite, sans engagement."
+   },
+   {
+    "q": "Mon arbre est difficile d'accès, est-ce possible ?",
+    "a": "Oui. Nous travaillons à la corde, par démontage avec rétention, en nacelle ou avec une grue selon la place disponible. Un arbre en falaise au-dessus de la Sarine ou coincé entre deux chalets se démonte par morceaux."
+   },
+   {
+    "q": "Sous quel délai venez-vous dans le canton de Fribourg ?",
+    "a": "Nous répondons sous 48 h ouvrées et fixons une visite sur place, à Fribourg, Bulle, Romont, Estavayer-le-Lac ou Morat comme dans les villages. La date du chantier dépend de la saison et de l'urgence : un arbre menaçant passe en priorité."
+   },
+   {
+    "q": "Que deviennent les branches et le bois ?",
+    "a": "Les branches sont broyées sur place ou évacuées, selon votre choix. Le bois peut être débité en bûches et laissé à votre disposition, ou emporté. Le chantier est nettoyé avant notre départ."
+   }
+  ],
+  "cta": {
+   "h2": "Un arbre à tailler ou à abattre dans le canton de Fribourg ?",
+   "lead": "Décrivez votre situation, ajoutez une photo si vous le souhaitez : réponse sous 48 h ouvrées, visite et devis gratuits."
+  },
+  "ville_placeholder": "Fribourg, Bulle, Morat…",
+  "annonce": {
+   "titres": [
+    "Arboriste-grimpeur Fribourg",
+    "Élagage canton de Fribourg",
+    "Abattage d'arbre à Fribourg",
+    "Arboriste à Bulle et Gruyère",
+    "Taille d'arbres à Romont",
+    "Arboriste Morat, Estavayer",
+    "Devis gratuit, sans engagement",
+    "Arboriste-grimpeur",
+    "Réponse sous 48 h ouvrées",
+    "Grimpe, nacelle ou grue",
+    "Taille raisonnée et bois mort",
+    "Rognage de souche",
+    "Démontage par rétention",
+    "Visite sur place offerte",
+    "Chantier rendu propre"
+   ],
+   "descriptions": [
+    "Taille, abattage, rognage de souche dans le canton de Fribourg. Visite et devis gratuits.",
+    "Arboriste-grimpeur à Fribourg, Bulle, Romont, Morat. Réponse sous 48 h ouvrées.",
+    "Accès difficile ? Grimpe, démontage par rétention, nacelle ou grue selon la place.",
+    "Autorisations communales vérifiées avec vous. Branches évacuées, chantier rendu propre."
+   ],
+   "chemins": [
+    "arboriste",
+    "fribourg"
+   ]
+  },
+  "liens_annexes": [
+   {
+    "texte": "Nos prestations",
+    "ancre": "#prestations",
+    "d1": "Taille, abattage, démontage",
+    "d2": "Rognage de souche, haubanage"
+   },
+   {
+    "texte": "Zone d'intervention",
+    "ancre": "#zone",
+    "d1": "Sarine, Gruyère, Glâne, Broye",
+    "d2": "Lac, Singine, Veveyse"
+   },
+   {
+    "texte": "Questions fréquentes",
+    "ancre": "#faq",
+    "d1": "Autorisation d'abattage",
+    "d2": "Accès, délais, branches"
+   },
+   {
+    "texte": "Devis gratuit",
+    "ancre": "#devis",
+    "d1": "Visite sur place offerte",
+    "d2": "Réponse sous 48 h ouvrées"
+   }
+  ]
+ },
+ "praticien:valais": {
+  "refute": true,
+  "corrections": [
+   "Triages : le SFNP indique « Le Valais compte actuellement 30 triages » répartis en 3 arrondissements (Haut-Valais, Valais central, Bas-Valais), pas 32 (https://www.vs.ch/fr/web/sfnp/triages-forestiers). Chaque triage est dirigé en règle générale par un garde forestier ; écrire « une trentaine de triages » ou « 30 triages ».",
+   "Hors zone à bâtir, la règle est plus large que « pour un arbre ou une haie protégés » : LcPN art. 17 al. 3 (texte vérifié sur lex.vs.ch, état 01.01.2018) dit « La suppression de ces éléments en dehors de la zone à bâtir nécessite une autorisation du service compétent », « ces éléments » renvoyant aux bosquets, haies, arbres isolés et allées de valeur de l'al. 1, sans condition d'inscription à un inventaire communal ; s'y ajoute la LPN fédérale art. 18 al. 1bis (haies et bosquets = biotopes dignes de protection). La phrase « pour un arbre non protégé, c'est le RCCZ de chaque commune qui dit s'il faut une demande » ne doit donc valoir qu'en zone à bâtir ; hors zone à bâtir, toute suppression d'une haie, d'un bosquet, d'un arbre isolé ou d'une allée de valeur passe par le SFNP.",
+   "LcPN art. 12 al. 3 vise « les objets protégés par le canton ainsi qu'au voisinage immédiat des sites protégés » ; les objets d'importance communale relèvent de la commune via l'aménagement du territoire (art. 12 al. 4). Supprimer « ou communale » dans « arbres d'importance cantonale ou communale : toute modification nécessite l'avis du service cantonal ».",
+   "Critères de la forêt : maintenant vérifiés directement sur l'OcFo (RS/VS 921.100, du 30.01.2013, état 01.08.2024) art. 2 al. 1 : 800 m² et 12 m de largeur, lisière de 2 m comprise, plus 20 ans d'âge pour une surface nouvellement conquise. Retirer la mention « d'après un résumé de recherche non vérifié ». Ajouter l'al. 3 : ces valeurs minimales « ne sont pas décisives pour les peuplements qui exercent une fonction protectrice, sociale ou environnementale particulièrement importante » (un boisement plus petit peut donc être forêt), et l'al. 2 let. a (boisements de noyers et de châtaigniers = forêt dans tous les cas, aussi en droit cantonal).",
+   "Pratique communale à compléter : outre Arbaz (formulaire « Demande autorisation abattage des arbres » à adresser à la commune avant travaux, vérifié), le RCCZ de Conthey art. 78 al. 4 reprend mot pour mot LcPN 17 (consultation du service en zone à bâtir, autorisation du service hors zone) et son art. 5 ch. 8 soumet à autorisation de construire la « suppression de bosquets, de taillis » (https://www.conthey.ch/files/Conthey_Reglement_communal_constructions_zones_rccz.pdf). Ne pas citer la page sierre.ch « abattage d'un arbre » (404).",
+   "Nouveau droit des constructions depuis le 01.01.2026 : Loi sur les constructions du 13.02.2025 (RS/VS 705.1) et Ordonnance du 12.03.2025 (705.100). L'OC 2026 art. 17 al. 2 let. d soumet à autorisation de construire « tous les travaux importants de nature à modifier de façon sensible la configuration du sol, son utilisation ou l'aspect d'un site » mais ne nomme plus explicitement les bosquets/taillis (contrairement à l'ancienne OC recopiée dans les RCCZ). Ne pas affirmer qu'un abattage hors forêt relève toujours du permis de construire ; renvoyer au RCCZ communal.",
+   "Citation LFo art. 21 confirmée (« Tout abattage d'arbres en forêt est soumis à l'autorisation du service forestier. ») ; ajouter l'al. 2 « Les cantons peuvent prévoir des exceptions », qui fonde l'exception valaisanne du permis de coupe écrit sans martelage jusqu'à 10 m³/an en forêt privée (LcFo art. 34 al. 3 et règlement 921.150 art. 7 let. g, tous deux vérifiés).",
+   "LcFo art. 53 al. 2 (vérifié, état 01.01.2023) : les communes municipales ne peuvent agir sans délai qu'« en cas de catastrophe, d'atteinte ou de mise en péril de la population ou de biens de valeur notable en raison d'événements exceptionnels », avec l'accord du service ; ce n'est pas une clause générale « en cas de danger » utilisable par un propriétaire pour abattre un arbre.",
+   "Élagage : aucun texte cantonal ne traite de la taille d'un arbre hors forêt ; la LcPN (art. 16, 17) et l'OcPN (art. 23, 24) ne visent que la « suppression »/« élimination ». La phrase « une taille d'entretien courante n'est pas soumise à autorisation cantonale » est une déduction : la formuler comme telle et renvoyer au RCCZ et au formulaire communal (ex. Arbaz : « demande d'abattage ou d'élagage »).",
+   "Textes vérifiés sur lex.vs.ch (versions en vigueur) : LcPN 451.1 du 13.11.1998, état 01.01.2018 ; OcPN 451.100 du 20.09.2000, état 01.01.2018 ; LcFo 921.1 « Loi sur les forêts » du 14.09.2011, état 01.01.2023 ; OcFo 921.100 du 30.01.2013, état 01.08.2024 ; règlement garde forestier 921.150 du 30.01.2013. Les articles 12, 16, 17 LcPN, 23, 24, 34 OcPN, 2, 14, 15, 23, 34, 53 LcFo et 7 let. g / 8 let. h du 921.150 correspondent au projet. Chiffres SFNP vérifiés : env. 120 000 ha de forêt, 86 % aux bourgeoisies."
+  ],
+  "formulation_sure": "En Valais, hors forêt, ce sont les communes qui protègent les bosquets, haies, arbres isolés et allées de valeur (LcPN, RS/VS 451.1, art. 17 al. 1) : en zone à bâtir, leur suppression exige une autorisation de la commune, qui consulte le Service des forêts, de la nature et du paysage ; hors zone à bâtir, il faut une autorisation de ce service cantonal, et une compensation peut être demandée (LcPN art. 17 al. 2-3 ; OcPN, RS/VS 451.100, art. 24). Il n'existe aucun seuil cantonal de diamètre ou de hauteur : avant d'abattre ou d'élaguer fortement un arbre, vérifiez le règlement communal des constructions et des zones (RCCZ) et le formulaire de votre commune (ex. Arbaz, Conthey), car plusieurs communes exigent une demande avant travaux. En forêt (dès 800 m² et 12 m de largeur, lisière de 2 m comprise, ou moins si le peuplement a une fonction protectrice importante, OcFo RS/VS 921.100 art. 2), tout abattage passe par le garde forestier de triage : autorisation du service et martelage, sauf en forêt privée jusqu'à 10 m³ par an avec un permis de coupe écrit du garde forestier (LFo RS 921.0 art. 21 ; LcFo RS/VS 921.1 art. 34). Sources : https://lex.vs.ch/app/fr/texts_of_law/451.1 ; https://lex.vs.ch/app/fr/texts_of_law/451.100 ; https://lex.vs.ch/app/fr/texts_of_law/921.1 ; https://lex.vs.ch/app/fr/texts_of_law/921.100 ; https://www.lexfind.ch/tolv/100093/fr (règlement 921.150) ; https://www.vs.ch/fr/web/sfnp/triages-forestiers ; https://www.arbaz.ch/commune/marche-suivre-standard-pour-construction.html ; https://www.conthey.ch/files/Conthey_Reglement_communal_constructions_zones_rccz.pdf ; https://www.fedlex.admin.ch/eli/cc/1992/2521_2521_2521/fr"
+ },
+ "correction-finale:geneve": {
+  "meta_title": "Arboriste-grimpeur dans le canton de Genève | Arboritaille",
+  "meta_desc": "Taille, abattage, démontage et rognage de souche à Genève, Carouge, Meyrin, Versoix, Cologny. Devis et visite gratuits, réponse sous 48 h ouvrées.",
+  "eyebrow": "Arboriste-grimpeur · Canton de Genève",
+  "h1": "Arboriste-grimpeur dans le <em>canton de Genève</em>",
+  "lead": "Taille raisonnée, abattage, démontage, rognage de souche : Robin Humbert intervient sur les arbres de villas, de parcs et de parcelles agricoles genevoises, de la rive gauche du lac au Mandement.",
+  "points": [
+   "Devis gratuit, sans engagement",
+   "Réponse sous 48 h ouvrées",
+   "Visite sur place offerte dans tout le canton",
+   "Chantier rendu propre, branches évacuées"
+  ],
+  "trust": [
+   {
+    "icone": "SHIELD",
+    "titre": "Arboriste-grimpeur indépendant",
+    "sous": "Un seul interlocuteur, du devis au chantier"
+   },
+   {
+    "icone": "DOC",
+    "titre": "Autorisation cantonale",
+    "sous": "Conseil sur la requête auprès de l'OCAN"
+   },
+   {
+    "icone": "TREE",
+    "titre": "Platanes, cèdres, chênes",
+    "sous": "Taille adaptée à chaque essence"
+   }
+  ],
+  "tuiles_locales": [
+   {
+    "icone": "TREE",
+    "titre": "Cèdres des propriétés du bord du lac",
+    "texte": "À Cologny, Collonge-Bellerive, Pregny-Chambésy ou Genthod, les grands cèdres des villas demandent une taille à la corde ou un démontage par rétention quand ils dominent la maison."
+   },
+   {
+    "icone": "WARN",
+    "titre": "Platanes et chancre coloré",
+    "texte": "Platanes d'allée, de quai ou de parc sous surveillance : avant toute taille, nous vérifions avec vous les conditions fixées par le canton pour les travaux sur platane."
+   },
+   {
+    "icone": "CRANE",
+    "titre": "Après la bise ou un orage",
+    "texte": "Branche cassée ou peuplier déraciné après un coup de bise : démontage à la corde, par rétention ou avec une grue selon l'accès, puis évacuation du bois."
+   },
+   {
+    "icone": "LEAF",
+    "titre": "Frênes touchés par la chalarose",
+    "texte": "Frêne dépérissant en bordure de parcelle ou en lisière : diagnostic, élagage de sécurité ou abattage. Ces travaux peuvent être soumis à autorisation cantonale ; nous vous indiquons la marche à suivre."
+   }
+  ],
+  "zone": {
+   "h2": "Genève, rive droite, Arve et Lac, Mandement",
+   "lead": "De la couronne urbaine aux vignes du Mandement, de l'aéroport aux rives du lac : visite sur place dans toutes les communes genevoises.",
+   "colonnes": [
+    {
+     "titre": "Genève et couronne urbaine",
+     "localites": [
+      "Genève",
+      "Carouge",
+      "Lancy",
+      "Onex",
+      "Chêne-Bougeries",
+      "Chêne-Bourg",
+      "Thônex",
+      "Veyrier",
+      "Plan-les-Ouates"
+     ]
+    },
+    {
+     "titre": "Rive droite, de l'aéroport au lac",
+     "localites": [
+      "Vernier",
+      "Meyrin",
+      "Le Grand-Saconnex",
+      "Pregny-Chambésy",
+      "Bellevue",
+      "Genthod",
+      "Versoix",
+      "Collex-Bossy",
+      "Céligny"
+     ]
+    },
+    {
+     "titre": "Arve et Lac",
+     "localites": [
+      "Cologny",
+      "Vandœuvres",
+      "Collonge-Bellerive",
+      "Corsier",
+      "Anières",
+      "Hermance",
+      "Meinier",
+      "Choulex",
+      "Puplinge",
+      "Jussy"
+     ]
+    },
+    {
+     "titre": "Champagne, Mandement et Arve-Rhône",
+     "localites": [
+      "Bernex",
+      "Confignon",
+      "Perly-Certoux",
+      "Satigny",
+      "Dardagny",
+      "Russin",
+      "Aire-la-Ville",
+      "Cartigny",
+      "Avully",
+      "Chancy"
+     ]
+    }
+   ]
+  },
+  "faq": [
+   {
+    "q": "Faut-il une autorisation pour abattre un arbre dans le canton de Genève ?",
+    "a": "Hors forêt, oui : l'autorisation est délivrée par le canton (OCAN). Exception : un arbre de moins de 45 cm de circonférence, mesurée à 1 m de hauteur, abattu par son propriétaire, sauf cas particuliers. Nous préparons la requête avec vous."
+   },
+   {
+    "q": "Combien coûte une taille ou un abattage ?",
+    "a": "Le prix dépend de l'essence, de la hauteur, de l'accès et de l'évacuation du bois. La visite sur place et le devis sont gratuits et sans engagement."
+   },
+   {
+    "q": "Mon arbre est difficile d'accès, est-ce possible ?",
+    "a": "Oui. Selon la place disponible, l'arbre est travaillé en grimpe, démonté par rétention, ou avec une nacelle, une grue ou d'autres machines. La visite sur place permet de choisir la méthode."
+   },
+   {
+    "q": "Vous déplacez-vous dans ma commune ?",
+    "a": "Oui, la visite est offerte dans toutes les communes du canton, de Chancy à Hermance et de Céligny à Veyrier. Réponse sous 48 h ouvrées après votre demande."
+   },
+   {
+    "q": "Que deviennent les branches et le bois ?",
+    "a": "Le chantier est rendu propre. Les branches sont broyées ou évacuées ; le bois peut être débité en bûches et laissé sur place si vous le souhaitez. La souche peut être rognée."
+   }
+  ],
+  "cta": {
+   "h2": "Un arbre à tailler ou à abattre à Genève ?",
+   "lead": "Décrivez votre situation et votre localité : réponse sous 48 h ouvrées, visite et devis gratuits."
+  },
+  "ville_placeholder": "Genève, Carouge, Meyrin…",
+  "annonce": {
+   "titres": [
+    "Arboriste-grimpeur",
+    "Arboriste-grimpeur à Genève",
+    "Élagage canton de Genève",
+    "Abattage d'arbre à Genève",
+    "Devis gratuit, sans engagement",
+    "Réponse sous 48 h ouvrées",
+    "Grimpe, nacelle ou grue",
+    "Taille d'arbres à Carouge",
+    "Arboriste à Meyrin et Vernier",
+    "Rognage de souche à Genève",
+    "Abattage à Versoix et Cologny",
+    "Visite sur place offerte",
+    "Taille raisonnée et bois mort",
+    "Démontage d'arbre délicat",
+    "Chantier rendu propre"
+   ],
+   "descriptions": [
+    "Taille, abattage, démontage et rognage de souche dans le canton de Genève. Devis gratuit.",
+    "Visite sur place offerte à Genève, Carouge, Meyrin ou Versoix. Réponse sous 48 h ouvrées.",
+    "Arboriste-grimpeur indépendant : grimpe, nacelle ou grue selon l'accès. Chantier propre.",
+    "Conseil sur l'autorisation cantonale d'abattage (OCAN). Devis gratuit, sans engagement."
+   ],
+   "chemins": [
+    "arboriste",
+    "geneve"
+   ]
+  },
+  "liens_annexes": [
+   {
+    "texte": "Nos prestations",
+    "ancre": "#prestations",
+    "d1": "Taille, abattage, démontage",
+    "d2": "Rognage de souche et diagnostic"
+   },
+   {
+    "texte": "Communes desservies",
+    "ancre": "#zone",
+    "d1": "De Chancy à Hermance",
+    "d2": "Visite offerte dans le canton"
+   },
+   {
+    "texte": "Questions fréquentes",
+    "ancre": "#faq",
+    "d1": "Autorisation cantonale OCAN",
+    "d2": "Accès, délais, branches"
+   },
+   {
+    "texte": "Demander un devis",
+    "ancre": "#devis",
+    "d1": "Gratuit et sans engagement",
+    "d2": "Réponse sous 48 h ouvrées"
+   }
+  ]
+ },
+ "rédaction:vaud": {
+  "meta_title": "Arboriste-grimpeur dans le canton de Vaud | Arboritaille",
+  "meta_desc": "Taille, abattage et rognage de souche à Lausanne, Vevey, Nyon, Yverdon et dans le canton de Vaud. Visite et devis gratuits, réponse sous 48 h ouvrées.",
+  "eyebrow": "Arboriste-grimpeur · Canton de Vaud",
+  "h1": "Arboriste-grimpeur dans le <em>canton de Vaud</em>",
+  "lead": "Taille, abattage, démontage et rognage de souche pour les propriétaires, gérances et communes vaudoises, de l'arc lémanique au pied du Jura. Visite sur place et devis gratuits, réponse sous 48 h ouvrées.",
+  "points": [
+   "Devis gratuit, sans engagement",
+   "Réponse sous 48 h ouvrées",
+   "Visite sur place offerte dans le canton",
+   "Chantier rendu propre, branches évacuées"
+  ],
+  "trust": [
+   {
+    "icone": "SHIELD",
+    "titre": "Travail à la corde",
+    "sous": "Grimpe, nacelle ou grue selon l'accès"
+   },
+   {
+    "icone": "DOC",
+    "titre": "Autorisation communale",
+    "sous": "Vérifiée avec votre commune avant tout abattage"
+   },
+   {
+    "icone": "LEAF",
+    "titre": "Taille raisonnée",
+    "sous": "Bois mort, réduction de couronne, élagage de sécurité"
+   }
+  ],
+  "tuiles_locales": [
+   {
+    "icone": "TREE",
+    "titre": "Cèdres de villas",
+    "texte": "Cèdres de l'Atlas et du Liban des propriétés de Lausanne, Pully et de la Riviera : contrôle, allègement ou démontage quand le sujet devient trop grand pour la parcelle."
+   },
+   {
+    "icone": "WARN",
+    "titre": "Bise, foehn et tempêtes",
+    "texte": "Après la bise, le foehn du Haut-Lac ou une tempête comme Benjamin en octobre 2025 : branches cassées, arbres penchés, sécurisation et abattage en urgence."
+   },
+   {
+    "icone": "SEARCH",
+    "titre": "Frênes et chalarose",
+    "texte": "La chalarose touche désormais les frênes de tout le canton : diagnostic de la couronne et abattage préventif quand l'arbre sèche près d'une route ou d'une maison."
+   },
+   {
+    "icone": "CABLE",
+    "titre": "Pentes et accès étroits",
+    "texte": "Parcelles en pente vers le lac, murs de vigne de Lavaux et de La Côte : démontage à la corde avec rétention des pièces quand les machines ne passent pas."
+   }
+  ],
+  "zone": {
+   "h2": "Lausanne, La Côte, Riviera, Nord vaudois",
+   "lead": "Nous nous déplaçons dans tout le canton de Vaud, des quais du Léman aux villages du Gros-de-Vaud et de la Broye. Votre localité n'est pas listée ? Demandez-nous.",
+   "colonnes": [
+    {
+     "titre": "Lausanne et Lavaux",
+     "localites": [
+      "Lausanne",
+      "Pully",
+      "Renens",
+      "Prilly",
+      "Ecublens",
+      "Crissier",
+      "Epalinges",
+      "Le Mont-sur-Lausanne",
+      "Lutry",
+      "Cully (Bourg-en-Lavaux)"
+     ]
+    },
+    {
+     "titre": "La Côte",
+     "localites": [
+      "Morges",
+      "Nyon",
+      "Gland",
+      "Rolle",
+      "Aubonne",
+      "Saint-Prex",
+      "Préverenges",
+      "Cossonay",
+      "Prangins",
+      "Coppet"
+     ]
+    },
+    {
+     "titre": "Riviera et Chablais",
+     "localites": [
+      "Vevey",
+      "Montreux",
+      "La Tour-de-Peilz",
+      "Blonay - Saint-Légier",
+      "Corsier-sur-Vevey",
+      "Aigle",
+      "Bex",
+      "Ollon",
+      "Villeneuve",
+      "Château-d'Œx"
+     ]
+    },
+    {
+     "titre": "Nord vaudois et Broye",
+     "localites": [
+      "Yverdon-les-Bains",
+      "Orbe",
+      "Grandson",
+      "Sainte-Croix",
+      "Vallorbe",
+      "Echallens",
+      "Payerne",
+      "Moudon",
+      "Avenches",
+      "Lucens"
+     ]
+    }
+   ]
+  },
+  "faq": [
+   {
+    "q": "Faut-il une autorisation pour abattre un arbre dans le canton de Vaud ?",
+    "a": "Hors forêt, un arbre dès 40 cm de circonférence à 1 m du sol est protégé dans toutes les communes vaudoises : son abattage demande une autorisation écrite de la Municipalité, en principe avec plantation compensatoire. Nous vérifions la situation de chaque arbre avec votre commune avant d'intervenir."
+   },
+   {
+    "q": "Combien coûte une taille ou un abattage ?",
+    "a": "Chaque arbre est différent : hauteur, essence, accès, évacuation du bois. Nous venons sur place, regardons l'arbre avec vous et remettons un devis écrit. Visite et devis sont gratuits et sans engagement."
+   },
+   {
+    "q": "Mon jardin est en pente ou difficile d'accès, est-ce un problème ?",
+    "a": "Non. En grimpe, nous démontons l'arbre pièce par pièce et retenons les billes à la corde pour ne rien abîmer. Quand l'accès le permet, une nacelle, une grue ou d'autres machines complètent le travail."
+   },
+   {
+    "q": "Vous déplacez-vous dans tout le canton de Vaud ?",
+    "a": "Oui, de Nyon à Aigle et de Lausanne à Yverdon-les-Bains ou Payerne. Nous répondons sous 48 h ouvrées et fixons une visite sur place ; le déplacement pour le devis est offert."
+   },
+   {
+    "q": "Que deviennent les branches et le bois ?",
+    "a": "Selon votre souhait : les branches sont broyées et évacuées ou laissées en copeaux pour vos massifs, le bois est débité en bûches pour votre cheminée ou emporté. Le terrain est rendu propre."
+   }
+  ],
+  "cta": {
+   "h2": "Un arbre à tailler ou à abattre dans le canton de Vaud ?",
+   "lead": "Décrivez votre situation, nous vous rappelons sous 48 h ouvrées pour fixer une visite gratuite."
+  },
+  "ville_placeholder": "Lausanne, Vevey, Nyon…",
+  "annonce": {
+   "titres": [
+    "Arboriste-grimpeur",
+    "Devis gratuit, sans engagement",
+    "Réponse sous 48 h ouvrées",
+    "Grimpe, nacelle ou grue",
+    "Arboriste canton de Vaud",
+    "Élagage à Lausanne",
+    "Abattage d'arbre à Vevey",
+    "Élagueur à Nyon et Morges",
+    "Taille d'arbres à Yverdon",
+    "Arboriste Riviera vaudoise",
+    "Rognage de souche Vaud",
+    "Visite sur place offerte",
+    "Taille raisonnée et bois mort",
+    "Démontage d'arbre à la corde",
+    "Chantier rendu propre"
+   ],
+   "descriptions": [
+    "Taille, abattage et rognage de souche à Lausanne, Vevey, Nyon et dans le canton de Vaud.",
+    "Arboriste-grimpeur. Visite sur place et devis gratuits, réponse sous 48 h ouvrées.",
+    "Grimpe, nacelle ou grue selon l'accès. Branches évacuées, chantier rendu propre.",
+    "Autorisation communale vérifiée avec vous avant tout abattage dans le canton de Vaud."
+   ],
+   "chemins": [
+    "arboriste",
+    "vaud"
+   ]
+  },
+  "liens_annexes": [
+   {
+    "texte": "Nos prestations",
+    "ancre": "#prestations",
+    "d1": "Taille, abattage, démontage",
+    "d2": "Rognage de souche, haubanage"
+   },
+   {
+    "texte": "Zone d'intervention",
+    "ancre": "#zone",
+    "d1": "Lausanne, La Côte, Riviera",
+    "d2": "Nord vaudois, Broye, Chablais"
+   },
+   {
+    "texte": "Questions fréquentes",
+    "ancre": "#faq",
+    "d1": "Autorisation d'abattage Vaud",
+    "d2": "Accès, délais, branches"
+   },
+   {
+    "texte": "Devis gratuit",
+    "ancre": "#devis",
+    "d1": "Réponse sous 48 h ouvrées",
+    "d2": "Visite sur place offerte"
+   }
+  ]
+ },
+ "relecture:fribourg": {
+  "ok": false,
+  "problemes": [
+   "[FAQ autorisation — bloquant, longueur] La réponse « Hors zone à bâtir, haies, cordons boisés et grands arbres isolés sont protégés par la loi cantonale ; […] Nous vérifions avec vous avant d'intervenir. » fait 49 mots dans un seul paragraphe, au-delà de la limite de 40 mots.",
+   "[FAQ autorisation — bloquant, exactitude] « grands arbres isolés sont protégés par la loi cantonale » et « Leur abattage exige une dérogation de la commune » sont affirmés de façon absolue. D'après les données de recherche, la protection hors zone à bâtir (art. 22 LPNat) ne vaut que si le boisement est adapté aux conditions locales et d'intérêt écologique ou paysager, et tous les abattages ne demandent pas une dérogation. Il faut formuler avec prudence (« peuvent être protégés », « peut être exigée »).",
+   "[FAQ autorisation — bloquant, exactitude] « préavisée par le forestier de triage, avec replantation » : la recherche indique un préavis du Service des forêts et de la nature (SFN) et une compensation obligatoire (replantation sur place ou ailleurs, exceptionnellement une somme d'argent). Attribuer le préavis au forestier de triage et réduire la compensation à une « replantation » n'est pas vérifié. Correction prête à copier (39 mots) : « Souvent, oui. Hors zone à bâtir, haies, cordons boisés et grands arbres isolés peuvent être protégés ; en zone à bâtir, le règlement communal fait foi. Une dérogation communale, avec compensation, peut être exigée. Nous vérifions avec vous avant d'intervenir. »",
+   "[Bloc confiance — affirmation absolue] « Commune et forestier de triage consultés avant un abattage » laisse entendre que chaque abattage passe par la commune et le forestier, ce qui n'est pas le cas en zone à bâtir pour un arbre non protégé. Correction : « Commune ou forestier de triage consultés si une autorisation est nécessaire ».",
+   "[Tuile locale 4 — affirmation absolue] « taille d'entretien, abattage avec dérogation communale » présente la dérogation comme systématique. Correction : « Chênes, tilleuls et noyers isolés hors zone à bâtir, vergers haute-tige des fermes de la Broye et du Vully : taille d'entretien, abattage après dérogation communale si l'arbre est protégé. »",
+   "[Zone — crédibilité locale] Le h2 « Fribourg, Gruyère, Glâne-Broye, Lac et Singine » ne correspond à rien pour un Fribourgeois : « Glâne-Broye » n'est pas un district, la Veveyse manque alors que Châtel-Saint-Denis et Attalens sont listés, et le lead annonce « les sept districts ». Correction : « Sarine, Gruyère, Glâne, Broye, Veveyse, Lac et Singine » (cohérent avec les liens annexes « Sarine, Gruyère, Glâne, Broye » / « Lac, Singine, Veveyse »)."
+  ],
+  "suggestions": [
+   "[Localités Lac et Singine — crédibilité] Sur une page en français, un Fribourgeois écrit le nom français en premier. Remplacer « Kerzers (Chiètres) », « Gurmels (Cormondes) », « Düdingen (Guin) », « Tafers (Tavel) », « Plaffeien (Planfayon) » par « Chiètres (Kerzers) », « Cormondes (Gurmels) », « Guin (Düdingen) », « Tavel (Tafers) », « Planfayon (Plaffeien) ». Schmitten et Wünnewil-Flamatt restent tels quels.",
+   "[FAQ accès] « ou coincé entre deux chalets » sonne Gruyère, mais la phrase commence par la Sarine en ville de Fribourg ; « coincé entre deux villas » colle mieux à l'agglomération. Variante : « Un arbre en falaise au-dessus de la Sarine ou coincé entre deux villas se démonte par morceaux. »",
+   "[Tuile frênes] Pour coller à la recommandation du SFN (laisser les frênes malades sur pied sauf danger), on peut préciser l'approche : « La chalarose est largement répandue dans le canton ; un frêne sec devient cassant, surtout près d'une route, d'un chemin ou d'une maison : diagnostic, puis élagage ou abattage selon l'atteinte. »",
+   "[Tuile locale possible] Le capricorne asiatique signalé à Marly (2024) et Pierrafortscha (2025) est un sujet très fribourgeois ; une tuile « Érables et marronniers : capricorne asiatique » avec « déclaration obligatoire au canton, nous vous orientons » renforcerait l'ancrage local, à condition de rester factuel.",
+   "[Vérifications faites, rien à changer] Aucun mot interdit (expert, fiable, garanti, jamais, total, idéal, engins, sans nacelle, Jura bernois, dans la région, entreprise locale, basé à, Suisse romande) ; Courgenay absent du corps ; titres d'annonce tous ≤ 30 caractères (« Devis gratuit, sans engagement » = 30 pile), descriptions ≤ 90 caractères ; orthographe des localités correcte (Corminbœuf, La Tour-de-Trême, Villaz-Saint-Pierre, Estavayer-le-Lac, Montagny-la-Ville, Mont-Vully) ; « forestier de triage » est bien le terme fribourgeois ; FAQ délai à 40 mots exactement, à ne pas rallonger."
+  ]
+ },
+ "relecture:vaud": {
+  "ok": false,
+  "problemes": [
+   "BLOQUANT – FAQ « Faut-il une autorisation… » : « Hors forêt, un arbre dès 40 cm de circonférence à 1 m du sol est protégé dans toutes les communes vaudoises » est une règle juridique fausse et non vérifiée. Dans le canton de Vaud, le seuil est fixé par chaque règlement communal (règlement type cantonal) : le plus courant est 30 cm de diamètre mesuré à 1,30 m du sol (Gland, Tannay, Servion…), certaines communes descendent à 25 cm (Etoy), d'autres excluent les vergers. Ni « 40 cm », ni « circonférence », ni « à 1 m du sol », ni « toutes les communes » ne sont exacts. Un habitant vaudois ou une commune relèvera l'erreur, et la règle du client interdit toute affirmation juridique non vérifiée.",
+   "BLOQUANT (format) – la même réponse de FAQ fait 48 mots, au-delà de la limite de 40 mots par paragraphe.",
+   "Crédibilité locale – colonne « Lausanne et Lavaux » : Renens, Prilly, Ecublens et Crissier sont des communes de l'Ouest lausannois, pas de Lavaux. Un habitant le voit tout de suite.",
+   "Crédibilité locale – colonne « Riviera et Chablais » : Château-d'Œx est dans le Pays-d'Enhaut, ni Riviera ni Chablais ; le titre de colonne ne couvre pas cette localité.",
+   "Crédibilité locale (mineur) – colonne « Nord vaudois et Broye » : Echallens est le chef-lieu du Gros-de-Vaud, pas du Nord vaudois ni de la Broye ; le lead de la zone cite bien le Gros-de-Vaud mais le titre de colonne l'omet.",
+   "Crédibilité locale (mineur) – tuile « Bise, foehn et tempêtes » : « le foehn du Haut-Lac » est correct mais un Vaudois dit « la vaudaire » ; employer le nom local renforce l'impression d'un arboriste qui connaît le Haut-Lac.",
+   "Prudence (mineur) – tuile de confiance « Vérifiée avec votre commune avant tout abattage » et description d'annonce « Autorisation communale vérifiée avec vous avant tout abattage dans le canton de Vaud » : engagement absolu (« tout abattage ») alors qu'un arbre sous le seuil communal ou en zone forestière ne relève pas de la Municipalité. Formuler comme une aide plutôt qu'une garantie systématique."
+  ],
+  "suggestions": [
+   "FAQ – remplacer la réponse sur l'autorisation par (37 mots) : « Chaque commune vaudoise fixe un seuil de protection dans son règlement, souvent dès 30 cm de diamètre à 1,30 m du sol. Au-delà, l'abattage peut être soumis à une autorisation écrite de la Municipalité, parfois avec plantation compensatoire. Nous vérifions avec votre commune avant d'intervenir. »",
+   "Colonne 1 – renommer « Lausanne et Lavaux » en « Lausanne, Ouest lausannois et Lavaux » (les dix localités restent inchangées).",
+   "Colonne 3 – renommer « Riviera et Chablais » en « Riviera, Chablais et Pays-d'Enhaut » ; adapter en cohérence le lien annexe d2 « Nord vaudois, Broye, Chablais » (33 caractères max) en « Nord vaudois, Broye, Chablais » (inchangé, ok) et conserver « Lausanne, La Côte, Riviera » en d1.",
+   "Colonne 4 – renommer « Nord vaudois et Broye » en « Nord vaudois, Gros-de-Vaud et Broye ».",
+   "Tuile « Bise, foehn et tempêtes » – titre : « Bise, vaudaire et tempêtes » ; texte : « Après la bise, la vaudaire sur le Haut-Lac ou une tempête comme Benjamin en octobre 2025 : branches cassées, arbres penchés, sécurisation et abattage en urgence. »",
+   "Tuile de confiance « Autorisation communale » – sous-titre : « Demande préparée avec vous selon le règlement de votre commune ». Description d'annonce 4 (≤ 90 caractères) : « Autorisation communale : nous vérifions le règlement de votre commune avant d'abattre. » (85 caractères).",
+   "Vérification faite : aucun mot interdit (expert, garanti, certifié, fiable, jamais, engins, « sans nacelle », « dans la région », « basé à », « toute la Suisse romande ») ; Courgenay absent du corps ; annonces conformes aux limites Google Ads (15 titres ≤ 30 car., 4 descriptions 80-88 car., chemins ≤ 15 car., sitelinks ≤ 25/35 car.) ; meta title 56 car., meta description 150 car. ; orthographe des localités correcte (Cully (Bourg-en-Lavaux), Blonay - Saint-Légier, Yverdon-les-Bains, Château-d'Œx). Rien ne trahit une entreprise d'un autre canton.",
+   "Sources consultées pour le seuil : règlements communaux de Gland, Tannay, Etoy, Servion, Gimel, Ropraz, Lavigny et règlement type cantonal (vd.ch, RLPrPNP_ReglTypePatrimArb). Le texte de la LPrPNP elle-même n'a pas été relu ; ne pas citer d'article de loi dans la page."
+  ]
+ },
+ "rédaction:valais": {
+  "meta_title": "Arboriste-grimpeur en Valais : taille, abattage | Arboritaille",
+  "meta_desc": "Taille, abattage, démontage et rognage de souche à Sion, Martigny, Sierre, Monthey. Visite et devis gratuits, réponse sous 48 h ouvrées.",
+  "eyebrow": "Arboriste-grimpeur · Valais",
+  "h1": "Arboriste-grimpeur en Valais, <em>du Chablais à Sierre</em>",
+  "lead": "Taille raisonnée, abattage, démontage et rognage de souche pour vos arbres de jardin, de verger ou de chalet. Robin se déplace chez vous, à Sion, Martigny, Monthey ou Crans-Montana, pour une visite gratuite.",
+  "points": [
+   "Devis gratuit, sans engagement",
+   "Réponse sous 48 h ouvrées",
+   "Visite sur place offerte",
+   "Chantier rendu propre, branches évacuées"
+  ],
+  "trust": [
+   {
+    "icone": "SHIELD",
+    "titre": "Travail encordé",
+    "sous": "Grimpe, nacelle ou grue selon l'accès"
+   },
+   {
+    "icone": "DOC",
+    "titre": "Démarches communales",
+    "sous": "Aide pour la demande d'abattage à votre commune"
+   },
+   {
+    "icone": "PIN",
+    "titre": "Visite sur place",
+    "sous": "De Monthey à Sierre, plaine et stations"
+   }
+  ],
+  "tuiles_locales": [
+   {
+    "icone": "TREE",
+    "titre": "Abricotiers et vergers de la plaine",
+    "texte": "Vieux abricotiers, poiriers ou cognassiers de jardin à Saxon, Fully ou Riddes : taille de restauration, bois mort retiré, signes de feu bactérien repérés."
+   },
+   {
+    "icone": "WARN",
+    "titre": "Après un coup de foehn",
+    "texte": "Branches cassées ou charpentières fendues après un épisode de foehn à Martigny, Sion ou dans le Chablais : élagage de sécurité et démontage des parties dangereuses."
+   },
+   {
+    "icone": "CABLE",
+    "titre": "Arbre isolé dans les vignes",
+    "texte": "Noyer ou chêne au milieu des vignes en terrasses de Chamoson, Leytron ou Savièse : accès en forte pente, démontage à la corde, billons retenus au-dessus des murs."
+   },
+   {
+    "icone": "SPROUT",
+    "titre": "Épicéas autour des chalets",
+    "texte": "Épicéas secs, attaqués par le bostryche ou chargés de neige lourde autour d'un chalet à Nendaz, Verbier ou Crans-Montana : diagnostic, puis abattage ou réduction de couronne."
+   }
+  ],
+  "zone": {
+   "h2": "Chablais, Martigny, Sion, Sierre",
+   "lead": "Robin intervient dans les localités du Valais romand, de la plaine du Rhône aux stations. Votre localité n'apparaît pas ? Demandez quand même votre devis.",
+   "colonnes": [
+    {
+     "titre": "Chablais",
+     "localites": [
+      "Monthey",
+      "Saint-Maurice",
+      "Collombey-Muraz",
+      "Vouvry",
+      "Vionnaz",
+      "Le Bouveret",
+      "Massongex",
+      "Troistorrents",
+      "Val-d'Illiez",
+      "Champéry"
+     ]
+    },
+    {
+     "titre": "Martigny et Entremont",
+     "localites": [
+      "Martigny",
+      "Fully",
+      "Saxon",
+      "Saillon",
+      "Leytron",
+      "Riddes",
+      "Charrat",
+      "Vernayaz",
+      "Orsières",
+      "Le Châble et Verbier"
+     ]
+    },
+    {
+     "titre": "Valais central",
+     "localites": [
+      "Sion",
+      "Conthey",
+      "Vétroz",
+      "Ardon",
+      "Chamoson",
+      "Savièse",
+      "Nendaz",
+      "Grimisuat",
+      "Ayent",
+      "Evolène"
+     ]
+    },
+    {
+     "titre": "Sierre et Anniviers",
+     "localites": [
+      "Sierre",
+      "Chippis",
+      "Chalais",
+      "Grône",
+      "Saint-Léonard",
+      "Lens",
+      "Crans-Montana",
+      "Veyras et Miège",
+      "Vissoie et Grimentz",
+      "Icogne"
+     ]
+    }
+   ]
+  },
+  "faq": [
+   {
+    "q": "Faut-il une autorisation pour abattre un arbre en Valais ?",
+    "a": "Hors forêt, chaque commune règle la protection des arbres : renseignez-vous avant d'abattre ou d'élaguer fortement, plusieurs communes exigent une demande préalable ; hors zone à bâtir, le service cantonal est compétent. En forêt, tout abattage passe par le garde forestier. Votre commune fait foi ; nous vous accompagnons."
+   },
+   {
+    "q": "Combien coûte une taille ou un abattage ?",
+    "a": "Cela dépend de l'arbre, de l'accès et de l'évacuation du bois. Robin vient voir sur place, gratuitement, et vous remet un devis écrit sans engagement, sous 48 h ouvrées."
+   },
+   {
+    "q": "Mon arbre est en pente ou coincé entre deux chalets, est-ce possible ?",
+    "a": "Oui. Selon l'accès, le travail se fait en grimpe avec descente à la corde ou par rétention, en nacelle, ou à la grue pour les gros sujets. Les machines ne passent que là où le terrain le permet."
+   },
+   {
+    "q": "Vous déplacez-vous jusqu'à Champéry ou Evolène ?",
+    "a": "Oui, Robin vient sur place dans tout le canton, du Chablais au val d'Anniviers. La visite est gratuite et la date du chantier se fixe ensemble, selon la saison et l'urgence."
+   },
+   {
+    "q": "Que deviennent les branches et le bois ?",
+    "a": "Au choix : broyage sur place en copeaux pour vos massifs, bois de chauffage débité à votre longueur, ou évacuation. Le terrain est rendu propre en fin de chantier."
+   }
+  ],
+  "cta": {
+   "h2": "Un arbre à tailler ou à abattre en Valais ?",
+   "lead": "Décrivez votre situation, Robin vous rappelle sous 48 h ouvrées pour fixer une visite gratuite."
+  },
+  "ville_placeholder": "Sion, Martigny, Monthey…",
+  "annonce": {
+   "titres": [
+    "Arboriste-grimpeur en Valais",
+    "Devis gratuit, sans engagement",
+    "Arboriste-grimpeur",
+    "Réponse sous 48 h ouvrées",
+    "Grimpe, nacelle ou grue",
+    "Élagage d'arbres à Sion",
+    "Abattage d'arbre à Martigny",
+    "Taille d'arbres à Sierre",
+    "Arboriste à Monthey",
+    "Rognage de souche en Valais",
+    "Visite sur place offerte",
+    "Démontage d'arbre délicat",
+    "Taille raisonnée de vos arbres",
+    "Abattage d'arbres en Valais",
+    "Élagage de sécurité"
+   ],
+   "descriptions": [
+    "Taille, abattage, démontage et rognage de souche à Sion, Martigny, Sierre et Monthey.",
+    "Visite sur place et devis gratuits, réponse sous 48 h ouvrées, chantier rendu propre.",
+    "Grimpe, nacelle ou grue selon l'accès : verger, chalet, vigne en pente, villa en Valais.",
+    "Aide pour la demande d'abattage à votre commune. Particuliers, gérances, collectivités."
+   ],
+   "chemins": [
+    "arboriste",
+    "valais"
+   ]
+  },
+  "liens_annexes": [
+   {
+    "texte": "Nos prestations",
+    "ancre": "#prestations",
+    "d1": "Taille, abattage, démontage",
+    "d2": "Rognage de souche, haubanage"
+   },
+   {
+    "texte": "Localités desservies",
+    "ancre": "#zone",
+    "d1": "Chablais, Martigny, Sion, Sierre",
+    "d2": "Plaine du Rhône et stations"
+   },
+   {
+    "texte": "Questions fréquentes",
+    "ancre": "#faq",
+    "d1": "Autorisation d'abattage en Valais",
+    "d2": "Accès, délais, branches"
+   },
+   {
+    "texte": "Demander un devis",
+    "ancre": "#devis",
+    "d1": "Visite sur place gratuite",
+    "d2": "Réponse sous 48 h ouvrées"
+   }
+  ]
+ },
+ "correction-finale:fribourg": {
+  "meta_title": "Arboriste-grimpeur Fribourg : taille, abattage | Arboritaille",
+  "meta_desc": "Taille, abattage, démontage et rognage de souche dans le canton de Fribourg. Visite et devis gratuits, réponse sous 48 h ouvrées. Chantier rendu propre.",
+  "eyebrow": "Arboriste-grimpeur · Canton de Fribourg",
+  "h1": "Arboriste-grimpeur dans le <em>canton de Fribourg</em>",
+  "lead": "Taille, abattage, démontage et rognage de souche, de Fribourg à Bulle, Romont, Estavayer-le-Lac et Morat. Visite sur place et devis gratuits pour particuliers, gérances, entreprises et communes.",
+  "points": [
+   "Devis gratuit, sans engagement",
+   "Réponse sous 48 h ouvrées",
+   "Visite sur place offerte",
+   "Chantier rendu propre, branches évacuées"
+  ],
+  "trust": [
+   {
+    "icone": "SHIELD",
+    "titre": "Travail à la corde",
+    "sous": "Grimpe, rétention, nacelle ou grue selon l'accès"
+   },
+   {
+    "icone": "DOC",
+    "titre": "Démarches vérifiées avec vous",
+    "sous": "Commune ou forestier de triage consultés si une autorisation est nécessaire"
+   },
+   {
+    "icone": "TREE",
+    "titre": "Taille raisonnée",
+    "sous": "Respect de la forme et de la santé de l'arbre"
+   }
+  ],
+  "tuiles_locales": [
+   {
+    "icone": "TREE",
+    "titre": "Platanes et tilleuls en ville de Fribourg",
+    "texte": "Alignements de platanes et tilleuls, arbres en falaise au-dessus de la Sarine : accès difficiles traités à la corde, par rétention ou en nacelle."
+   },
+   {
+    "icone": "WARN",
+    "titre": "Frênes touchés par la chalarose",
+    "texte": "La chalarose est largement répandue dans le canton ; un frêne sec devient cassant, surtout près d'une route, d'un chemin ou d'une maison."
+   },
+   {
+    "icone": "CABLE",
+    "titre": "Épicéas et sapins après tempête",
+    "texte": "En Gruyère comme sur le Plateau, tempêtes d'hiver et neige lourde cassent épicéas et sapins blancs : démontage par rétention, même sur forte pente."
+   },
+   {
+    "icone": "SPROUT",
+    "titre": "Grands arbres de ferme et vergers haute-tige",
+    "texte": "Chênes, tilleuls et noyers isolés hors zone à bâtir, vergers haute-tige des fermes de la Broye et du Vully : taille d'entretien, abattage après dérogation communale si l'arbre est protégé."
+   }
+  ],
+  "zone": {
+   "h2": "Sarine, Gruyère, Glâne, Broye, Veveyse, Lac et Singine",
+   "lead": "Nous intervenons dans les sept districts du canton, de la Sarine aux Préalpes gruériennes et jusqu'aux rives du lac de Morat. Indiquez votre localité dans le formulaire.",
+   "colonnes": [
+    {
+     "titre": "Fribourg et Sarine",
+     "localites": [
+      "Fribourg",
+      "Villars-sur-Glâne",
+      "Marly",
+      "Givisiez",
+      "Granges-Paccot",
+      "Belfaux",
+      "Corminbœuf",
+      "Matran",
+      "Avry",
+      "Le Mouret"
+     ]
+    },
+    {
+     "titre": "Gruyère et Veveyse",
+     "localites": [
+      "Bulle",
+      "La Tour-de-Trême",
+      "Gruyères",
+      "Broc",
+      "Riaz",
+      "Vuadens",
+      "Charmey",
+      "La Roche",
+      "Châtel-Saint-Denis",
+      "Attalens"
+     ]
+    },
+    {
+     "titre": "Glâne et Broye",
+     "localites": [
+      "Romont",
+      "Siviriez",
+      "Ursy",
+      "Villaz-Saint-Pierre",
+      "Estavayer-le-Lac",
+      "Domdidier",
+      "Cugy",
+      "Cheyres",
+      "Saint-Aubin",
+      "Montagny-la-Ville"
+     ]
+    },
+    {
+     "titre": "Lac et Singine",
+     "localites": [
+      "Morat",
+      "Courtepin",
+      "Kerzers (Chiètres)",
+      "Gurmels (Cormondes)",
+      "Mont-Vully",
+      "Düdingen (Guin)",
+      "Tafers (Tavel)",
+      "Schmitten",
+      "Wünnewil-Flamatt",
+      "Plaffeien (Planfayon)"
+     ]
+    }
+   ]
+  },
+  "faq": [
+   {
+    "q": "Faut-il une autorisation pour abattre un arbre dans le canton de Fribourg ?",
+    "a": "Souvent, oui. Hors zone à bâtir, haies, cordons boisés et grands arbres isolés peuvent être protégés ; en zone à bâtir, le règlement communal fait foi. Une dérogation communale, avec compensation, peut être exigée. Nous vérifions avec vous avant d'intervenir."
+   },
+   {
+    "q": "Combien coûte une taille ou un abattage ?",
+    "a": "Chaque arbre est différent : hauteur, accès, essence, évacuation. Nous venons sur place, sans frais, et vous remettons un devis écrit détaillé. Vous décidez ensuite, sans engagement."
+   },
+   {
+    "q": "Mon arbre est difficile d'accès, est-ce possible ?",
+    "a": "Oui. Nous travaillons à la corde, par démontage avec rétention, en nacelle ou avec une grue selon la place disponible. Un arbre en falaise au-dessus de la Sarine ou coincé entre deux chalets se démonte par morceaux."
+   },
+   {
+    "q": "Sous quel délai venez-vous dans le canton de Fribourg ?",
+    "a": "Nous répondons sous 48 h ouvrées et fixons une visite sur place, à Fribourg, Bulle, Romont, Estavayer-le-Lac ou Morat comme dans les villages. La date du chantier dépend de la saison et de l'urgence : un arbre menaçant passe en priorité."
+   },
+   {
+    "q": "Que deviennent les branches et le bois ?",
+    "a": "Les branches sont broyées sur place ou évacuées, selon votre choix. Le bois peut être débité en bûches et laissé à votre disposition, ou emporté. Le chantier est nettoyé avant notre départ."
+   }
+  ],
+  "cta": {
+   "h2": "Un arbre à tailler ou à abattre dans le canton de Fribourg ?",
+   "lead": "Décrivez votre situation, ajoutez une photo si vous le souhaitez : réponse sous 48 h ouvrées, visite et devis gratuits."
+  },
+  "ville_placeholder": "Fribourg, Bulle, Morat…",
+  "annonce": {
+   "titres": [
+    "Arboriste-grimpeur Fribourg",
+    "Élagage canton de Fribourg",
+    "Abattage d'arbre à Fribourg",
+    "Arboriste à Bulle et Gruyère",
+    "Taille d'arbres à Romont",
+    "Arboriste Morat, Estavayer",
+    "Devis gratuit, sans engagement",
+    "Arboriste-grimpeur",
+    "Réponse sous 48 h ouvrées",
+    "Grimpe, nacelle ou grue",
+    "Taille raisonnée et bois mort",
+    "Rognage de souche",
+    "Démontage par rétention",
+    "Visite sur place offerte",
+    "Chantier rendu propre"
+   ],
+   "descriptions": [
+    "Taille, abattage, rognage de souche dans le canton de Fribourg. Visite et devis gratuits.",
+    "Arboriste-grimpeur à Fribourg, Bulle, Romont, Morat. Réponse sous 48 h ouvrées.",
+    "Accès difficile ? Grimpe, démontage par rétention, nacelle ou grue selon la place.",
+    "Autorisations communales vérifiées avec vous. Branches évacuées, chantier rendu propre."
+   ],
+   "chemins": [
+    "arboriste",
+    "fribourg"
+   ]
+  },
+  "liens_annexes": [
+   {
+    "texte": "Nos prestations",
+    "ancre": "#prestations",
+    "d1": "Taille, abattage, démontage",
+    "d2": "Rognage de souche, haubanage"
+   },
+   {
+    "texte": "Zone d'intervention",
+    "ancre": "#zone",
+    "d1": "Sarine, Gruyère, Glâne, Broye",
+    "d2": "Lac, Singine, Veveyse"
+   },
+   {
+    "texte": "Questions fréquentes",
+    "ancre": "#faq",
+    "d1": "Autorisation d'abattage",
+    "d2": "Accès, délais, branches"
+   },
+   {
+    "texte": "Devis gratuit",
+    "ancre": "#devis",
+    "d1": "Visite sur place offerte",
+    "d2": "Réponse sous 48 h ouvrées"
+   }
+  ]
+ },
+ "correction-finale:vaud": {
+  "meta_title": "Arboriste-grimpeur dans le canton de Vaud | Arboritaille",
+  "meta_desc": "Taille, abattage et rognage de souche à Lausanne, Vevey, Nyon, Yverdon et dans le canton de Vaud. Visite et devis gratuits, réponse sous 48 h ouvrées.",
+  "eyebrow": "Arboriste-grimpeur · Canton de Vaud",
+  "h1": "Arboriste-grimpeur dans le <em>canton de Vaud</em>",
+  "lead": "Taille, abattage, démontage et rognage de souche pour les propriétaires, gérances et communes vaudoises, de l'arc lémanique au pied du Jura. Visite sur place et devis gratuits, réponse sous 48 h ouvrées.",
+  "points": [
+   "Devis gratuit, sans engagement",
+   "Réponse sous 48 h ouvrées",
+   "Visite sur place offerte dans le canton",
+   "Chantier rendu propre, branches évacuées"
+  ],
+  "trust": [
+   {
+    "icone": "SHIELD",
+    "titre": "Travail à la corde",
+    "sous": "Grimpe, nacelle ou grue selon l'accès"
+   },
+   {
+    "icone": "DOC",
+    "titre": "Autorisation communale",
+    "sous": "Demande préparée avec vous selon le règlement de votre commune"
+   },
+   {
+    "icone": "LEAF",
+    "titre": "Taille raisonnée",
+    "sous": "Bois mort, réduction de couronne, élagage de sécurité"
+   }
+  ],
+  "tuiles_locales": [
+   {
+    "icone": "TREE",
+    "titre": "Cèdres de villas",
+    "texte": "Cèdres de l'Atlas et du Liban des propriétés de Lausanne, Pully et de la Riviera : contrôle, allègement ou démontage quand le sujet devient trop grand pour la parcelle."
+   },
+   {
+    "icone": "WARN",
+    "titre": "Bise, vaudaire et tempêtes",
+    "texte": "Après la bise, la vaudaire sur le Haut-Lac ou une tempête comme Benjamin en octobre 2025 : branches cassées, arbres penchés, sécurisation et abattage en urgence."
+   },
+   {
+    "icone": "SEARCH",
+    "titre": "Frênes et chalarose",
+    "texte": "La chalarose touche désormais les frênes de tout le canton : diagnostic de la couronne et abattage préventif quand l'arbre sèche près d'une route ou d'une maison."
+   },
+   {
+    "icone": "CABLE",
+    "titre": "Pentes et accès étroits",
+    "texte": "Parcelles en pente vers le lac, murs de vigne de Lavaux et de La Côte : démontage à la corde avec rétention des pièces quand les machines ne passent pas."
+   }
+  ],
+  "zone": {
+   "h2": "Lausanne, La Côte, Riviera, Nord vaudois",
+   "lead": "Nous nous déplaçons dans tout le canton de Vaud, des quais du Léman aux villages du Gros-de-Vaud et de la Broye. Votre localité n'est pas listée ? Demandez-nous.",
+   "colonnes": [
+    {
+     "titre": "Lausanne, Ouest lausannois et Lavaux",
+     "localites": [
+      "Lausanne",
+      "Pully",
+      "Renens",
+      "Prilly",
+      "Ecublens",
+      "Crissier",
+      "Epalinges",
+      "Le Mont-sur-Lausanne",
+      "Lutry",
+      "Cully (Bourg-en-Lavaux)"
+     ]
+    },
+    {
+     "titre": "La Côte",
+     "localites": [
+      "Morges",
+      "Nyon",
+      "Gland",
+      "Rolle",
+      "Aubonne",
+      "Saint-Prex",
+      "Préverenges",
+      "Cossonay",
+      "Prangins",
+      "Coppet"
+     ]
+    },
+    {
+     "titre": "Riviera, Chablais et Pays-d'Enhaut",
+     "localites": [
+      "Vevey",
+      "Montreux",
+      "La Tour-de-Peilz",
+      "Blonay - Saint-Légier",
+      "Corsier-sur-Vevey",
+      "Aigle",
+      "Bex",
+      "Ollon",
+      "Villeneuve",
+      "Château-d'Œx"
+     ]
+    },
+    {
+     "titre": "Nord vaudois, Gros-de-Vaud et Broye",
+     "localites": [
+      "Yverdon-les-Bains",
+      "Orbe",
+      "Grandson",
+      "Sainte-Croix",
+      "Vallorbe",
+      "Echallens",
+      "Payerne",
+      "Moudon",
+      "Avenches",
+      "Lucens"
+     ]
+    }
+   ]
+  },
+  "faq": [
+   {
+    "q": "Faut-il une autorisation pour abattre un arbre dans le canton de Vaud ?",
+    "a": "Chaque commune vaudoise fixe son seuil de protection, souvent dès 30 cm de diamètre à 1,30 m du sol. Au-delà, l'abattage peut être soumis à autorisation de la Municipalité, parfois avec plantation compensatoire. Nous vérifions avec votre commune avant d'intervenir."
+   },
+   {
+    "q": "Combien coûte une taille ou un abattage ?",
+    "a": "Chaque arbre est différent : hauteur, essence, accès, évacuation du bois. Nous venons sur place, regardons l'arbre avec vous et remettons un devis écrit. Visite et devis sont gratuits et sans engagement."
+   },
+   {
+    "q": "Mon jardin est en pente ou difficile d'accès, est-ce un problème ?",
+    "a": "Non. En grimpe, nous démontons l'arbre pièce par pièce et retenons les billes à la corde pour ne rien abîmer. Quand l'accès le permet, une nacelle, une grue ou d'autres machines complètent le travail."
+   },
+   {
+    "q": "Vous déplacez-vous dans tout le canton de Vaud ?",
+    "a": "Oui, de Nyon à Aigle et de Lausanne à Yverdon-les-Bains ou Payerne. Nous répondons sous 48 h ouvrées et fixons une visite sur place ; le déplacement pour le devis est offert."
+   },
+   {
+    "q": "Que deviennent les branches et le bois ?",
+    "a": "Selon votre souhait : les branches sont broyées et évacuées ou laissées en copeaux pour vos massifs, le bois est débité en bûches pour votre cheminée ou emporté. Le terrain est rendu propre."
+   }
+  ],
+  "cta": {
+   "h2": "Un arbre à tailler ou à abattre dans le canton de Vaud ?",
+   "lead": "Décrivez votre situation, nous vous rappelons sous 48 h ouvrées pour fixer une visite gratuite."
+  },
+  "ville_placeholder": "Lausanne, Vevey, Nyon…",
+  "annonce": {
+   "titres": [
+    "Arboriste-grimpeur",
+    "Devis gratuit, sans engagement",
+    "Réponse sous 48 h ouvrées",
+    "Grimpe, nacelle ou grue",
+    "Arboriste canton de Vaud",
+    "Élagage à Lausanne",
+    "Abattage d'arbre à Vevey",
+    "Élagueur à Nyon et Morges",
+    "Taille d'arbres à Yverdon",
+    "Arboriste Riviera vaudoise",
+    "Rognage de souche Vaud",
+    "Visite sur place offerte",
+    "Taille raisonnée et bois mort",
+    "Démontage d'arbre à la corde",
+    "Chantier rendu propre"
+   ],
+   "descriptions": [
+    "Taille, abattage et rognage de souche à Lausanne, Vevey, Nyon et dans le canton de Vaud.",
+    "Arboriste-grimpeur. Visite sur place et devis gratuits, réponse sous 48 h ouvrées.",
+    "Grimpe, nacelle ou grue selon l'accès. Branches évacuées, chantier rendu propre.",
+    "Autorisation communale : nous vérifions le règlement de votre commune avant d'abattre."
+   ],
+   "chemins": [
+    "arboriste",
+    "vaud"
+   ]
+  },
+  "liens_annexes": [
+   {
+    "texte": "Nos prestations",
+    "ancre": "#prestations",
+    "d1": "Taille, abattage, démontage",
+    "d2": "Rognage de souche, haubanage"
+   },
+   {
+    "texte": "Zone d'intervention",
+    "ancre": "#zone",
+    "d1": "Lausanne, La Côte, Riviera",
+    "d2": "Nord vaudois, Broye, Chablais"
+   },
+   {
+    "texte": "Questions fréquentes",
+    "ancre": "#faq",
+    "d1": "Autorisation d'abattage Vaud",
+    "d2": "Accès, délais, branches"
+   },
+   {
+    "texte": "Devis gratuit",
+    "ancre": "#devis",
+    "d1": "Réponse sous 48 h ouvrées",
+    "d2": "Visite sur place offerte"
+   }
+  ]
+ },
+ "relecture:valais": {
+  "ok": false,
+  "problemes": [
+   "FAQ 1 (bloquant, règle de format) — la réponse fait 46 mots en un seul paragraphe et la première phrase enchaîne trois propositions avec deux-points et point-virgule : « Hors forêt, chaque commune règle la protection des arbres : renseignez-vous avant d'abattre ou d'élaguer fortement, plusieurs communes exigent une demande préalable ; hors zone à bâtir, le service cantonal est compétent. » Viole « aucun paragraphe de plus de 40 mots » et « une phrase par élément ».",
+   "FAQ 1 (bloquant, prudence juridique) — « hors zone à bâtir, le service cantonal est compétent » généralise une règle qui, d'après les données de recherche (LcPN art. 17, OcPN art. 24), ne vaut que pour un arbre ou une haie PROTÉGÉS ; pour un arbre non protégé hors zone à bâtir, rien n'est vérifié. De plus « nous vous accompagnons » casse la perspective « Robin » utilisée partout ailleurs. Correction prête à copier (40 mots) : « Hors forêt, la protection des arbres relève de chaque commune. Plusieurs communes demandent un formulaire avant un abattage ou un élagage important. En forêt, l'abattage passe par le garde forestier. Votre commune fait foi, Robin vous aide dans la démarche. »",
+   "FAQ 2 (bloquant, promesse non couverte par le brief) — « vous remet un devis écrit sans engagement, sous 48 h ouvrées » : le brief garantit une RÉPONSE sous 48 h ouvrées, pas le devis ; le CTA dit d'ailleurs « Robin vous rappelle sous 48 h ouvrées pour fixer une visite ». Correction : « Cela dépend de l'arbre, de l'accès et de l'évacuation du bois. Robin vient voir sur place, gratuitement, puis vous remet un devis écrit, sans engagement. »",
+   "FAQ 4 (crédibilité) — « Robin vient sur place dans tout le canton » contredit la section zone (« localités du Valais romand ») et le H1 (« du Chablais à Sierre ») : un lecteur de Viège ou Brigue pourrait appeler, et un Valaisan sait que Sierre est la frontière des langues. Correction : « Oui, Robin vient sur place dans tout le Valais romand, du Chablais au val d'Anniviers. La visite est gratuite et la date du chantier se fixe ensemble, selon la saison et l'urgence. »",
+   "Points (cohérence) — « Chantier rendu propre, branches évacuées » affirme une évacuation systématique alors que la FAQ 5 dit « Au choix : broyage sur place…, bois de chauffage…, ou évacuation ». Correction : « Chantier rendu propre, branches broyées ou évacuées »."
+  ],
+  "suggestions": [
+   "Vérifié et conforme : aucun mot interdit (honnête, fiable, garanti, expert, total, jamais, idéal…), « machines » bien utilisé, aucun « sans nacelle », aucun « dans la région / basé à / toute la Suisse romande », pas de Courgenay, pas de prix ni d'avis ; toutes les localités existent, sont en Valais romand et correctement orthographiées (Collombey-Muraz, Val-d'Illiez, Vétroz, Savièse, Icogne, Veyras, Miège…) ; longueurs Google Ads OK (titres ≤ 30 car., « Devis gratuit, sans engagement » et « Taille raisonnée de vos arbres » sont pile à 30, descriptions 85-88 car., liens annexes ≤ 25/35).",
+   "Tuile « Épicéas autour des chalets » : l'icône SPROUT (jeune pousse) ne colle pas à un épicéa sec ou chargé de neige ; préférer TREE ou une icône neige/hiver si elle existe. Optionnel : « Épicéas et mélèzes secs… » pour coller au paysage des stations.",
+   "Tuile « Abricotiers et vergers de la plaine » : le feu bactérien est à annonce obligatoire au Service phytosanitaire cantonal (donnée vérifiée). Formulation possible : « …bois mort retiré, signes de feu bactérien repérés et à annoncer au service phytosanitaire. » Reste sous 40 mots.",
+   "Zone : pour renforcer l'ancrage, quelques localités très recherchées manquent sans que ce soit gênant — Val d'Hérens : Vex, Hérémence ; Sierre et Anniviers : Vercorin, Zinal ; Entremont : Sembrancher. À ajouter seulement si les colonnes restent équilibrées (10 par colonne).",
+   "Si la FAQ 1 doit garder la nuance cantonale, l'ajouter en seconde question courte plutôt que d'alourdir la réponse : « Et pour un arbre protégé hors zone à bâtir ? » → « L'autorisation relève alors du service cantonal (SFNP), qui peut demander une compensation. La commune vous indique si l'arbre figure à son inventaire. »",
+   "Redondance légère entre « Devis gratuit, sans engagement » et « Visite sur place offerte » (points) + « visite gratuite » (lead) : acceptable pour une LP, mais on peut remplacer le 3e point par « Particuliers, gérances, collectivités » pour élargir la cible sans répéter."
+  ]
+ },
+ "correction-finale:valais": {
+  "meta_title": "Arboriste-grimpeur en Valais : taille, abattage | Arboritaille",
+  "meta_desc": "Taille, abattage, démontage et rognage de souche à Sion, Martigny, Sierre, Monthey. Visite et devis gratuits, réponse sous 48 h ouvrées.",
+  "eyebrow": "Arboriste-grimpeur · Valais",
+  "h1": "Arboriste-grimpeur en Valais, <em>du Chablais à Sierre</em>",
+  "lead": "Taille raisonnée, abattage, démontage et rognage de souche pour vos arbres de jardin, de verger ou de chalet. Robin se déplace chez vous, à Sion, Martigny, Monthey ou Crans-Montana, pour une visite gratuite.",
+  "points": [
+   "Devis gratuit, sans engagement",
+   "Réponse sous 48 h ouvrées",
+   "Visite sur place offerte",
+   "Chantier rendu propre, branches broyées ou évacuées"
+  ],
+  "trust": [
+   {
+    "icone": "SHIELD",
+    "titre": "Travail encordé",
+    "sous": "Grimpe, nacelle ou grue selon l'accès"
+   },
+   {
+    "icone": "DOC",
+    "titre": "Démarches communales",
+    "sous": "Aide pour la demande d'abattage à votre commune"
+   },
+   {
+    "icone": "PIN",
+    "titre": "Visite sur place",
+    "sous": "De Monthey à Sierre, plaine et stations"
+   }
+  ],
+  "tuiles_locales": [
+   {
+    "icone": "TREE",
+    "titre": "Abricotiers et vergers de la plaine",
+    "texte": "Vieux abricotiers, poiriers ou cognassiers de jardin à Saxon, Fully ou Riddes : taille de restauration, bois mort retiré, signes de feu bactérien repérés."
+   },
+   {
+    "icone": "WARN",
+    "titre": "Après un coup de foehn",
+    "texte": "Branches cassées ou charpentières fendues après un épisode de foehn à Martigny, Sion ou dans le Chablais : élagage de sécurité et démontage des parties dangereuses."
+   },
+   {
+    "icone": "CABLE",
+    "titre": "Arbre isolé dans les vignes",
+    "texte": "Noyer ou chêne au milieu des vignes en terrasses de Chamoson, Leytron ou Savièse : accès en forte pente, démontage à la corde, billons retenus au-dessus des murs."
+   },
+   {
+    "icone": "SPROUT",
+    "titre": "Épicéas autour des chalets",
+    "texte": "Épicéas secs, attaqués par le bostryche ou chargés de neige lourde autour d'un chalet à Nendaz, Verbier ou Crans-Montana : diagnostic, puis abattage ou réduction de couronne."
+   }
+  ],
+  "zone": {
+   "h2": "Chablais, Martigny, Sion, Sierre",
+   "lead": "Robin intervient dans les localités du Valais romand, de la plaine du Rhône aux stations. Votre localité n'apparaît pas ? Demandez quand même votre devis.",
+   "colonnes": [
+    {
+     "titre": "Chablais",
+     "localites": [
+      "Monthey",
+      "Saint-Maurice",
+      "Collombey-Muraz",
+      "Vouvry",
+      "Vionnaz",
+      "Le Bouveret",
+      "Massongex",
+      "Troistorrents",
+      "Val-d'Illiez",
+      "Champéry"
+     ]
+    },
+    {
+     "titre": "Martigny et Entremont",
+     "localites": [
+      "Martigny",
+      "Fully",
+      "Saxon",
+      "Saillon",
+      "Leytron",
+      "Riddes",
+      "Charrat",
+      "Vernayaz",
+      "Orsières",
+      "Le Châble et Verbier"
+     ]
+    },
+    {
+     "titre": "Valais central",
+     "localites": [
+      "Sion",
+      "Conthey",
+      "Vétroz",
+      "Ardon",
+      "Chamoson",
+      "Savièse",
+      "Nendaz",
+      "Grimisuat",
+      "Ayent",
+      "Evolène"
+     ]
+    },
+    {
+     "titre": "Sierre et Anniviers",
+     "localites": [
+      "Sierre",
+      "Chippis",
+      "Chalais",
+      "Grône",
+      "Saint-Léonard",
+      "Lens",
+      "Crans-Montana",
+      "Veyras et Miège",
+      "Vissoie et Grimentz",
+      "Icogne"
+     ]
+    }
+   ]
+  },
+  "faq": [
+   {
+    "q": "Faut-il une autorisation pour abattre un arbre en Valais ?",
+    "a": "Hors forêt, la protection des arbres relève de chaque commune. Plusieurs communes demandent un formulaire avant un abattage ou un élagage important. En forêt, l'abattage passe par le garde forestier. Votre commune fait foi, Robin vous aide dans la démarche."
+   },
+   {
+    "q": "Combien coûte une taille ou un abattage ?",
+    "a": "Cela dépend de l'arbre, de l'accès et de l'évacuation du bois. Robin vient voir sur place, gratuitement, puis vous remet un devis écrit, sans engagement."
+   },
+   {
+    "q": "Mon arbre est en pente ou coincé entre deux chalets, est-ce possible ?",
+    "a": "Oui. Selon l'accès, le travail se fait en grimpe avec descente à la corde ou par rétention, en nacelle, ou à la grue pour les gros sujets. Les machines ne passent que là où le terrain le permet."
+   },
+   {
+    "q": "Vous déplacez-vous jusqu'à Champéry ou Evolène ?",
+    "a": "Oui, Robin vient sur place dans tout le Valais romand, du Chablais au val d'Anniviers. La visite est gratuite et la date du chantier se fixe ensemble, selon la saison et l'urgence."
+   },
+   {
+    "q": "Que deviennent les branches et le bois ?",
+    "a": "Au choix : broyage sur place en copeaux pour vos massifs, bois de chauffage débité à votre longueur, ou évacuation. Le terrain est rendu propre en fin de chantier."
+   }
+  ],
+  "cta": {
+   "h2": "Un arbre à tailler ou à abattre en Valais ?",
+   "lead": "Décrivez votre situation, Robin vous rappelle sous 48 h ouvrées pour fixer une visite gratuite."
+  },
+  "ville_placeholder": "Sion, Martigny, Monthey…",
+  "annonce": {
+   "titres": [
+    "Arboriste-grimpeur en Valais",
+    "Devis gratuit, sans engagement",
+    "Arboriste-grimpeur",
+    "Réponse sous 48 h ouvrées",
+    "Grimpe, nacelle ou grue",
+    "Élagage d'arbres à Sion",
+    "Abattage d'arbre à Martigny",
+    "Taille d'arbres à Sierre",
+    "Arboriste à Monthey",
+    "Rognage de souche en Valais",
+    "Visite sur place offerte",
+    "Démontage d'arbre délicat",
+    "Taille raisonnée de vos arbres",
+    "Abattage d'arbres en Valais",
+    "Élagage de sécurité"
+   ],
+   "descriptions": [
+    "Taille, abattage, démontage et rognage de souche à Sion, Martigny, Sierre et Monthey.",
+    "Visite sur place et devis gratuits, réponse sous 48 h ouvrées, chantier rendu propre.",
+    "Grimpe, nacelle ou grue selon l'accès : verger, chalet, vigne en pente, villa en Valais.",
+    "Aide pour la demande d'abattage à votre commune. Particuliers, gérances, collectivités."
+   ],
+   "chemins": [
+    "arboriste",
+    "valais"
+   ]
+  },
+  "liens_annexes": [
+   {
+    "texte": "Nos prestations",
+    "ancre": "#prestations",
+    "d1": "Taille, abattage, démontage",
+    "d2": "Rognage de souche, haubanage"
+   },
+   {
+    "texte": "Localités desservies",
+    "ancre": "#zone",
+    "d1": "Chablais, Martigny, Sion, Sierre",
+    "d2": "Plaine du Rhône et stations"
+   },
+   {
+    "texte": "Questions fréquentes",
+    "ancre": "#faq",
+    "d1": "Autorisation d'abattage en Valais",
+    "d2": "Accès, délais, branches"
+   },
+   {
+    "texte": "Demander un devis",
+    "ancre": "#devis",
+    "d1": "Visite sur place gratuite",
+    "d2": "Réponse sous 48 h ouvrées"
+   }
+  ]
+ }
+}

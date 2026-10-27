@@ -253,7 +253,7 @@ def zone(u,h2=None,lead=None,zcols=None,extra=''):
 </div></section>
 '''
 
-ROMANDIE=[('ju','Canton du Jura',['Delémont','Porrentruy','Courgenay','Bassecourt','Courrendlin','Moutier','Saignelégier','Le Noirmont',"toute l'Ajoie"]),
+ROMANDIE_UNUSED=[('ju','Canton du Jura',['Delémont','Porrentruy','Courgenay','Bassecourt','Courrendlin','Moutier','Saignelégier','Le Noirmont',"toute l'Ajoie"]),
   ('ne','Canton de Neuchâtel',['Neuchâtel','La Chaux-de-Fonds','Le Locle','Val-de-Ruz','Val-de-Travers','Boudry','Littoral']),
   ('be','Berne',['Bienne','Tavannes','Saint-Imier','Tramelan','Reconvilier','La Neuveville']),
   ('vd','Canton de Vaud',['Lausanne','Morges','Nyon','Vevey','Montreux','Yverdon-les-Bains','Payerne','Aigle','La Côte','Lavaux']),
@@ -263,13 +263,9 @@ ROMANDIE=[('ju','Canton du Jura',['Delémont','Porrentruy','Courgenay','Bassecou
 MAP_SVG=open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'img','carte-suisse-romande.svg.html'),encoding='utf-8').read()
 
 def zone_romande(u):
-    lst=''.join(f'<div class="zone-canton" data-canton="{c}"><h3>{I["PIN"]}{h}<span class="you-tag">Votre canton</span></h3><p>{" · ".join(t)}</p></div>' for c,h,t in ROMANDIE)
     return f'''<section class="section zone" id="zone"><div class="wrap">
-  <div class="center"><span class="eyebrow">{u['zone_eyebrow']}</span><h2>Jura, Neuchâtel, Vaud, Fribourg, Genève, Valais et Berne</h2><p class="lead">Nous intervenons chez les particuliers, les entreprises et les collectivités, et nous nous déplaçons chez vous pour la visite, qui reste offerte.</p></div>
-  <div class="zone-map-wrap">
-    <div class="zone-map-box">{MAP_SVG}</div>
-    <div class="zone-list">{lst}</div>
-  </div>
+  <div class="center"><span class="eyebrow">{u['zone_eyebrow']}</span><h2>Du Jura au Léman, nous venons chez vous</h2><p class="lead">Arc jurassien, Neuchâtel, Bienne, Fribourg et le canton de Vaud jusqu'à Lausanne et la Riviera. La visite sur place reste offerte.</p></div>
+  <div class="zone-map-box">{MAP_SVG}<p class="zone-you" data-local-zone hidden></p></div>
 </div></section>
 '''
 
@@ -281,10 +277,10 @@ var s=document.createElement('script');s.src='geo.js';s.async=true;
 s.onload=function(){var G=window.ARBO_GEO||{},n=parseInt(id,10),c=null;
 for(var k in G){if(G[k].indexOf(n)>-1){c=k;break;}}
 if(!c)return;
-var L={vd:'Canton de Vaud',ge:'Canton de Genève',fr:'Canton de Fribourg',vs:'Valais',ne:'Canton de Neuchâtel',ju:'Canton du Jura',be:'Bienne et environs'};
+var L={vd:'Canton de Vaud',fr:'Canton de Fribourg',ne:'Canton de Neuchâtel',ju:'Canton du Jura',be:'Bienne et environs',bs:'Bâle et environs',so:'Soleure et environs'};
 document.querySelectorAll('[data-local]').forEach(function(e){e.textContent='Arboriste-grimpeur · '+L[c];});
 document.querySelectorAll('[data-canton]').forEach(function(e){if(e.getAttribute('data-canton')===c)e.classList.add('is-you');});
-var el=document.querySelector('.zone-list .zone-canton[data-canton="'+c+'"]');if(el)el.parentNode.insertBefore(el,el.parentNode.firstChild);
+var z=document.querySelector('[data-local-zone]');if(z){z.textContent='Vous êtes dans la zone : '+L[c]+'. Nous nous déplaçons chez vous pour la visite.';z.hidden=false;}
 };document.head.appendChild(s);}catch(e){}})();
 </script>'''
 
@@ -450,7 +446,7 @@ def build_fr():
       ("Intervenez-vous aussi pour les entreprises et les communes ?","Oui. Nous accompagnons les entreprises sur leurs chantiers, ainsi que les collectivités pour le suivi de groupes d'arbres, la gestion des sujets dangereux et les projets de plantation.")])
     p+=cta(u,"entretien_platanes_porrentruy.jpg","Un doute sur un arbre ? Demandez l'avis d'un professionnel.","Visite et devis gratuits, sans engagement. Nous vous répondons sous 48 h ouvrées.")
     write('fr','taille',"Taille et entretien d'arbres – Arboriste-grimpeur en Suisse romande | Arboritaille",
-      "Taille raisonnée, élagage et entretien de vos arbres par un arboriste-grimpeur professionnel. Visite et devis gratuits dans les cantons de Vaud, Genève, Fribourg, Valais, Neuchâtel, Jura et à Berne.",p)
+      "Taille raisonnée, élagage et entretien de vos arbres par un arboriste-grimpeur professionnel. Visite et devis gratuits dans le Jura, à Neuchâtel, Bienne, Fribourg et dans le canton de Vaud.",p)
 
     # ---------- ABATTAGE ----------
     f=form(u,'abattage',"Devis abattage gratuit","Décrivez l'arbre et son emplacement. Nous venons l'évaluer sur place, sans engagement.",
@@ -496,7 +492,7 @@ def build_fr():
        ("demontage_saule_bienne.jpg","Arboriste-grimpeur démontant un saule à Bienne","Démontage d'un saule, Bienne"),
        ("demontage_saule_port.jpg","Démontage d'un saule avec cordes de rétention à Port","Démontage d'un saule, Port")])
     p+=zone_romande(u)
-    p+=faq(u,[("Faut-il une autorisation pour abattre un arbre ?","Cela dépend du canton et de la commune : à Genève, l'abattage est soumis à une autorisation cantonale ; dans le canton de Vaud et ailleurs, ce sont le plus souvent les règlements communaux qui protègent les arbres selon leur essence, leur taille ou leur situation. Nous vous indiquons la démarche à suivre et fournissons les éléments techniques nécessaires."),
+    p+=faq(u,[("Faut-il une autorisation pour abattre un arbre ?","Cela dépend du canton et de la commune. Dans le canton de Vaud, l'abattage d'un arbre protégé, en principe dès 40 cm de circonférence, et toute taille qui dépasse l'entretien courant demandent une autorisation de la commune. À Fribourg, Neuchâtel, dans le Jura et à Bienne, ce sont les règlements communaux qui désignent les arbres protégés. Nous vous indiquons la démarche et fournissons les éléments techniques nécessaires."),
       ("Combien coûte l'abattage d'un arbre ?","Le prix dépend de la hauteur et du diamètre de l'arbre, de son accessibilité, de la technique nécessaire (abattage direct, démontage, rétention, grue) et de l'évacuation du bois. Un démontage en zone contrainte demande plus de temps qu'un abattage en plein champ. Nous établissons un devis précis et gratuit après visite."),
       ("Pouvez-vous abattre un arbre collé à ma maison ?","Oui, c'est justement le cœur de notre métier. Par démontage à la corde et rétention, chaque pièce est descendue de manière contrôlée, sans toucher la toiture, la façade ou les aménagements."),
       ("Mon arbre est-il vraiment à abattre ?","Pas forcément. Lors de la visite, nous examinons l'arbre avec attention. Si une taille de sécurité, un allègement ou un haubanage suffit à le conserver sans risque, nous vous le proposons en priorité."),
@@ -504,7 +500,7 @@ def build_fr():
       ("Intervenez-vous en urgence après une tempête ?","Oui. Un arbre tombé sur un toit, une branche cassée qui menace de chuter ou un sujet déraciné : appelez-nous, nous intervenons au plus vite pour sécuriser les lieux.")])
     p+=cta(u,"abattage_arbre_porrentruy-6.jpg","Un arbre vous inquiète ? Faites-le évaluer gratuitement.","Visite et devis gratuits, sans engagement. En cas de danger immédiat, appelez-nous directement.")
     write('fr','abattage',"Abattage et démontage d'arbres – Arboriste-grimpeur en Suisse romande | Arboritaille",
-      "Abattage, démontage et rognage de souche par un arboriste-grimpeur professionnel. Intervention sécurisée, même près des bâtiments. Devis gratuit dans les cantons de Vaud, Genève, Fribourg, Valais, Neuchâtel, Jura et à Berne.",p)
+      "Abattage, démontage et rognage de souche par un arboriste-grimpeur professionnel. Intervention sécurisée, même près des bâtiments. Devis gratuit dans le Jura, à Neuchâtel, Bienne, Fribourg et dans le canton de Vaud.",p)
 
     # ---------- INDEX ----------
     f=form(u,'index',"Recevez votre devis gratuit","Dites-nous ce dont votre arbre a besoin. Nous vous rappelons pour fixer une visite.",
@@ -558,7 +554,7 @@ def build_fr():
       ("Travaillez-vous avec les entreprises et les communes ?","Oui. Nous accompagnons les entreprises sur leurs chantiers et les collectivités pour la gestion de leur patrimoine arboré : suivi, sécurité, plantations.")])
     p+=cta(u,"entretien_platanes_porrentruy.jpg","Un doute sur un arbre ? Demandez l'avis d'un professionnel.","Visite et devis gratuits, sans engagement. Nous vous répondons sous 48 h ouvrées.")
     write('fr','index',"Arboriste-grimpeur en Suisse romande – Taille, abattage, soins aux arbres | Arboritaille",
-      "Arboritaille, arboriste-grimpeur : taille, élagage, abattage, démontage, diagnostic et plantation d'arbres. Visite et devis gratuits dans les cantons de Vaud, Genève, Fribourg, Valais, Neuchâtel, Jura et à Berne.",p)
+      "Arboritaille, arboriste-grimpeur : taille, élagage, abattage, démontage, diagnostic et plantation d'arbres. Visite et devis gratuits dans le Jura, à Neuchâtel, Bienne, Fribourg et dans le canton de Vaud.",p)
     merci('fr')
 
 # ======================================================================
