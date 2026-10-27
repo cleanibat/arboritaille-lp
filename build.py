@@ -38,7 +38,7 @@ UI={
   phone_label='Appelez-nous', btn_quote='Devis gratuit', btn_quote_long='Demander un devis gratuit', btn_quote_mine='Demander mon devis gratuit',
   btn_call='Appeler', btn_send='Envoyer ma demande', choose='Choisir…',
   f_name='Nom et prénom', f_phone='Téléphone', f_mail='E-mail', f_city='Localité', f_need='Votre besoin', f_msg='Décrivez votre situation (facultatif)',
-  f_msg_ph='Essence, hauteur approximative, accès, ce qui vous inquiète…', f_city_ph='Lausanne, Sion, Neuchâtel…', f_name_ph='Jean Dupont',
+  f_msg_ph='Essence, hauteur approximative, accès, ce qui vous inquiète…', f_city_ph='Lausanne, Neuchâtel, Bienne…', f_name_ph='Jean Dupont',
   f_note='Vos données restent confidentielles et servent uniquement à traiter votre demande. Aucune revente, aucun démarchage.',
   phone_note='', hero_phone_label='078 306 53 04',
   eyebrow_process='Comment ça se passe', eyebrow_gallery='Sur le terrain', eyebrow_faq='Questions fréquentes', h2_faq='Ce que nos clients nous demandent',
@@ -264,7 +264,7 @@ MAP_SVG=open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'img','cart
 
 def zone_romande(u):
     return f'''<section class="section zone" id="zone"><div class="wrap">
-  <div class="center"><span class="eyebrow">{u['zone_eyebrow']}</span><h2>Du Jura au Léman, nous venons chez vous</h2><p class="lead">Arc jurassien, Neuchâtel, Bienne, Fribourg et le canton de Vaud jusqu'à Lausanne et la Riviera. La visite sur place reste offerte.</p></div>
+  <div class="center"><span class="eyebrow">{u['zone_eyebrow']}</span><h2>Du Jura au Léman, nous venons chez vous</h2><p class="lead">Jura, Neuchâtel, Bienne, Soleure et Bâle, Fribourg, et le canton de Vaud jusqu'à Lausanne et la Riviera. La visite sur place reste offerte.</p></div>
   <div class="zone-map-box">{MAP_SVG}<p class="zone-you" data-local-zone hidden></p></div>
 </div></section>
 '''
@@ -438,7 +438,7 @@ def build_fr():
        ("arboriste_grimpeur-15.jpg","Arboriste-grimpeur dans le feuillage","Travail dans la couronne, à la corde"),
        ("plantation_arbre.jpg","Jeune arbre planté avec tuteurage tripode à Neuchâtel","Plantation et tuteurage tripode, Neuchâtel")])
     p+=zone_romande(u)
-    p+=faq(u,[("Quelle est la meilleure période pour tailler un arbre ?","Cela dépend de l'essence et de l'objectif. La taille d'entretien se pratique souvent en hiver, hors gel, ou en été après la pousse. Certaines essences supportent mal la taille en période de montée de sève. Nous vous conseillons la période la plus favorable lors de la visite."),
+    p+=faq(u,[("Quelle est la bonne période pour tailler un arbre ?","Cela dépend de l'essence et de l'objectif. La taille d'entretien se pratique souvent en hiver, hors gel, ou en été après la pousse. Certaines essences supportent mal la taille en période de montée de sève. Nous vous conseillons la période la plus favorable lors de la visite."),
       ("Combien coûte une taille d'arbre ?","Le prix dépend de la taille de l'arbre, de son accessibilité, du type d'intervention et de l'évacuation des branches. C'est pourquoi nous nous déplaçons gratuitement pour établir un devis précis et écrit. Aucun engagement de votre part."),
       ("Faut-il une autorisation pour tailler ou abattre un arbre ?","Une simple taille d'entretien ne nécessite en général aucune démarche. L'abattage, ou l'intervention sur un arbre protégé ou situé en zone particulière, peut être soumis à autorisation communale. Nous vous indiquons la marche à suivre selon votre commune."),
       ("Mon arbre est très grand ou difficile d'accès. Est-ce possible ?","Oui. En tant qu'arboriste-grimpeur, nous accédons à la couronne à la corde, ce qui convient à la plupart des jardins, cours intérieures et terrains en pente. Quand c'est nécessaire, nous mobilisons une nacelle, une grue ou d'autres machines, et dans des cas très particuliers un hélicoptère."),
@@ -459,7 +459,7 @@ def build_fr():
     p+=trust([('SHIELD',"Arboriste-grimpeur","Démontage à la corde, techniques de rétention"),('WARN',"Urgences tempête","Mise en sécurité rapide"),('DOC',"Devis écrit et détaillé","Gratuit, sans engagement")])
     p+=cards("Nos prestations d'abattage","La bonne technique pour chaque situation",
       "Un arbre isolé dans un pré ne s'abat pas comme un sapin collé à une façade. Nous choisissons la méthode adaptée à votre terrain, vos bâtiments et vos voisins.",
-      [('AXE',"","Abattage classique","Quand l'espace le permet, l'arbre est abattu en une pièce, avec une direction de chute maîtrisée. La solution la plus rapide et la plus économique."),
+      [('AXE',"","Abattage classique","Quand l'espace le permet, l'arbre est abattu en une pièce, avec une direction de chute maîtrisée. Rapide et économique quand le terrain le permet."),
        ('SCISS',"Le plus courant","Démontage par morceaux","Le grimpeur monte dans l'arbre et le démonte branche par branche, puis tronçon par tronçon. Adapté en jardin, près d'une maison ou d'une ligne électrique."),
        ('LINK',"Zone contrainte","Démontage par rétention","Chaque pièce est attachée et descendue en douceur avec un système de freinage. Aucun morceau ne touche le sol sans contrôle : toitures, serres et massifs sont préservés."),
        ('CRANE',"","Nacelle, grue et moyens spéciaux","Quand la grimpe ne suffit pas, nous intervenons en nacelle ou faisons lever les sections à la grue. Dans les cas les plus rares, un hélicoptère peut être mobilisé. Nous organisons toute la logistique."),
@@ -522,7 +522,7 @@ def build_fr():
     p+=why("Pour qui","Particuliers, entreprises, collectivités : le même soin, adapté à vos enjeux",
       "Que vous ayez un arbre dans votre jardin ou un parc d'arbres à gérer, vous avez le même besoin : un professionnel qui vous conseille selon votre situation.",
       [("Particuliers","Entretien de vos arbres de jardin, mise en sécurité, abattage d'un sujet gênant. Devis gratuit et conseils personnalisés."),
-       ("Entreprises","Un arbre gêne votre chantier ou nécessite des soins ? Nous évaluons rapidement et intervenons dans les meilleurs délais."),
+       ("Entreprises","Un arbre gêne votre chantier ou nécessite des soins ? Nous évaluons rapidement et intervenons sans tarder."),
        ("Collectivités","Suivi de groupes d'arbres, gestion des sujets dangereux, projets de plantation. Un partenaire pour l'entretien arboricole communal."),
        ("Gérances et régies","Entretien régulier du patrimoine arboré de vos immeubles, avec un interlocuteur unique et des devis clairs.")])
     p+=approach(u,"arboriste_grimpeur-2.jpg","Arboriste-grimpeur dans la couronne d'un grand arbre","Grimpe, nacelle ou grue selon le cas",
@@ -550,7 +550,7 @@ def build_fr():
       ("Combien coûtent vos prestations ?","Chaque arbre est différent : hauteur, essence, accès, type d'intervention et évacuation du bois font varier le prix. C'est pourquoi nous nous déplaçons gratuitement pour établir un devis écrit et précis."),
       ("Faut-il une autorisation pour tailler ou abattre un arbre ?","Une taille d'entretien ne nécessite en général aucune démarche. L'abattage, ou une intervention sur un arbre protégé, peut être soumis à autorisation communale. Nous vous guidons dans la démarche."),
       ("Mon arbre est difficile d'accès. Est-ce un problème ?","Non. Nous travaillons en grimpe, à la corde, ce qui permet d'accéder aux jardins clos, terrains en pente et cours intérieures. Quand c'est nécessaire, nous mobilisons une nacelle, une grue ou d'autres machines, et dans des cas très particuliers un hélicoptère."),
-      ("Dans quelle zone intervenez-vous ?","Dans tout le canton du Jura, le canton de Neuchâtel et Berne. Nous nous déplaçons aussi dans les cantons de <a href=\"vaud.html\">Vaud</a>, <a href=\"fribourg.html\">Fribourg</a>, <a href=\"geneve.html\">Genève</a> et <a href=\"valais.html\">Valais</a>. La visite sur place reste offerte."),
+      ("Dans quelle zone intervenez-vous ?","Dans le canton du Jura, à Neuchâtel, Bienne, Soleure et Bâle, dans le canton de Fribourg et dans le canton de Vaud, d'Yverdon à Lausanne et à la Riviera. La visite sur place reste offerte."),
       ("Travaillez-vous avec les entreprises et les communes ?","Oui. Nous accompagnons les entreprises sur leurs chantiers et les collectivités pour la gestion de leur patrimoine arboré : suivi, sécurité, plantations.")])
     p+=cta(u,"entretien_platanes_porrentruy.jpg","Un doute sur un arbre ? Demandez l'avis d'un professionnel.","Visite et devis gratuits, sans engagement. Nous vous répondons sous 48 h ouvrées.")
     write('fr','index',"Arboriste-grimpeur en Suisse romande – Taille, abattage, soins aux arbres | Arboritaille",
