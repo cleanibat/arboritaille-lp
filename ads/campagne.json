@@ -1,4 +1,81 @@
 {
+  "annonces_romandie": {
+    "Élagage et taille": {
+      "titres": [
+        "Élagage {LOCATION(City):près de chez vous}",
+        "Arboriste-grimpeur",
+        "Taille d'arbres raisonnée",
+        "Devis gratuit, sans engagement",
+        "Élagueur {LOCATION(City):en Suisse romande}",
+        "Réduction de couronne",
+        "Suppression du bois mort",
+        "Élagage de sécurité",
+        "Grimpe, nacelle ou grue",
+        "Chantier propre, bois évacué",
+        "Réponse sous 48 h ouvrées",
+        "Visite et devis offerts",
+        "Taille et entretien d'arbres",
+        "Du Jura au Léman",
+        "Arboritaille, arboriste"
+      ],
+      "desc": [
+        "Taille raisonnée, bois mort, réduction de couronne : arboriste-grimpeur. Devis gratuit.",
+        "Nous intervenons du Jura au Léman : Neuchâtel, Bienne, Fribourg, Lausanne. Visite offerte.",
+        "Grimpe à la corde par défaut, nacelle ou grue si nécessaire. Chantier rendu propre.",
+        "Arbre trop grand ou branches à risque ? Décrivez-nous votre arbre et recevez un devis."
+      ]
+    },
+    "Abattage et démontage": {
+      "titres": [
+        "Abattage {LOCATION(City):près de chez vous}",
+        "Démontage d'arbre à la corde",
+        "Abattage arbre dangereux",
+        "Devis gratuit, sans engagement",
+        "Arboriste {LOCATION(City):en Suisse romande}",
+        "Rognage de souche",
+        "Démontage par rétention",
+        "Grimpe, nacelle ou grue",
+        "Intervention après tempête",
+        "Bois évacué, terrain propre",
+        "Arbre près de la maison ?",
+        "Arboriste-grimpeur",
+        "Réponse sous 48 h ouvrées",
+        "Du Jura au Léman",
+        "Abattage et démontage"
+      ],
+      "desc": [
+        "Abattage ou démontage pièce par pièce, même près des bâtiments. Devis gratuit sur place.",
+        "Arbre mort, malade ou dangereux ? Nous évaluons la situation et proposons une méthode.",
+        "Grimpe, nacelle, grue ou hélicoptère selon le cas. Bois de feu, broyé ou évacué.",
+        "Du Jura au Léman : Neuchâtel, Bienne, Fribourg, Lausanne. Souche rognée si besoin."
+      ]
+    },
+    "Généraliste arboriste": {
+      "titres": [
+        "Arboriste {LOCATION(City):près de chez vous}",
+        "Soins aux arbres",
+        "Taille, abattage, plantation",
+        "Arboriste-grimpeur",
+        "Devis gratuit, sans engagement",
+        "Diagnostic d'arbre",
+        "Haubanage et consolidation",
+        "Plantation d'arbres",
+        "Élagueur {LOCATION(City):en Suisse romande}",
+        "Particuliers et communes",
+        "Grimpe, nacelle ou grue",
+        "Réponse sous 48 h ouvrées",
+        "Conseil sur mesure",
+        "Rognage de souche",
+        "Du Jura au Léman"
+      ],
+      "desc": [
+        "Taille, abattage, diagnostic et plantation par un arboriste-grimpeur. Devis gratuit.",
+        "Particuliers, entreprises et communes, du Jura au Léman : Neuchâtel, Bienne, Fribourg.",
+        "L'objectif est de conserver vos arbres. Nous vous conseillons au cas par cas.",
+        "Visite sur place et devis écrit gratuits, sans engagement. Réponse sous 48 h ouvrées."
+      ]
+    }
+  },
   "requete_large": {
     "Abattage et démontage": [
       "abattage arbre",

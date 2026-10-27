@@ -55,6 +55,12 @@ ACCROCHES=["Devis gratuit","Arboriste-grimpeur","Chantier rendu propre","Répons
 EXTRAITS=("Services",["Élagage","Taille d'arbres","Abattage","Démontage","Rognage de souche","Plantation","Haubanage","Diagnostic"])
 APPEL="+41 78 306 53 04"
 
+# 27 oct. 2026 : campagne étendue (Jura, Neuchâtel, Bienne, Bâle, Soleure + canton de Fribourg + districts vaudois
+# Jura-Nord vaudois, Gros-de-Vaud, Broye-Vully, Lausanne, Ouest lausannois, Lavaux-Oron, Riviera-Pays-d'Enhaut).
+# Les titres géographiques utilisent l'insertion de lieu {LOCATION(City):texte par défaut} ; textes dans annonces_romandie.json.
+# Suffixe d'URL finale de la campagne : loc={loc_physical_ms}&loi={loc_interest_ms} (lu par geo.js sur le site).
+ANNONCES_ROMANDIE=json.load(open(__file__.replace('campagne.py','annonces_romandie.json'),encoding='utf-8'))
+
 err=[]
 for g,d in G.items():
     assert len(d["titres"])==15 and len(d["desc"])==4, g
@@ -84,4 +90,4 @@ LARGE={
  "Élagage et taille":["élagage arbre","élagueur","taille arbre","tailler un arbre","entretien arbre","élaguer un arbre","couper branches arbre","réduction couronne arbre","taille arbre fruitier","élagage prix"],
  "Généraliste arboriste":["arboriste","arboriste grimpeur","élagueur grimpeur","entreprise arboriste","soins aux arbres","arbre malade","diagnostic arbre","planter un arbre","haubanage arbre","entreprise élagage abattage"],
 }
-json.dump(dict(requete_large=LARGE,campagne=C,negatifs=NEG_CAMPAGNE,groupes=G,liens=LIENS,accroches=ACCROCHES,extraits=EXTRAITS,appel=APPEL),open("campagne.json","w",encoding="utf-8"),ensure_ascii=False,indent=2)
+json.dump(dict(annonces_romandie=ANNONCES_ROMANDIE,requete_large=LARGE,campagne=C,negatifs=NEG_CAMPAGNE,groupes=G,liens=LIENS,accroches=ACCROCHES,extraits=EXTRAITS,appel=APPEL),open("campagne.json","w",encoding="utf-8"),ensure_ascii=False,indent=2)
